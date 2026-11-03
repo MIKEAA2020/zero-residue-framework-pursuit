@@ -1,0 +1,62 @@
+{
+  "scope": "Finite AP3H formal underdetermination test. It does not represent the ground or prove any relation metaphysically possible; it tests absence of a supplied formal constraint selecting the relation.",
+  "vocabulary": [
+    "r0",
+    "r1",
+    "ps",
+    "pv",
+    "qs",
+    "qv"
+  ],
+  "contexts": {
+    "universal": [],
+    "iar": [
+      [
+        "ps",
+        "pv",
+        "r0",
+        "r1"
+      ],
+      [
+        "qs",
+        "qv",
+        "r0",
+        "r1"
+      ]
+    ],
+    "discrete": [
+      [
+        "r0"
+      ],
+      [
+        "r1"
+      ],
+      [
+        "ps"
+      ],
+      [
+        "pv"
+      ],
+      [
+        "qs"
+      ],
+      [
+        "qv"
+      ]
+    ]
+  },
+  "counts": {
+    "universal": 0,
+    "iar": 2,
+    "discrete": 6
+  },
+  "registered_checks": {
+    "universal_has_no_proper_maximal_context": true,
+    "iar_has_exactly_CP_CQ": true,
+    "discrete_has_six_singleton_contexts": true,
+    "relation_choice_changes_mode_taxonomy": true,
+    "no_existing_aware_ground_equation_selects_one_relation": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "Universal, IAR two-context, and discrete compatibility relations generate 0, 2, and 6 proper maximal contexts respectively. Existing framework prose contains no formal axiom choosing among them. IAR is therefore an additional formal grammar to adopt or independently justify, not a result already derived from bare aware-ground language."
+}

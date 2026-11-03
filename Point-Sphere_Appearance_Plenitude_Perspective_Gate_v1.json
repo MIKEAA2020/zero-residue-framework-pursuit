@@ -1,0 +1,44 @@
+{
+  "scope": "AP3B gate applied only to AP3A uniform product state. Information integration is a necessary proxy for a mode candidate, not a consciousness measure or proof.",
+  "global_state_count": 64,
+  "overlap": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "P_exclusive": [
+    4
+  ],
+  "Q_exclusive": [
+    5
+  ],
+  "I_Pexclusive_overlap_nats": 0.0,
+  "I_Qexclusive_overlap_nats": 0.0,
+  "I_Pexclusive_Qexclusive_given_overlap_nats": 8.881784197001252e-16,
+  "P_local_state_count": 32,
+  "Q_local_state_count": 32,
+  "compatible_pair_count": 64,
+  "gate_status": {
+    "structural_individuation": "pass (inherited)",
+    "bounded_access": "pass (inherited)",
+    "public_compatibility": "pass (inherited)",
+    "global_amalgamation": "pass (inherited)",
+    "integrated_local_content_P": "fail",
+    "integrated_local_content_Q": "fail",
+    "boundary_screening": "pass",
+    "phenomenality": "undetermined"
+  },
+  "registered_checks": {
+    "structural_individuation_inherited_from_AP3A": true,
+    "bounded_access_inherited_from_AP3A": true,
+    "public_compatibility_inherited_from_AP3A": true,
+    "global_non_independence_inherited_from_AP3A": true,
+    "P_integrated_local_content_fails_exactly": true,
+    "Q_integrated_local_content_fails_exactly": true,
+    "P_Q_boundary_screening_holds_exactly": true,
+    "phenomenality_is_not_inferred": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "AP3A restriction profiles pass structural/public/non-independence checks but fail the necessary integration condition under their uniform product state. They are not licensed as genuine mode or phenomenal-perspective models. A correlated constraint-governed AP3C model is required."
+}

@@ -1,0 +1,49 @@
+{
+  "scope": "C1 finite architecture sanity check; not a consciousness, freedom, theodicy, or dependence proof.",
+  "model": {
+    "created_variables": [
+      "w",
+      "a1",
+      "a2",
+      "n1",
+      "n2",
+      "o1",
+      "o2",
+      "k1",
+      "k2",
+      "v1",
+      "v2"
+    ],
+    "ontological_relation": "Dep_E(created_order) is metadata only, not a created variable or causal arrow."
+  },
+  "n_contexts": 32,
+  "conservative_extension_unchanged": true,
+  "causal_action_effect_fraction": {
+    "a1": 1.0,
+    "a2": 1.0
+  },
+  "access_to_public_w_by_o1": {
+    "0": [
+      0,
+      1
+    ],
+    "1": [
+      0,
+      1
+    ]
+  },
+  "finite_access_non_omniscient": true,
+  "public_agreement_and_disagreement_by_world": {
+    "0": {
+      "agree": true,
+      "disagree": true
+    },
+    "1": {
+      "agree": true,
+      "disagree": true
+    }
+  },
+  "public_structure_check": true,
+  "negative_valence_exists": true,
+  "all_architecture_checks_pass": true
+}

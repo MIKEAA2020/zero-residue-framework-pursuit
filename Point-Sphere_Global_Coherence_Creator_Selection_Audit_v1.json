@@ -1,0 +1,52 @@
+{
+  "audit": "GC2 creator-selection reply audit v1",
+  "conclusions": {
+    "appearance_not_proven_by_creator_selection_debt": true,
+    "necessary_determination_avoids_CEA_by_changing_realization_rule": true,
+    "no_frozen_SSS_CEA_strong_NBD_reply_in_declared_taxonomy": true,
+    "weak_NBD_alone_does_not_rule_out_primitive_or_extrinsic_selection": true
+  },
+  "results": {
+    "extrinsic_single_act": {
+      "contingent_exclusive_actualization": true,
+      "note": "Can count as a weak differentiator, but is circular/primitive unless an independent account fixes why its relation targets this outcome.",
+      "selector_or_determination_debt": true,
+      "strict_simplicity": true,
+      "strong_nbd": false,
+      "weak_nbd": true
+    },
+    "intrinsic_differentiator": {
+      "contingent_exclusive_actualization": true,
+      "note": "Supplies a nonprimitive difference-maker but violates frozen strict-simplicity typing.",
+      "selector_or_determination_debt": false,
+      "strict_simplicity": false,
+      "strong_nbd": true,
+      "weak_nbd": true
+    },
+    "necessary_determination": {
+      "contingent_exclusive_actualization": false,
+      "note": "Avoids contingent selection only if the exact-totality bridge is independently supplied; it is a C-Nec-D rather than C-Cont structure.",
+      "selector_or_determination_debt": true,
+      "strict_simplicity": true,
+      "strong_nbd": true,
+      "weak_nbd": true
+    },
+    "primitive_agent_causation": {
+      "contingent_exclusive_actualization": true,
+      "note": "Preserves a primitive free selection and weak NBD, but leaves a terminal selector under strong NBD.",
+      "selector_or_determination_debt": true,
+      "strict_simplicity": true,
+      "strong_nbd": false,
+      "weak_nbd": true
+    },
+    "unmarked_contingent_selection": {
+      "contingent_exclusive_actualization": true,
+      "note": "No difference-maker is supplied; fails even weak NBD.",
+      "selector_or_determination_debt": false,
+      "strict_simplicity": true,
+      "strong_nbd": false,
+      "weak_nbd": false
+    }
+  },
+  "scope": "Finite case-classification audit; conditional only; not an adjudication of historical theology."
+}

@@ -1,0 +1,45 @@
+{
+  "scope": "Finite AP3G IAR diagnostic. The self-presentability relation is stipulated as a new formal relation; ground identity and consciousness are not modeled or proven.",
+  "vocabulary": [
+    "r0",
+    "r1",
+    "ps",
+    "pv",
+    "qs",
+    "qv"
+  ],
+  "maximal_proper_contexts": [
+    [
+      "ps",
+      "pv",
+      "r0",
+      "r1"
+    ],
+    [
+      "qs",
+      "qv",
+      "r0",
+      "r1"
+    ]
+  ],
+  "valuations_per_context": {
+    "('ps', 'pv', 'r0', 'r1')": 8,
+    "('qs', 'qv', 'r0', 'r1')": 8
+  },
+  "gauge_labelled_description_count": 32,
+  "IAR_mode_count": 16,
+  "cross_context_public_compatible_pair_count": 16,
+  "registered_checks": {
+    "exactly_CP_CQ_are_maximal_proper_contexts": true,
+    "each_context_has_eight_constraint_satisfying_valuations": true,
+    "32_gauge_labelled_descriptions_quotient_to_16_modes": true,
+    "all_modes_have_proper_bounded_contexts": true,
+    "exactly_16_cross_context_public_compatible_pairs": true,
+    "cross_context_compatible_pairs_have_unique_whole_content_amalgamation": true,
+    "nonmaximal_and_noncompatible_subsets_excluded": true,
+    "phenomenality_not_inferred_from_IAR_structure": true
+  },
+  "all_registered_checks_pass": true,
+  "conditional_statement": "If the IAR relation is warranted as the genuine-mode membership law and the aware-ground self-presentation/plenitude package is accepted, every one of the 16 gauge-inequivalent IAR modes is conditionally realised as a nonexclusive aspect. This test supplies neither warrant nor phenomenality.",
+  "restricted_conclusion": "IAR is an explicit, nontrivial formal candidate for mode membership (domain, gauge quotient, inclusion/exclusion, boundedness, coexistence). Its new compatibility relation requires independent metaphysical or physical justification."
+}

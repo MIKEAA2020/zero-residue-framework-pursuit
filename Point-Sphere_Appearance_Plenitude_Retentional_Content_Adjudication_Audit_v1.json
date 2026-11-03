@@ -1,0 +1,57 @@
+{
+  "scope": "A conceptual/formal discriminant audit based on the restricted phenomenological resources already recorded in AP3J. It neither proves phenomenology nor represents it as external physical memory.",
+  "independent_retentional_constraints": {
+    "immanent_not_second_observer": true,
+    "non_objectifying": true,
+    "finite_and_bounded": true,
+    "no_external_time_or_public_memory_register": true
+  },
+  "payload_models": {
+    "R0_overlap_only": {
+      "payload": [
+        "r0",
+        "r1"
+      ],
+      "literal_overlap_exhaustive": true,
+      "contains_past_free_content": false,
+      "contains_PQ_XOR_comparator_J": false,
+      "full_gauge_if_component_closure_and_structural_identity": true
+    },
+    "R1_past_rich_noncomparative": {
+      "payload": [
+        "r0",
+        "r1",
+        "Past(p_v,c)"
+      ],
+      "literal_overlap_exhaustive": false,
+      "contains_past_free_content": true,
+      "contains_PQ_XOR_comparator_J": false,
+      "full_gauge_if_component_closure_and_structural_identity": "not derived by RC; requires further quotient argument"
+    },
+    "R2_comparative": {
+      "payload": [
+        "r0",
+        "r1",
+        "Past(p_v,c)",
+        "J_s=c xor d"
+      ],
+      "literal_overlap_exhaustive": false,
+      "contains_past_free_content": true,
+      "contains_PQ_XOR_comparator_J": true,
+      "full_gauge_if_component_closure_and_structural_identity": false
+    }
+  },
+  "registered_checks": {
+    "R0_is_a_coherent_RC_model": true,
+    "R1_shows_retention_can_exceed_literal_overlap_without_CPC": true,
+    "R2_shows_CPC_is_stronger_than_past_retention": true,
+    "all_payload_models_respect_independent_immanent_retentional_constraints": true,
+    "current_AP3P1_says_common_trace_not_trace_exhaustiveness": true,
+    "current_AP3J_and_source_ledger_support_retention_not_a_formal_free_fibre_comparator": true,
+    "RC_is_not_currently_derived": true,
+    "CPC_is_not_currently_derived": true,
+    "no_external_observer_memory_or_truth_semantics_imported": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "Immanent retention does not entail literal-overlap closure, because a just-past nonoverlap content can remain retentionally available; but neither does it entail a canonical XOR/equality comparator for two distinct free-value fibres. RC and CPC remain rival added grammar bridges. R1 establishes the precise middle possibility that blocks a forced full-gauge derivation without making the comparator intrinsic."
+}

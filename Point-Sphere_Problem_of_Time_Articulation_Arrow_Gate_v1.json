@@ -1,0 +1,85 @@
+{
+  "scope": "T5 finite quantum-information gate, using T4 branch state and a separate three-qubit factorisation illustration. It is not a general no-go theorem for all possible articulation laws.",
+  "standing_wave_grid": [
+    {
+      "a": 1.1,
+      "D": 1.0,
+      "rho_eigenvalues": [
+        0.0,
+        1.0
+      ],
+      "branch_environment_articulation_2S_B": -0.0,
+      "orientation_O": 0.0,
+      "branch_exchange_invariance_max_abs_error": 0.0
+    },
+    {
+      "a": 1.2,
+      "D": 0.6723340256326578,
+      "rho_eigenvalues": [
+        0.16383298718367112,
+        0.8361670128163289
+      ],
+      "branch_environment_articulation_2S_B": 0.8919430767392433,
+      "orientation_O": 0.0,
+      "branch_exchange_invariance_max_abs_error": 0.0
+    },
+    {
+      "a": 1.5,
+      "D": 0.12950963487901224,
+      "rho_eigenvalues": [
+        0.43524518256049394,
+        0.5647548174395061
+      ],
+      "branch_environment_articulation_2S_B": 1.369474410665409,
+      "orientation_O": 0.0,
+      "branch_exchange_invariance_max_abs_error": 0.0
+    },
+    {
+      "a": 2.0,
+      "D": 0.0012696677841690747,
+      "rho_eigenvalues": [
+        0.4993651661079155,
+        0.5006348338920845
+      ],
+      "branch_environment_articulation_2S_B": 1.3862927490631751,
+      "orientation_O": 0.0,
+      "branch_exchange_invariance_max_abs_error": 0.0
+    },
+    {
+      "a": 3.0,
+      "D": 7.113690137998321e-12,
+      "rho_eigenvalues": [
+        0.4999999999964432,
+        0.5000000000035568
+      ],
+      "branch_environment_articulation_2S_B": 1.3862943611198906,
+      "orientation_O": 0.0,
+      "branch_exchange_invariance_max_abs_error": 0.0
+    }
+  ],
+  "outgoing_input": {
+    "orientation_O": 1.0,
+    "branch_environment_articulation_2S_B": -0.0
+  },
+  "factorisation_illustration": {
+    "threshold_half_ln2": 0.34657359027997264,
+    "original_GHZ_I_B_E1_E2": [
+      0.6931471805599454,
+      0.6931471805599454
+    ],
+    "original_fragments_above_threshold": 2,
+    "primed_coordinates_I_B_E1prime_E2prime": [
+      1.3862943611198906,
+      2.220446049250313e-16
+    ],
+    "primed_fragments_above_threshold": 1
+  },
+  "registered_checks": {
+    "G1_branch_neutral_articulation_and_zero_standing_orientation": true,
+    "G2_outgoing_orientation_is_nonzero_and_input_specified": true,
+    "G3_fragment_redundancy_changes_with_declared_factorisation": true,
+    "G4_articulation_grows_while_standing_orientation_stays_zero": true
+  },
+  "conclusion": "The generous articulation proxy grows as WKB branches become environmentally distinguishable, but it is invariant under branch interchange and its standing-wave orientation remains zero. The outgoing orientation is nonzero only because the outgoing branch was specified. Fragment redundancy further depends on an environmental decomposition. This candidate therefore provides a conditional record diagnostic, not a branch-neutral physical orientation law.",
+  "all_registered_checks_pass": true
+}

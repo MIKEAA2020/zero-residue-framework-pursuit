@@ -1,0 +1,189 @@
+# WP0-B₂ model specification: rolling-matter clock in the closed Milne JT sector
+
+**Status:** kinematic minisuperspace specification and five-gate triage. This is **WP0-B₂, a different model** from the fixed subregion WP0-B target. It uses the source’s closed Milne JT construction and retains the spatial circle needed for a homogeneous scalar mode. It is not evidence that the fixed subregion CFT has a second clock, and it does not result in entropy or prediction comparisons yet.
+
+## 1. Model boundary and interpretation question
+
+WP0-B₂ asks a conditional question:
+
+> Does adding a homogeneous rolling-matter degree of freedom to the source’s closed-universe JT model create a second admissible relational clock?
+
+It does **not** ask whether the previously studied fixed subregion CFT already contains such a clock. A pass here would show that the subregion construction was too restrictive for this clock class; a full-model no-go would constrain, but not prove, broader uniqueness. Outcomes remain model-specific in both directions.
+
+The model boundary is fixed at the outset:
+
+- closed Milne topology \(x\sim x+B\) from Blommaert–Chen’s §2 construction;
+- fixed JT action and no topology change;
+- one homogeneous conformal scalar zero mode \(q\) added to the declared CFT matter;
+- the source’s minisuperspace reduction for the geometry and homogeneous scalar;
+- the remainder CFT restricted to the modes already declared in the source model.
+
+The \(s\) coordinate below is the geometric conformal-time/CKV coordinate and remains a gauge parameter before the relational reduction. The scalar value \(\tau_q\) becomes a physical clock reading only on the declared rolling branch after the admissibility checks.
+
+## 2. Source geometry and canonical variables
+
+Blommaert–Chen use the Milne geometry ([Eqs. 2.2–2.7](https://arxiv.org/html/2602.22153#S2.E2))
+
+\[
+ds^2=\frac{-ds^2+dx^2}{\cosh^2(s)},
+\qquad
+x\sim x+B,
+\qquad
+\ell=\frac{B}{\cosh(s)},
+\]
+
+and, before matter is added, the minisuperspace symplectic variables \((\ell,p;\Phi,k)\). Their pure-gravity WDW constraint is ([Eq. 2.20](https://arxiv.org/html/2602.22153#S2.E20))
+
+\[
+H_{\rm grav}=-kp-\ell\Phi,
+\]
+
+and after rescaling by \(\cosh(s)\), ([Eqs. 2.23 and 2.31](https://arxiv.org/html/2602.22153#S2.E23))
+
+\[
+K_{\rm grav}+K_{\rm matter}=0.
+\]
+
+WP0-B₂ keeps this fixed topology and symplectic splitting. It changes only the matter content by declaring one homogeneous conformal scalar zero mode as a clock candidate.
+
+## 3. Rolling scalar action and combined constraint
+
+For a homogeneous massless/conformal scalar coordinate \(q(s)\) on a compact slice with physical circumference \(\ell\), write the ADM action in the first-order form
+
+\[
+S_q=\int_{\Sigma}d^2x\,\sqrt h
+\left(\pi_q\dot q-N\mathcal H_q\right),
+\qquad
+\mathcal H_q=\frac{\pi_q^2}{2\ell}.
+\]
+
+Here \(\pi_q\) is the canonical momentum conjugate to \(q\), \([q,\pi_q]=i\hbar\) in the quantum model. The homogeneous spatial-gradient and momentum constraint vanishes; the source states that this minisuperspace reduction is exact for the geometric sector in the closed JT model, although adding a scalar sector still requires an independent operator-ordering and matter-algebra check.
+
+The unrescaled combined Hamiltonian constraint is
+
+\[
+\underline{\mathcal C}_{\rm WDW}
+=
+-kp-\ell\Phi+H_{\rm rest}+\frac{\pi_q^2}{2\ell}.
+\]
+
+Using \(\ell=B/\cosh(s)\) and the source’s rescaling by \(1/\cosh(s)\), the CKV/constraint form becomes
+
+\[
+\boxed{\ \mathcal C_s
+=
+K_{\rm grav}+K_{\rm rest}
++\frac{\pi_q^2}{2B}
+\approx0\ }
+\]
+
+with
+
+\[
+K_q:=\frac{\pi_q^2}{2B}.
+\]
+
+This is the combined constraint required by the comparison contract. It includes the scalar’s backreaction instead of adding an external unconstrained clock Hamiltonian. Operator ordering between geometry-manner terms and the \(B\) measure is fixed here by the source’s minisuperspace variables, but the quantum regularization and CFT anomaly prescription remain separate checks.
+
+## 4. Rolling branch and clock POVM
+
+The scalar Hamiltonian is cyclic in \(q\), so \(\pi_q=p_0\) is conserved. Under the rescaled CKV/constraint generator, the homogeneous scalar obeys
+
+\[
+\frac{dq}{ds}
+=\frac{\partial K_q}{\partial\pi_q}
+=\frac{\pi_q}{B}
+=\frac{p_0}{B}.
+\]
+
+Because \(B>0\), the rolling branch
+
+\[
+\mathscr D_+:=\operatorname{supp}\pi_q\subset(0,\infty)
+\]
+
+has
+
+\[
+q(s)=q_0+\frac{p_0}{B}s,
+\qquad
+\frac{dq}{ds}>0,
+\]
+
+and the opposite branch \(p_0<0\) rolls downward. The positive branch is the declared WP0-B₂ control. It is a branch/state-support assumption, not a general proof that all scalar histories roll monotonically.
+
+On the positive branch, use the generalized clock-time family
+
+\[
+|\tau_q\rangle_+
+=\int_{0}^{\infty}\frac{dp}{\sqrt{2\pi\hbar}}\,
+e^{ip\tau_q/\hbar}|p\rangle_q .
+\]
+
+It formally obeys
+
+\[
+\int_{\mathbb R}d\tau_q\,|\tau_q\rangle_+\langle\tau_q|
+=I_+
+\]
+
+with the \(1/(2\pi\hbar)\) branch convention above, and translations in \(\tau_q\) are generated by the clock momentum restricted to the positive branch. The restricted positive branch has nonnegative but unbounded kinetic energy \(p^2/(2B)\), so a finite-resource error budget must separately bound the allowed \(p\) support or state energy content.
+
+The pair \((q,\pi_q)\) is a tensor factor of the homogeneous free-scalar zero-mode sector rather than an external schedule. That sector was explicitly excluded from the earlier subregion CFT route because the diamond’s spatial coordinate was noncompact and did not supply the compact homogeneous mode.
+
+## 5. Formal physical histories
+
+Represent constraints on the unspecialized Hilbert space
+
+\[
+\mathcal H_{\rm kin}
+=
+\mathcal H_{\rm grav}\otimes L^2(\mathbb R_q)\otimes\mathcal H_{\rm rest}.
+\]
+
+Using the source representation \(K_{\rm grav}=i\hbar\,\partial_S\), a formal plane-wave history with clock momentum \(E\) and remainder state \(|\chi\rangle\) has the form
+
+\[
+|\Psi\rangle
+\propto
+\int dS\,dq\,
+e^{iEq/\hbar}
+\exp\!\left[
+\frac{i}{\hbar}S\left(K_{\rm rest}+\frac{E^2}{2B}\right)
+\right]
+|S,q\rangle\otimes|\chi\rangle .
+\]
+
+The sign is chosen so that \(K_{\rm grav}|\Psi\rangle=-(K_{\rm rest}+E^2/(2B))|\Psi\rangle\), hence the total constraint vanishes in the distributional sense. Physical amplitudes with \(E\ne0\) have a well-defined rolling branch except at \(E=0\).
+
+This is only a formal physical-sector sketch. Admissibility requires specifying the test space, group-averaging regulator, physical-inner-product norm, CFT KMS state, and algebra trace. None is claimed by the plane-wave expression alone.
+
+## 6. WP0-B₂ admissibility triage
+
+| Gate | WP0-B₂ status at this step | Finding |
+|---|---|---|
+| 1. Complete action and canonical variables | **Passed for the declared minisuperspace model** | Geometry \((\ell,p;\Phi,k)\), scalar \((q,\pi_q)\), remainder CFT, and homogeneous actions are specified. Quantum ordering/boundary conventions remain part of later operations. |
+| 2. Combined constraint | **Passed at classical minisuperspace level; quantum pass not claimed** | \(\mathcal C_{\rm WDW}\) and the rescaled \(K_{\rm grav}+K_{\rm rest}+\pi_q^2/(2B)=0\) are written. Anomaly, ordering, and CFT regularization checks remain. |
+| 3. Clock POVM and valid rolling branch | **Passed on the declared positive-\(p\) branch only** | \(q(s)\) is monotonic exactly for \(p_0/B>0\); the \(q\)-projector family/formal branch POVM is specified. Not valid on the full ±\(p\) state space or at \(p=0\). |
+| 4. Nonzero common physical-state sector | **Formal sketch only; not passed** | Distributional plane-wave histories exist formally, but test-space norms/finiteness have not been proved. |
+| 5. Physical inner product and both clock-dressed traces | **Not passed** | Neither the WP0-B₂ group average nor York/q-dressed algebra trace has been constructed. |
+| 6. Fixed-topology nonperturbative target | **Passes only as the declared WP0-B₂ model** | The topology is fixed and \(G_N\) is not expanded, but homogeneous minisuperspace and zero-mode restrictions define a new model rather than the WP0-B subregion target. |
+
+**Gate outcome:** WP0-B₂ has passed the **action/constraint formulation and rolling-branch kinematics**, but has **not yet passed quantum admissibility**. It is therefore not yet admissible for entropy, algebra-type, or prediction comparisons.
+
+## 7. What this does and does not say about uniqueness
+
+The earlier CFT-internal result is a **restricted uniqueness result** in a tested class: under its declarations, the Majorana two-level and free-scalar band constructions supplied no autonomous bounded clock inside the undeformed subregion CFT. WP0-B₂ does not contradict that result because it is a different topology/phase-space setup with a compact homogeneous scalar mode.
+
+If WP0-B₂ eventually passes its quantum admissibility gate, the conclusion will be that adding a compact rolling scalar to the closed-universe model supplies a second clock—not that the undeformed fixed subregion CFT secretly had one. If it fails, it will support robustness of the **tested-class uniqueness**, still not a universal uniqueness theorem over all possible matter/clock constructions.
+
+The Lighthouse/form-constraint connection is recorded as in input heuristic: the admissible clock here is a matter mode whose motion changes the combined constraint and backreaction, not an external parameter. The technical result is consistent with that heuristic, but it does not derive or empirically confirm the Lighthouse framework.
+
+## 8. Next exact checks before any comparison
+
+1. In the declared CFT content, derive the anomaly/operator-ordering prescription for \(K_{\rm rest}\) and \(K_q\).
+2. Choose test amplitudes in \(\pi_q\) with support separated from zero and prove convergence/positivity of the physical group average.
+3. Construct the normalized branch POVM from the \(\pi_q>0\) branch and give its measurement/readout model.
+4. Derive the York-dressed and \(q\)-dressed observable algebras, physical representations, and traces.
+5. Identify a nonzero common subalgebra or declare the common-task obstruction.
+6. Only then assess entropy state dependence or same-task predictions, while retaining WP0-B₂ labeling and its separate-model status.

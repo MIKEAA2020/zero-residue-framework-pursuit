@@ -1,0 +1,52 @@
+{
+  "scope": "Pre-production high-side bracket extension; unchanged action, target, and HMC family.",
+  "target_z": 4.0,
+  "burn": 1000,
+  "trajectories_per_chain": 8000,
+  "n_chains": 4,
+  "records": [
+    {
+      "m2": 0.06,
+      "z_by_chain": [
+        4.3498840887127335,
+        4.339555635780336,
+        4.456482442684283,
+        4.369741497723374
+      ],
+      "z_mean": 4.378915916225182,
+      "z_se_across_chains": 0.026603280917940498,
+      "z_95_approx": [
+        4.294264276344295,
+        4.463567556106069
+      ],
+      "acceptance_by_chain": [
+        0.868625,
+        0.86475,
+        0.86075,
+        0.86575
+      ]
+    },
+    {
+      "m2": 0.065,
+      "z_by_chain": [
+        4.190315693487021,
+        4.530412603219812,
+        4.215838087263061,
+        4.084314211315372
+      ],
+      "z_mean": 4.255220148821317,
+      "z_se_across_chains": 0.09604827845389072,
+      "z_95_approx": [
+        3.9495945267810364,
+        4.560845770861597
+      ],
+      "acceptance_by_chain": [
+        0.875375,
+        0.8735,
+        0.8775,
+        0.86975
+      ]
+    }
+  ],
+  "next_gate": "Combine only with the logged v2 points to identify a target-straddling pair; then run independent chains at the interpolated candidate."
+}

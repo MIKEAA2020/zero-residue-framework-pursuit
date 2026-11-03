@@ -1,0 +1,96 @@
+{
+  "scope": "Synthetic engineering smoke test only; no consciousness or metaphysical inference.",
+  "seed": 20261018,
+  "n_steps": 50000,
+  "noise_sd": 0.22,
+  "state_order": [
+    "y1",
+    "y2",
+    "m",
+    "b",
+    "r"
+  ],
+  "results": [
+    {
+      "name": "M1_screened_controller_candidate",
+      "metrics": {
+        "D_direct_R_to_A_norm": 0.0,
+        "I_joint_transition_loss_gain": 0.06554531907063031,
+        "I_full_transition_mse": 0.04811693954067328,
+        "I_partition_transition_mse": 0.1136622586113036,
+        "S_out_of_sample_prediction_gain": 0.03998021067169267,
+        "L_lesion_disparity_cost_increase": 0.5569885524400874,
+        "P_linear_spectral_radius": 0.883176086632784
+      },
+      "thresholds": {
+        "D_max": 1e-12,
+        "I_min": 0.01,
+        "S_min": 0.01,
+        "L_min": 0.01,
+        "P_max": 0.999
+      },
+      "passes": {
+        "D": true,
+        "I": true,
+        "S": true,
+        "L": true,
+        "P": true
+      },
+      "all_DISLP": true
+    },
+    {
+      "name": "M3_exterior_bypass_null",
+      "metrics": {
+        "D_direct_R_to_A_norm": 0.45,
+        "I_joint_transition_loss_gain": 0.07394756080740261,
+        "I_full_transition_mse": 0.05248283384323946,
+        "I_partition_transition_mse": 0.12643039465064207,
+        "S_out_of_sample_prediction_gain": 0.045293873412431226,
+        "L_lesion_disparity_cost_increase": 0.5768834489221546,
+        "P_linear_spectral_radius": 0.883176086632784
+      },
+      "thresholds": {
+        "D_max": 1e-12,
+        "I_min": 0.01,
+        "S_min": 0.01,
+        "L_min": 0.01,
+        "P_max": 0.999
+      },
+      "passes": {
+        "D": false,
+        "I": true,
+        "S": true,
+        "L": true,
+        "P": true
+      },
+      "all_DISLP": false
+    },
+    {
+      "name": "M4_memory_without_use_null",
+      "metrics": {
+        "D_direct_R_to_A_norm": 0.0,
+        "I_joint_transition_loss_gain": 0.01925122283205321,
+        "I_full_transition_mse": 0.048509763367338095,
+        "I_partition_transition_mse": 0.0677609861993913,
+        "S_out_of_sample_prediction_gain": -2.0810033012977347e-06,
+        "L_lesion_disparity_cost_increase": 0.0,
+        "P_linear_spectral_radius": 0.95
+      },
+      "thresholds": {
+        "D_max": 1e-12,
+        "I_min": 0.01,
+        "S_min": 0.01,
+        "L_min": 0.01,
+        "P_max": 0.999
+      },
+      "passes": {
+        "D": true,
+        "I": true,
+        "S": false,
+        "L": false,
+        "P": true
+      },
+      "all_DISLP": false
+    }
+  ]
+}

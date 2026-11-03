@@ -1,0 +1,244 @@
+{
+  "scope": "Finite audit of existing formal resources only. Graph automorphisms are calculated as candidate structural symmetries; they are not silently promoted to gauge. No background time, physical dynamics, history carrier, or persistence postulate is added.",
+  "families": {
+    "star_pairs": {
+      "automorphism_group_order": 6,
+      "maximal_proper_contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "context_orbits_under_untyped_graph_automorphisms": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      ],
+      "number_of_context_orbits_if_automorphisms_were_declared_gauge": 1
+    },
+    "path_pairs": {
+      "automorphism_group_order": 2,
+      "maximal_proper_contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "context_orbits_under_untyped_graph_automorphisms": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "number_of_context_orbits_if_automorphisms_were_declared_gauge": 2
+    },
+    "pair_plus_triple": {
+      "automorphism_group_order": 2,
+      "maximal_proper_contexts": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "context_orbits_under_untyped_graph_automorphisms": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ]
+        ]
+      ],
+      "number_of_context_orbits_if_automorphisms_were_declared_gauge": 2
+    },
+    "cycle_pairs": {
+      "automorphism_group_order": 8,
+      "maximal_proper_contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "context_orbits_under_untyped_graph_automorphisms": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "number_of_context_orbits_if_automorphisms_were_declared_gauge": 1
+    },
+    "overlapping_triples_IAR_like": {
+      "automorphism_group_order": 4,
+      "maximal_proper_contexts": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "context_orbits_under_untyped_graph_automorphisms": [
+        [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ]
+      ],
+      "number_of_context_orbits_if_automorphisms_were_declared_gauge": 1
+    }
+  },
+  "IAR_pair": {
+    "C": [
+      0,
+      1,
+      2
+    ],
+    "D": [
+      0,
+      1,
+      3
+    ],
+    "shared_contents": [
+      0,
+      1
+    ],
+    "shared_ordered_pairs": [
+      [
+        0,
+        1
+      ]
+    ],
+    "automorphisms_mapping_C_to_D": [
+      {
+        "0": 0,
+        "1": 1,
+        "2": 3,
+        "3": 2
+      },
+      {
+        "0": 1,
+        "1": 0,
+        "2": 3,
+        "3": 2
+      }
+    ],
+    "candidate_continuation_rule_verdicts": {
+      "exact_context_identity": false,
+      "shared_ordered_trace": true,
+      "retentional_order_type_isomorphism": true,
+      "untyped_compatibility_automorphism_orbit": true,
+      "actual_AP3G_description_gauge_orbit": false
+    }
+  },
+  "AP3G_actual_description_gauge": {
+    "group": "Z2",
+    "acts_on": "redundant description label u only",
+    "action": "[C,nu,u] -> [C,nu,u+k mod 2]",
+    "maps_C_to_D": false,
+    "context_and_valuation_are_part_of_mode_identity": true
+  },
+  "AP3L_structural_S4_quotient_status": {
+    "role": "quotient of labelled grammar descriptions into structural families",
+    "declared_in_model_mode_gauge": false,
+    "maps_individual_mode_contexts_to_same_mode": false
+  },
+  "registered_checks": {
+    "IAR_like_graph_has_an_untyped_automorphism_mapping_C_to_D": true,
+    "actual_AP3G_Z2_gauge_does_not_map_C_to_D": true,
+    "AP3L_S4_quotient_is_not_declared_as_in_model_mode_gauge": true,
+    "candidate_continuation_rules_disagree_on_same_static_IAR_data": true,
+    "automorphism_as_gauge_would_collapse_distinct_contexts_in_IAR_like_family": true,
+    "no_existing_Gamma_pers_action_on_mode_histories_is_supplied": true,
+    "no_existing_invariant_continuation_observable_is_supplied": true,
+    "result_not_misreported_as_denial_of_ego_decentering_or_of_conditional_AP4C1": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "Existing resources contain an untyped graph automorphism that exchanges the minimal IAR-like contexts, but no declared gauge action on mode histories or invariant continuation observable. AP3G gauge leaves contexts fixed, while AP3L S4 acts only in the audit-level classification of grammar descriptions. Consequently exact-context, shared-trace, order-type, and automorphism-orbit persistence rules disagree on the same data. Ego-decentering motivates a future gauge-relative persistence theory but does not yet derive one or make AP4C1 witness gauge a gauge of persistence stories."
+}

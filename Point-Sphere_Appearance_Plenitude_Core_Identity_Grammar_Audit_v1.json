@@ -1,0 +1,186 @@
+{
+  "scope": "Finite AP3L audit. It formalizes only what the simple compatibility-graph language can express; immanence/nonobjectification are typed core constraints here, not independently measured graph properties.",
+  "labelled_survivor_count": 37,
+  "structural_family_count": 5,
+  "structural_representatives": [
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "labelled_orbit_size": 4
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "contexts": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "labelled_orbit_size": 12
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "contexts": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "labelled_orbit_size": 6
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "labelled_orbit_size": 12
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "labelled_orbit_size": 3
+    }
+  ],
+  "registered_checks": {
+    "reproduces_37_AP3I_labelled_survivors": true,
+    "universal_compatibility_excluded_by_boundedness": true,
+    "IAR_like_grammar_survives": true,
+    "real_boundary_gauge_quotient_leaves_exactly_5_structural_families": true,
+    "immanence_and_nonobjectification_not_falsely_claimed_as_graph_discriminators": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "Core boundedness plus gauge/relabel quotient narrows 37 labelled grammars to 5 structural families. Immanence and nonobjectification are respected by graph typing but do not select among these families in the present language. A richer formalization or independently justified constraint is required for further narrowing."
+}

@@ -1,0 +1,60 @@
+{
+  "scope": "Independent N=16 pre-production diagnostic at the v2/v4 linear root estimate; no production/scaling claim.",
+  "m2": 0.055455,
+  "target_z": 4.0,
+  "burn": 1000,
+  "trajectories_per_chain": 12000,
+  "n_chains": 4,
+  "z_by_chain": [
+    4.336602031783243,
+    4.1455722601292635,
+    3.992618783682886,
+    4.160679754951576
+  ],
+  "z_mean": 4.1588682076367425,
+  "z_se_across_chains": 0.07036112038057887,
+  "z_95_approx": [
+    3.9349791225857405,
+    4.382757292687744
+  ],
+  "acceptance_by_chain": [
+    0.8629166666666667,
+    0.8690833333333333,
+    0.8694166666666666,
+    0.8758333333333334
+  ],
+  "diagnostics": {
+    "M": {
+      "tau_int_by_chain": [
+        19.626769007348646,
+        13.393961570229356,
+        14.558670686759882,
+        11.985846398645828
+      ],
+      "combined_approx_ess": 1222.819710723346,
+      "basic_split_rhat": 1.0021587866735817
+    },
+    "G0": {
+      "tau_int_by_chain": [
+        6.31977121315285,
+        6.2247421734411335,
+        6.861684992927673,
+        8.193453119999141
+      ],
+      "combined_approx_ess": 2929.16791595709,
+      "basic_split_rhat": 1.000652022540255
+    },
+    "Gp": {
+      "tau_int_by_chain": [
+        1.9883759060511317,
+        2.1319484295150453,
+        2.1104099425087264,
+        2.026836350026512
+      ],
+      "combined_approx_ess": 11257.307947856545,
+      "basic_split_rhat": 1.0001144145667156
+    }
+  },
+  "within_mass_band_by_mean": false,
+  "note": "A mean tuning pass permits selection of m2 for a separate production run; it does not itself satisfy production length/ESS or establish g_R."
+}

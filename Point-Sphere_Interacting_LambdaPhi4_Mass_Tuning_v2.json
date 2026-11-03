@@ -1,0 +1,79 @@
+{
+  "scope": "N=16 uncertainty-aware follow-up mass tuning. Not production and not a continuum/scaling result.",
+  "target_z": 4.0,
+  "masses": [
+    0.045,
+    0.05,
+    0.055
+  ],
+  "burn": 1000,
+  "trajectories_per_chain": 8000,
+  "n_chains": 4,
+  "records": [
+    {
+      "m2": 0.045,
+      "z_by_chain": [
+        3.686659106974206,
+        3.8213810116931133,
+        3.8182406181627586,
+        3.93764777267644
+      ],
+      "z_mean": 3.8159821273766297,
+      "z_se_across_chains": 0.05128451811927804,
+      "z_95_approx": [
+        3.652794790721087,
+        3.9791694640321724
+      ],
+      "acceptance_by_chain": [
+        0.87475,
+        0.869375,
+        0.86675,
+        0.8625
+      ]
+    },
+    {
+      "m2": 0.05,
+      "z_by_chain": [
+        3.968646932952505,
+        3.710412851372195,
+        4.023352472270064,
+        3.79622136781662
+      ],
+      "z_mean": 3.8746584061028457,
+      "z_se_across_chains": 0.07307116378150613,
+      "z_95_approx": [
+        3.642145962950093,
+        4.107170849255598
+      ],
+      "acceptance_by_chain": [
+        0.8695,
+        0.87675,
+        0.874375,
+        0.8775
+      ]
+    },
+    {
+      "m2": 0.055,
+      "z_by_chain": [
+        3.9900442872289057,
+        3.715143533978988,
+        3.7601259259465873,
+        4.095662522367265
+      ],
+      "z_mean": 3.8902440673804364,
+      "z_se_across_chains": 0.09117188577016189,
+      "z_95_approx": [
+        3.600135126859781,
+        4.1803530079010915
+      ],
+      "acceptance_by_chain": [
+        0.867125,
+        0.877875,
+        0.876625,
+        0.8655
+      ]
+    }
+  ],
+  "linear_interpolated_mass_candidate": null,
+  "next_gate": "Run new independent diagnostic chains at the selected candidate only if the target is bracketed; otherwise expand the pre-logged local bracket and retain this failure."
+}

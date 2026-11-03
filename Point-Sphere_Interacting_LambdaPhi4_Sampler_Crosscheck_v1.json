@@ -1,0 +1,120 @@
+{
+  "scope": "N=16 frozen sampler crosscheck at a diagnostic unselected mass; no tuning or physical conclusion.",
+  "specification": "Point-Sphere_Interacting_LambdaPhi4_N16_Sampler_Crosscheck_Specification.md",
+  "configuration": {
+    "seed": 20261101,
+    "m2": 0.055,
+    "hmc_burn": 1000,
+    "hmc_trajectories": 20000,
+    "checkerboard_burn_sweeps": 5000,
+    "checkerboard_retained_sweeps": 50000
+  },
+  "hmc": {
+    "z_by_chain": [
+      4.110177148091382,
+      4.244930483151772,
+      4.101977538324058,
+      3.97897093172337
+    ],
+    "z_mean": 4.1090140253226455,
+    "z_se_across_chains": 0.05434101789129393,
+    "z_95_approx": [
+      3.9361009063925483,
+      4.281927144252743
+    ],
+    "acceptance_by_chain": [
+      0.8749,
+      0.8693,
+      0.87175,
+      0.87185
+    ],
+    "diagnostics": {
+      "M": {
+        "tau_int_by_chain": [
+          14.033767856231062,
+          12.25870687163649,
+          13.090155982936274,
+          15.10338026549624
+        ],
+        "combined_approx_ess": 2648.4137522101746,
+        "basic_split_rhat": 1.0007856211057624
+      },
+      "G0": {
+        "tau_int_by_chain": [
+          6.259550528626909,
+          5.984922630303784,
+          6.453861888502561,
+          8.054021887327679
+        ],
+        "combined_approx_ess": 4966.462788353805,
+        "basic_split_rhat": 1.0004001109913088
+      },
+      "Gp": {
+        "tau_int_by_chain": [
+          2.015088512189198,
+          2.0534625473132424,
+          1.8993331068713892,
+          2.0438053646174894
+        ],
+        "combined_approx_ess": 19479.293670262523,
+        "basic_split_rhat": 1.0000291233480036
+      }
+    }
+  },
+  "checkerboard_metropolis": {
+    "z_by_chain": [
+      3.9889955308724776,
+      3.9836825392937043,
+      4.166845931857476,
+      3.965401039831683
+    ],
+    "z_mean": 4.0262312604638355,
+    "z_se_across_chains": 0.047143128506630536,
+    "z_95_approx": [
+      3.8762218255557372,
+      4.176240695371934
+    ],
+    "acceptance_by_chain": [
+      0.999105859375,
+      0.9991178125,
+      0.999109453125,
+      0.9991046875
+    ],
+    "diagnostics": {
+      "M": {
+        "tau_int_by_chain": [
+          32.71611514444994,
+          30.496116135530865,
+          34.06955749338391,
+          39.21636294997343
+        ],
+        "combined_approx_ess": 2549.9559999372086,
+        "basic_split_rhat": 1.000763223851698
+      },
+      "G0": {
+        "tau_int_by_chain": [
+          16.164336121505034,
+          15.586614818221085,
+          14.021966178227967,
+          15.642278210242171
+        ],
+        "combined_approx_ess": 6186.458834332206,
+        "basic_split_rhat": 1.0007584091484474
+      },
+      "Gp": {
+        "tau_int_by_chain": [
+          4.564709818783287,
+          4.763965166685184,
+          4.81174874272728,
+          4.920309753301977
+        ],
+        "combined_approx_ess": 20323.923698683986,
+        "basic_split_rhat": 1.000118842622724
+      }
+    }
+  },
+  "intervals_overlap": true,
+  "basic_rhat_pass": true,
+  "crosscheck_pass": true,
+  "note": "The crosscheck does not select a mass and does not substitute for target production diagnostics."
+}

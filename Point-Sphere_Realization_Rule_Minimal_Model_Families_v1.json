@@ -1,0 +1,66 @@
+{
+  "scope": "R1b frozen toy-family diagnostic. It diagnoses formal costs and does not decide metaphysical truth, physics, or probability.",
+  "specification": "Point-Sphere_Realization_Rule_Minimal_Model_Families_v1_Specification.md",
+  "common_domain": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "C_Nec_D": {
+    "realized_set": [
+      0
+    ],
+    "realized_size": 1,
+    "relabelled_displayed_output": 2,
+    "diagnostic": "A unique output follows only after supplying f. The label 0 has no invariant privilege under relabelling."
+  },
+  "C_Nec_O": {
+    "orbit": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "orbit_size": 4,
+    "finite_invariant_uniform_measure": {
+      "0": 0.25,
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25
+    },
+    "measure_is_C4_invariant": true,
+    "gauge_reading_quotient_size": 1,
+    "substantive_reading_distinct_totality_count": 4,
+    "diagnostic": "The same formal orbit is one totality on the gauge reading and four only on a separately declared substantive-distinctness reading."
+  },
+  "C_Cont": {
+    "selector_variants": {
+      "0": [
+        0
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "distinct_outputs_with_fixed_E": 4,
+    "diagnostic": "With E held fixed, q changes the output. q is an indispensable extra selection parameter in this family."
+  },
+  "noncompact_warning": {
+    "group": "Z acting on Z by translation",
+    "equal_point_mass_argument": [
+      "Translation invariance gives every integer the same point mass p.",
+      "If p>0, the countable total mass diverges.",
+      "If p=0, countable additivity gives total mass 0 rather than 1."
+    ],
+    "normalized_translation_invariant_probability_exists": false,
+    "diagnostic": "Finite-orbit uniformity does not generalise automatically to a non-compact/infinite orbit."
+  },
+  "all_required_diagnostics_complete": true
+}

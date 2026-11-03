@@ -1,0 +1,307 @@
+{
+  "scope": "Finite AP3D underdetermination diagnostic. It establishes no general no-go theorem beyond this declared graph/support/criterion family.",
+  "global_support_count": 64,
+  "edges": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "automorphisms": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "target": {
+    "L": [
+      4,
+      5
+    ],
+    "O": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "R": [
+      6,
+      7
+    ]
+  },
+  "candidate_count": 14,
+  "candidates": [
+    {
+      "L": [
+        2,
+        4,
+        5
+      ],
+      "O": [
+        0,
+        1,
+        3
+      ],
+      "R": [
+        6,
+        7
+      ]
+    },
+    {
+      "L": [
+        2,
+        4
+      ],
+      "O": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "R": [
+        6,
+        7
+      ]
+    },
+    {
+      "L": [
+        2,
+        4
+      ],
+      "O": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "R": [
+        5,
+        6
+      ]
+    },
+    {
+      "L": [
+        2,
+        4
+      ],
+      "O": [
+        0,
+        1,
+        3
+      ],
+      "R": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "L": [
+        4,
+        5
+      ],
+      "O": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "R": [
+        6,
+        7
+      ]
+    },
+    {
+      "L": [
+        4,
+        5
+      ],
+      "O": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "R": [
+        2,
+        6
+      ]
+    },
+    {
+      "L": [
+        4,
+        5
+      ],
+      "O": [
+        0,
+        1,
+        3
+      ],
+      "R": [
+        2,
+        6,
+        7
+      ]
+    },
+    {
+      "L": [
+        4,
+        5
+      ],
+      "O": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "R": [
+        1,
+        7
+      ]
+    },
+    {
+      "L": [
+        4,
+        7
+      ],
+      "O": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "R": [
+        1,
+        5
+      ]
+    },
+    {
+      "L": [
+        4,
+        5,
+        7
+      ],
+      "O": [
+        0,
+        3,
+        6
+      ],
+      "R": [
+        1,
+        2
+      ]
+    },
+    {
+      "L": [
+        4,
+        5
+      ],
+      "O": [
+        0,
+        3,
+        6,
+        7
+      ],
+      "R": [
+        1,
+        2
+      ]
+    },
+    {
+      "L": [
+        4,
+        5
+      ],
+      "O": [
+        0,
+        3,
+        6
+      ],
+      "R": [
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "L": [
+        4,
+        7
+      ],
+      "O": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "R": [
+        1,
+        2
+      ]
+    },
+    {
+      "L": [
+        4,
+        7
+      ],
+      "O": [
+        0,
+        3,
+        6
+      ],
+      "R": [
+        1,
+        2,
+        5
+      ]
+    }
+  ],
+  "registered_checks": {
+    "global_graph_is_rigid": true,
+    "enumerated_all_3_to_8_partitions": true,
+    "target_decomposition_qualifies": true,
+    "exactly_14_candidate_decompositions": true,
+    "criteria_fail_to_uniquely_select_a_boundary": true,
+    "phenomenality_not_inferred_from_boundary_criteria": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "The target passes all non-label structural/information conditions, but so do 13 other decompositions on a rigid graph. Current conditions do not select a unique perspective boundary. A further justified law is required; phenomenality is not inferred."
+}

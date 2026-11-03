@@ -1,0 +1,60 @@
+{
+  "assertions": {
+    "bare_composite_fails_structural_no_residue_filter": true,
+    "bare_composite_has_named_residual_unity": true,
+    "essentially_articulated_has_real_constituents": true,
+    "essentially_articulated_is_not_rejected_by_component_count_alone": true,
+    "essentially_articulated_unity_is_marked_as_uncertified_bridge": true,
+    "no_residue_filter_does_not_entail_absolute_simplicity": true,
+    "pseudo_distinct_is_not_composed_merely_by_descriptive_plurality": true,
+    "residue_filter_treats_claimed_unity_and_primitive_unity_differently": true,
+    "simple_has_no_constituent_unity_residue": true
+  },
+  "audit": "CI3 simplicity/composition typing audit v1",
+  "limits": [
+    "Claimed intrinsic unity is not validated by this finite classification.",
+    "The audit does not establish that an articulated ultimate can meet strongest CI.",
+    "The audit does not establish absolute simplicity from SCI alone.",
+    "Finite aspecthood and external derivative reality are deferred to CI4."
+  ],
+  "passed": true,
+  "profiles": {
+    "bare_composite": {
+      "intrinsic_unity_bridge_claim": false,
+      "real_constituents": 2,
+      "unity_explanation": "primitive",
+      "unity_fact": true
+    },
+    "essentially_articulated": {
+      "intrinsic_unity_bridge_claim": true,
+      "real_constituents": 2,
+      "unity_explanation": "claimed_intrinsic",
+      "unity_fact": true
+    },
+    "pseudo_distinct": {
+      "intrinsic_unity_bridge_claim": false,
+      "real_constituents": 0,
+      "unity_explanation": "not_applicable",
+      "unity_fact": false
+    },
+    "simple": {
+      "intrinsic_unity_bridge_claim": false,
+      "real_constituents": 0,
+      "unity_explanation": "not_applicable",
+      "unity_fact": false
+    }
+  },
+  "residual_unity": {
+    "bare_composite": true,
+    "essentially_articulated": false,
+    "pseudo_distinct": false,
+    "simple": false
+  },
+  "result_type": "conditional composition-residue result plus non-entailment witness",
+  "structural_no_residue": {
+    "bare_composite": false,
+    "essentially_articulated": true,
+    "pseudo_distinct": true,
+    "simple": true
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "scope": "Finite AP3C mode-architecture diagnostic. It tests a stipulated global support/measure, not a ground, conscious subject, physical law, or quantum probability.",
+  "global_support_count": 64,
+  "edges": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "carriers": {
+    "P": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Q": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "overlap": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "P_exclusive": [
+      4,
+      5
+    ],
+    "Q_exclusive": [
+      6,
+      7
+    ]
+  },
+  "global_automorphisms": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "P_Q_induced_graph_isomorphism_count": 0,
+  "P_local_state_count": 32,
+  "Q_local_state_count": 32,
+  "P_fibre_sizes": [
+    2
+  ],
+  "Q_fibre_sizes": [
+    2
+  ],
+  "compatible_pair_count": 64,
+  "compatible_amalgamation_counts": [
+    1
+  ],
+  "incompatible_amalgamation_counts": [
+    0
+  ],
+  "I_Pexclusive_overlap_nats": 0.693147180559945,
+  "I_Qexclusive_overlap_nats": 0.693147180559945,
+  "I_Pexclusive_Qexclusive_given_overlap_nats": 8.881784197001252e-16,
+  "signal_constraints": {
+    "P_4_equals_O0": true,
+    "Q_6_equals_O1": true,
+    "P_private_5_varies_at_fixed_overlap": true,
+    "Q_private_7_varies_at_fixed_overlap": true
+  },
+  "registered_checks": {
+    "global_graph_is_rigid": true,
+    "P_Q_induced_carriers_nonisomorphic": true,
+    "P_and_Q_have_32_local_states_fibre_size_2": true,
+    "exactly_64_overlap_compatible_pairs": true,
+    "compatible_pairs_have_unique_amalgamation": true,
+    "incompatible_pairs_have_no_amalgamation": true,
+    "P_integrated_local_content_positive": true,
+    "Q_integrated_local_content_positive": true,
+    "conditional_boundary_screening_zero": true,
+    "P_dual_role_signal_and_private_variation": true,
+    "Q_dual_role_signal_and_private_variation": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "The stipulated support realizes minimally integrated, bounded, structurally distinct and publicly compatible local mode candidates with unique global amalgamation. It supplies no phenomenality, ground-identity, general boundary theorem, or physical derivation."
+}

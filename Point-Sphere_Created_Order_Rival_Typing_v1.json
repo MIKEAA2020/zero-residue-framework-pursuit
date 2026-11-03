@@ -1,0 +1,90 @@
+{
+  "scope": "C1b frozen ideal-type typing only; labels do not adjudicate historical traditions.",
+  "constraints": [
+    "A_asymmetric_present_dependence",
+    "B_internal_time",
+    "C_real_public_differentiation",
+    "D_genuine_finite_agency",
+    "E_located_ignorance",
+    "F_negative_valence_nonnull"
+  ],
+  "profiles": {
+    "conservation_only": {
+      "constraint_status": {
+        "A_asymmetric_present_dependence": "Fail",
+        "B_internal_time": "Open",
+        "C_real_public_differentiation": "Pass",
+        "D_genuine_finite_agency": "Pass",
+        "E_located_ignorance": "Pass",
+        "F_negative_valence_nonnull": "Pass"
+      },
+      "fails": [
+        "A_asymmetric_present_dependence"
+      ],
+      "opens": [
+        "B_internal_time"
+      ],
+      "survives_C1_typing": false
+    },
+    "concurrence": {
+      "constraint_status": {
+        "A_asymmetric_present_dependence": "Pass",
+        "B_internal_time": "Open",
+        "C_real_public_differentiation": "Pass",
+        "D_genuine_finite_agency": "Pass",
+        "E_located_ignorance": "Pass",
+        "F_negative_valence_nonnull": "Pass"
+      },
+      "fails": [],
+      "opens": [
+        "B_internal_time"
+      ],
+      "survives_C1_typing": true
+    },
+    "occasionalism": {
+      "constraint_status": {
+        "A_asymmetric_present_dependence": "Pass",
+        "B_internal_time": "Open",
+        "C_real_public_differentiation": "Pass",
+        "D_genuine_finite_agency": "Fail",
+        "E_located_ignorance": "Pass",
+        "F_negative_valence_nonnull": "Pass"
+      },
+      "fails": [
+        "D_genuine_finite_agency"
+      ],
+      "opens": [
+        "B_internal_time"
+      ],
+      "survives_C1_typing": false
+    },
+    "strict_ND_appearance": {
+      "constraint_status": {
+        "A_asymmetric_present_dependence": "Fail",
+        "B_internal_time": "Open",
+        "C_real_public_differentiation": "Fail",
+        "D_genuine_finite_agency": "Fail",
+        "E_located_ignorance": "Fail",
+        "F_negative_valence_nonnull": "Fail"
+      },
+      "fails": [
+        "A_asymmetric_present_dependence",
+        "C_real_public_differentiation",
+        "D_genuine_finite_agency",
+        "E_located_ignorance",
+        "F_negative_valence_nonnull"
+      ],
+      "opens": [
+        "B_internal_time"
+      ],
+      "survives_C1_typing": false
+    }
+  },
+  "survivors_without_listed_failure": [
+    "concurrence"
+  ],
+  "positive_bridge_still_required_for": [
+    "concurrence"
+  ],
+  "all_registered_table_entries_processed": true
+}

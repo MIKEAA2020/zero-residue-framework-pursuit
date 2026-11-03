@@ -1,0 +1,33 @@
+[PASS] DFT time states are exactly orthonormal
+[PASS] sample-time POVM resolves the clock identity
+[PASS] one-sample clock covariance at k=0
+[PASS] one-sample clock covariance at k=1
+[PASS] one-sample clock covariance at k=2
+[PASS] one-sample clock covariance at k=3
+[PASS] one-sample clock covariance at k=4
+[PASS] time labels alias exactly after one period -- |tau_{k+d}>=|tau_k>
+[PASS] clock period is exactly d*delta_tau -- d*delta_tau=2*pi
+[PASS] zero-constraint residual sector has dimension two -- |-1,+z> and |+1,-z>
+[PASS] equal residual superposition gives nonnegative clock sample probabilities
+[PASS] clock sample probabilities sum to one -- 1/5, 1/5, 1/5, 1/5, 1/5
+[PASS] Z-residual meter dilation commutes with the constraint
+[PASS] X-residual meter dilation commutes with the constraint
+[PASS] Z-residual meter dilation is unitary
+[PASS] X-residual meter dilation is unitary
+[PASS] Z pointer instrument is complete
+[PASS] X pointer instrument is complete
+[PASS] Z-then-X joint probabilities are normalized
+[PASS] X-then-Z joint probabilities are normalized
+[PASS] order-sensitive joint record is nonzero at gamma=pi/6 -- Delta(1,-1)=-3*sqrt(6)/16
+[PASS] Z-slot sequential dilation commutes with the constraint
+[PASS] X-slot sequential dilation commutes with the constraint
+[PASS] full Z-then-X dilation commutes with the constraint
+
+Exact joint records P(a1,a2):
+  (1, 1): P_ZX=1/4 - sqrt(6)/32, P_XZ=sqrt(6)/32 + 1/4
+  (1, -1): P_ZX=1/4 - 3*sqrt(6)/32, P_XZ=3*sqrt(6)/32 + 1/4
+  (-1, 1): P_ZX=3*sqrt(6)/32 + 1/4, P_XZ=1/4 - 3*sqrt(6)/32
+  (-1, -1): P_ZX=sqrt(6)/32 + 1/4, P_XZ=1/4 - sqrt(6)/32
+
+== SUMMARY ==
+24/24 checks passed

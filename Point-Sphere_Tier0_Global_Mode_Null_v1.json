@@ -1,0 +1,22 @@
+{
+  "scope": "Declared global-mode null under frozen blind-pipeline-v1 one-node-boundary budget.",
+  "thresholds": {
+    "D_max": 0.02,
+    "I_min": 0.02,
+    "S_min": 0.02,
+    "L_min": 0.05,
+    "P_min": 0.05
+  },
+  "expected_count": 0,
+  "blind_output": 0,
+  "exact_recovery": true,
+  "result": {
+    "n_nodes": 11,
+    "candidate_count_enumerated": 0,
+    "passing_count_pre_overlap": 0,
+    "selected_disjoint_count": 0,
+    "overlap_indeterminate_count": 0,
+    "selected": [],
+    "all_scored": []
+  }
+}

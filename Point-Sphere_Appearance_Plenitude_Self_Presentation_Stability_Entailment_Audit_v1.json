@@ -1,0 +1,165 @@
+{
+  "scope": "Finite formal entailment audit. Delta_1 and trace are explicit extension predicates solely for testing whether protected-core and AP3 typing constrain them. The audit contains no witness code, decoder, external time, physical dynamics, or claim about actual experience.",
+  "models": {
+    "no_adjacency_core_expansion": {
+      "supports": {
+        "m_plus": [
+          "h_plus",
+          "r0",
+          "r1"
+        ],
+        "m_minus": [
+          "h_minus",
+          "r0",
+          "r1"
+        ]
+      },
+      "orders": {
+        "m_plus": [
+          [
+            "r0",
+            "h_plus"
+          ],
+          [
+            "r0",
+            "r1"
+          ]
+        ],
+        "m_minus": [
+          [
+            "r0",
+            "h_minus"
+          ],
+          [
+            "r0",
+            "r1"
+          ]
+        ]
+      },
+      "delta_1_edges": [],
+      "trace_values": {
+        "m_plus": "tau_plus",
+        "m_minus": "tau_minus"
+      },
+      "protected_core_identity_holds": true,
+      "AP3_finite_bounded_endogenous_order_typing_holds": true,
+      "SPStab_1_trace_persistence_holds": true
+    },
+    "fragile_trace_core_expansion": {
+      "supports": {
+        "m_plus": [
+          "h_plus",
+          "r0",
+          "r1"
+        ],
+        "m_minus": [
+          "h_minus",
+          "r0",
+          "r1"
+        ]
+      },
+      "orders": {
+        "m_plus": [
+          [
+            "r0",
+            "h_plus"
+          ],
+          [
+            "r0",
+            "r1"
+          ]
+        ],
+        "m_minus": [
+          [
+            "r0",
+            "h_minus"
+          ],
+          [
+            "r0",
+            "r1"
+          ]
+        ]
+      },
+      "delta_1_edges": [
+        [
+          "m_minus",
+          "m_plus"
+        ]
+      ],
+      "trace_values": {
+        "m_plus": "tau_plus",
+        "m_minus": "tau_minus"
+      },
+      "protected_core_identity_holds": true,
+      "AP3_finite_bounded_endogenous_order_typing_holds": true,
+      "SPStab_1_trace_persistence_holds": false
+    },
+    "stable_trace_core_expansion": {
+      "supports": {
+        "m_plus": [
+          "h_plus",
+          "r0",
+          "r1"
+        ],
+        "m_minus": [
+          "h_minus",
+          "r0",
+          "r1"
+        ]
+      },
+      "orders": {
+        "m_plus": [
+          [
+            "r0",
+            "h_plus"
+          ],
+          [
+            "r0",
+            "r1"
+          ]
+        ],
+        "m_minus": [
+          [
+            "r0",
+            "h_minus"
+          ],
+          [
+            "r0",
+            "r1"
+          ]
+        ]
+      },
+      "delta_1_edges": [
+        [
+          "m_minus",
+          "m_plus"
+        ]
+      ],
+      "trace_values": {
+        "m_plus": "tau_plus",
+        "m_minus": "tau_plus"
+      },
+      "protected_core_identity_holds": true,
+      "AP3_finite_bounded_endogenous_order_typing_holds": true,
+      "SPStab_1_trace_persistence_holds": true
+    }
+  },
+  "required_bridge_layers": {
+    "B_stab_1": "A non-gauge minimal-perturbation/adjacency relation on relevant finite modes or record configurations.",
+    "B_stab_2": "A norm distinguishing corrupted witness presentation from a different genuine self-presentation.",
+    "B_stab_3": "A trace-preservation requirement across the relevant perturbation class.",
+    "B_stab_4": "A representation theorem or independently justified map from B_stab_1--3 to the AP4C1 witness-code Hamming metric and decoder."
+  },
+  "registered_checks": {
+    "all_expansions_satisfy_protected_core_identity": true,
+    "all_expansions_satisfy_AP3_finite_order_typing": true,
+    "same_core_typing_admits_no_preferred_delta_1_relation": true,
+    "fragile_expansion_refutes_trace_persistence_under_delta_1": true,
+    "stable_expansion_shows_stability_is_compatible_not_forced": true,
+    "core_vocabulary_has_no_witness_set_code_metric_or_decoder": true,
+    "change_of_genuine_mode_not_assumed_to_be_witness_error": true,
+    "result_not_misreported_as_rejection_of_AP4C1_conditional_law": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "The protected core plus finite bounded endogenous-order typing does not entail a preferred minimal perturbation relation or even the weaker trace-persistence principle SPStab_1. It therefore cannot entail AP4C1 one-witness error recovery. A stability bridge must be added and independently defended; a changed genuine mode cannot simply be classified as a record error by the core identity alone."
+}

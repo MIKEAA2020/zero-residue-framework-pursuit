@@ -1,0 +1,99 @@
+{
+  "scope": "Finite countermodel audit of the proposed horizon-gradient route. It does not deny temporal phenomenology; it tests whether atemporal horizon data logically determines a successor relation.",
+  "static_structure": {
+    "S": [
+      "a",
+      "b",
+      "c"
+    ],
+    "contexts": [
+      "ab",
+      "ac"
+    ],
+    "horizons": {
+      "ab": [
+        "c"
+      ],
+      "ac": [
+        "b"
+      ]
+    },
+    "clarity_gradients": {
+      "ab": {
+        "a": 2,
+        "b": 1,
+        "c": 0
+      },
+      "ac": {
+        "a": 2,
+        "c": 1,
+        "b": 0
+      }
+    }
+  },
+  "successor_choices_with_identical_static_data": {
+    "no_successor": [],
+    "forward_C0_to_C1": [
+      [
+        "ab",
+        "ac"
+      ]
+    ],
+    "backward_C1_to_C0": [
+      [
+        "ac",
+        "ab"
+      ]
+    ],
+    "two_phase_cycle": [
+      [
+        "ab",
+        "ac"
+      ],
+      [
+        "ac",
+        "ab"
+      ]
+    ]
+  },
+  "component_partitions_by_successor_choice": {
+    "no_successor": [
+      [
+        "ab"
+      ],
+      [
+        "ac"
+      ]
+    ],
+    "forward_C0_to_C1": [
+      [
+        "ab",
+        "ac"
+      ]
+    ],
+    "backward_C1_to_C0": [
+      [
+        "ab",
+        "ac"
+      ]
+    ],
+    "two_phase_cycle": [
+      [
+        "ab",
+        "ac"
+      ]
+    ]
+  },
+  "registered_checks": {
+    "horizon_gradient_structure_is_coherent_without_successor": true,
+    "same_static_horizon_gradient_data_allows_no_successor": true,
+    "same_static_data_allows_opposite_successor_directions": true,
+    "same_static_data_allows_cycle_and_noncycle": true,
+    "horizon_is_extensional_for_given_contexts": true,
+    "horizon_does_not_determine_component_partition_without_successor": true,
+    "proceeds_through_requires_new_directed_relation": true,
+    "no_external_time_or_physical_dynamics_imported": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "A horizon/clarity gradient is a coherent structural notion independent of time, but it neither derives proceeding nor determines direction, component partition, or AP3P1 flow. Horizon extensionally identifies already supplied contexts, not flow components. A directed act-proceeding relation is an additional successor/integration premise unless independently derived."
+}

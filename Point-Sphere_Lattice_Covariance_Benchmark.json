@@ -1,0 +1,51 @@
+{
+  "scope": "Exact Fourier covariance implementation check for a 1D periodic massive Gaussian lattice field.",
+  "parameters": {
+    "d": 1,
+    "ell": 1.0,
+    "mass": 1.0,
+    "separation": 0.25,
+    "boundary": "periodic",
+    "field": "real scalar",
+    "interaction": "none"
+  },
+  "rows": [
+    {
+      "n": 16,
+      "a": 0.0625,
+      "lattice_covariance": 0.989340205853528,
+      "continuum_covariance": 0.9896587908255,
+      "absolute_error": 0.0003185849719720135
+    },
+    {
+      "n": 32,
+      "a": 0.03125,
+      "lattice_covariance": 0.9895791018963507,
+      "continuum_covariance": 0.9896587908255,
+      "absolute_error": 7.968892914933523e-05
+    },
+    {
+      "n": 64,
+      "a": 0.015625,
+      "lattice_covariance": 0.9896388659233103,
+      "continuum_covariance": 0.9896587908255,
+      "absolute_error": 1.992490218971632e-05
+    },
+    {
+      "n": 128,
+      "a": 0.0078125,
+      "lattice_covariance": 0.9896538094330526,
+      "continuum_covariance": 0.9896587908255,
+      "absolute_error": 4.9813924474229054e-06
+    },
+    {
+      "n": 256,
+      "a": 0.00390625,
+      "lattice_covariance": 0.9896575454669565,
+      "continuum_covariance": 0.9896587908255,
+      "absolute_error": 1.2453585435112657e-06
+    }
+  ],
+  "log_log_error_slope": 1.9997704820708135,
+  "interpretation": "At this separated point and fixed parameters, a slope near 2 is consistent with the expected low-mode O(a^2) discretisation behaviour. It is not a general continuum-limit proof."
+}

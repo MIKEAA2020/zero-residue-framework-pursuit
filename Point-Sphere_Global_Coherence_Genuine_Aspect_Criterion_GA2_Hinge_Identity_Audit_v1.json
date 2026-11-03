@@ -1,0 +1,52 @@
+{
+  "assertions": {
+    "H_D_is_realization_free_in_the_audit_definition": true,
+    "H_D_is_vacuous_over_thin_K0": true,
+    "H_D_plus_F_a_yields_a_finite_eligible_determination_candidate": true,
+    "K0_does_not_require_a_finite_content": true,
+    "K0_has_bare_self_presence_countermodel": true,
+    "K1_is_a_strict_enrichment_of_K0_model_class": true,
+    "K1_required_content_is_actual_in_declared_I_models": true,
+    "K1_requires_the_explicitly_added_finite_content": true,
+    "all_K0_models_satisfy_thin_selfknowledge_core": true,
+    "positive_output_enters_at_F_a_not_from_thin_K0": true,
+    "protected_I_actualizes_known_content_in_K0": true,
+    "protected_I_actualizes_known_content_in_K1": true
+  },
+  "audit": "GA2a self-knowledge requirement / hinge-identity audit v1",
+  "limits": [
+    "K0 not-entailing finite articulation does not prove no richer independent self-knowledge semantics exists.",
+    "F_a is a labelled enrichment, not an argument that it is arbitrary or false.",
+    "The audit does not show H_D and H_F are one proposition; it shows that both roles are needed for non-vacuous finite output.",
+    "No grammar, phenomenology, persistence, public record, or physical law is derived."
+  ],
+  "passed": true,
+  "result_type": "thin-core non-entailment plus hinge-location witness",
+  "theories": {
+    "K0": {
+      "H_D_Det_extension": [],
+      "Req_extension": [],
+      "description": "complete, self-knowing, simple; no finite-articulation axiom",
+      "eligible_Det_extension": [],
+      "models": [
+        "bare_self_presence",
+        "rich_self_presence"
+      ]
+    },
+    "K1": {
+      "H_D_Det_extension": [
+        "a"
+      ],
+      "Req_extension": [
+        "a"
+      ],
+      "description": "K0 plus explicit F_a finite self-knowledge-content requirement",
+      "eligible_Det_extension": [
+        "a"
+      ],
+      "models": [
+        "rich_self_presence"
+      ]
+    }
+  }
+}

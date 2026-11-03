@@ -1,0 +1,169 @@
+{
+  "scope": "T4 FRW-type lapse-fixed minisuperspace WKB toy with stipulated decoherence factor; no full GR/QG or actual boundary-condition claim.",
+  "constraint": "p_a^2+a^2-a^4=0, a>=1",
+  "grid_results": [
+    {
+      "a": 1.1,
+      "p_abs": 0.5040833264451426,
+      "S_plus": 0.032078029864690924,
+      "phase_derivative_check": 0.5040833264451426,
+      "tau_plus": 0.0,
+      "tau_minus": -0.0,
+      "epsilon_WKB": 12.194781744789799,
+      "D": 1.0,
+      "decoherence_threshold_D_le_0_05": false,
+      "WKB_proxy_epsilon_le_0_1": false,
+      "standing_wave_diagonal": [
+        0.5,
+        0.5
+      ],
+      "standing_wave_offdiag_abs": 0.5,
+      "standing_wave_eigenvalues": [
+        0.0,
+        1.0
+      ],
+      "outgoing_diagonal": [
+        1.0,
+        0.0
+      ],
+      "outgoing_offdiag_abs": 0.0,
+      "outgoing_eigenvalues": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "a": 1.2,
+      "p_abs": 0.7959899496852959,
+      "S_plus": 0.09728766051709171,
+      "phase_derivative_check": 0.7959899496852959,
+      "tau_plus": 0.15598587730572627,
+      "tau_minus": -0.15598587730572627,
+      "epsilon_WKB": 4.473179670187781,
+      "D": 0.6723340256326578,
+      "decoherence_threshold_D_le_0_05": false,
+      "WKB_proxy_epsilon_le_0_1": false,
+      "standing_wave_diagonal": [
+        0.5,
+        0.5
+      ],
+      "standing_wave_offdiag_abs": 0.3361670128163289,
+      "standing_wave_eigenvalues": [
+        0.16383298718367112,
+        0.8361670128163289
+      ],
+      "outgoing_diagonal": [
+        1.0,
+        0.0
+      ],
+      "outgoing_offdiag_abs": 0.0,
+      "outgoing_eigenvalues": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "a": 1.5,
+      "p_abs": 1.6770509831248424,
+      "S_plus": 0.46584749531245623,
+      "phase_derivative_check": 1.6770509831248424,
+      "tau_plus": 0.41136900441650576,
+      "tau_minus": -0.41136900441650576,
+      "epsilon_WKB": 1.1130649487998954,
+      "D": 0.12950963487901224,
+      "decoherence_threshold_D_le_0_05": false,
+      "WKB_proxy_epsilon_le_0_1": false,
+      "standing_wave_diagonal": [
+        0.5,
+        0.5
+      ],
+      "standing_wave_offdiag_abs": 0.06475481743950612,
+      "standing_wave_eigenvalues": [
+        0.43524518256049394,
+        0.5647548174395061
+      ],
+      "outgoing_diagonal": [
+        1.0,
+        0.0
+      ],
+      "outgoing_offdiag_abs": 0.0,
+      "outgoing_eigenvalues": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "a": 2.0,
+      "p_abs": 3.4641016151377544,
+      "S_plus": 1.7320508075688774,
+      "phase_derivative_check": 3.4641016151377544,
+      "tau_plus": 0.6174978850451733,
+      "tau_minus": -0.6174978850451733,
+      "epsilon_WKB": 0.3367876570272817,
+      "D": 0.0012696677841690747,
+      "decoherence_threshold_D_le_0_05": true,
+      "WKB_proxy_epsilon_le_0_1": false,
+      "standing_wave_diagonal": [
+        0.5,
+        0.5
+      ],
+      "standing_wave_offdiag_abs": 0.0006348338920845373,
+      "standing_wave_eigenvalues": [
+        0.4993651661079155,
+        0.5006348338920845
+      ],
+      "outgoing_diagonal": [
+        1.0,
+        0.0
+      ],
+      "outgoing_offdiag_abs": 0.0,
+      "outgoing_eigenvalues": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "a": 3.0,
+      "p_abs": 8.485281374238571,
+      "S_plus": 7.542472332656508,
+      "phase_derivative_check": 8.485281374238571,
+      "tau_plus": 0.8012597511893502,
+      "tau_minus": -0.8012597511893502,
+      "epsilon_WKB": 0.08347788389007851,
+      "D": 7.113690137998321e-12,
+      "decoherence_threshold_D_le_0_05": true,
+      "WKB_proxy_epsilon_le_0_1": true,
+      "standing_wave_diagonal": [
+        0.5,
+        0.5
+      ],
+      "standing_wave_offdiag_abs": 3.5568450689991606e-12,
+      "standing_wave_eigenvalues": [
+        0.4999999999964432,
+        0.5000000000035568
+      ],
+      "outgoing_diagonal": [
+        1.0,
+        0.0
+      ],
+      "outgoing_offdiag_abs": 0.0,
+      "outgoing_eigenvalues": [
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "threshold_first_crossings": {
+    "D_le_0_05": 2.0,
+    "epsilon_le_0_1": 3.0
+  },
+  "registered_checks": {
+    "phase_derivative_matches_p": true,
+    "all_density_matrices_positive": true,
+    "standing_wave_decoheres_without_orientation_selection": true,
+    "outgoing_orientation_is_input_selected": true,
+    "same_decoherence_factor_used_in_both_cases": true
+  },
+  "conclusion": "With constraint and decoherence factor fixed, the standing-wave input becomes effectively decohered but retains equal expanding/contracting branch weights. The outgoing input has a unique orientation because it is imposed in the input state. Thus this mechanism conditionally recovers branch-relative WKB time but does not derive a unique time orientation from the common dynamics alone.",
+  "all_registered_checks_pass": true
+}

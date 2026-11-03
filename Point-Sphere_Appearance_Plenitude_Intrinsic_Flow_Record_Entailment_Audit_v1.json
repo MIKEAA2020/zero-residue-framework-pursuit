@@ -1,0 +1,61 @@
+{
+  "scope": "Matched finite-language expansion audit after postulate adoption. It proves non-entailment of the AP4C1 record law from IFG_P1; it does not assess physical implementation.",
+  "F0_bare_flow": {
+    "name": "bare_IFG_P1",
+    "base_flow": {
+      "phase_domain_order_type": "Z",
+      "phase_types": [
+        "P",
+        "Q"
+      ],
+      "successor": "n -> n+1",
+      "shared_ordered_trace": [
+        "r0<r1"
+      ],
+      "phase_origin_gauge": "shift with P/Q alternation",
+      "component_rule": "connected successor component"
+    },
+    "witness_domain": [],
+    "record_function": false,
+    "diagonal_code": false,
+    "perturbation_metric": false,
+    "decoder": false,
+    "public_interface": false
+  },
+  "F3_record_extension": {
+    "name": "IFG_P1_plus_AP4C1",
+    "base_flow": {
+      "phase_domain_order_type": "Z",
+      "phase_types": [
+        "P",
+        "Q"
+      ],
+      "successor": "n -> n+1",
+      "shared_ordered_trace": [
+        "r0<r1"
+      ],
+      "phase_origin_gauge": "shift with P/Q alternation",
+      "component_rule": "connected successor component"
+    },
+    "witness_domain": [
+      "w1",
+      "w2",
+      "w3"
+    ],
+    "record_function": true,
+    "diagonal_code": true,
+    "perturbation_metric": "radius-one Hamming",
+    "decoder": "majority trace decoder",
+    "public_interface": "stipulated three independent witness evaluations"
+  },
+  "registered_checks": {
+    "matched_models_share_exact_IFG_P1_reduct": true,
+    "bare_IFG_model_has_no_record_code_structure": true,
+    "AP4C1_extension_has_added_witness_code_metric_and_decoder": true,
+    "same_flow_reduct_disagrees_on_record_law": true,
+    "IFG_P1_does_not_entail_AP4C1_record_law": true,
+    "result_does_not_claim_public_objectivity_or_physical_time": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "IFG_P1 supplies an ordered internal trace but not a witness domain, public interface, error model, redundancy, metric, or decoder. AP4C1 remains an independently added conditional record law compatible with\u2014but not recovered from\u2014the adopted flow grammar."
+}

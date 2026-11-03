@@ -1,0 +1,719 @@
+{
+  "scope": "Conditional grammar implementation. Integers name intrinsic phase positions only; no external time coordinate, physical dynamics, or empirical clock is modeled. The translation-plus-content-swap action is newly declared as a phase-origin description gauge.",
+  "candidate_flow": {
+    "phase_domain": "Z (bi-infinite intrinsic successor order)",
+    "successor": "p_n -> p_(n+1)",
+    "phase_context_rule": "C_P for even n, C_Q for odd n",
+    "continuation_trace": "{0,1} with 0<1",
+    "mode_flow_identity": "connected successor component"
+  },
+  "phase_samples": [
+    {
+      "phase": -6,
+      "context": [
+        0,
+        1,
+        2
+      ],
+      "successor": -5,
+      "successor_context": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "phase": -5,
+      "context": [
+        0,
+        1,
+        3
+      ],
+      "successor": -4,
+      "successor_context": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "phase": -4,
+      "context": [
+        0,
+        1,
+        2
+      ],
+      "successor": -3,
+      "successor_context": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "phase": -3,
+      "context": [
+        0,
+        1,
+        3
+      ],
+      "successor": -2,
+      "successor_context": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "phase": -2,
+      "context": [
+        0,
+        1,
+        2
+      ],
+      "successor": -1,
+      "successor_context": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "phase": -1,
+      "context": [
+        0,
+        1,
+        3
+      ],
+      "successor": 0,
+      "successor_context": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "phase": 0,
+      "context": [
+        0,
+        1,
+        2
+      ],
+      "successor": 1,
+      "successor_context": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "phase": 1,
+      "context": [
+        0,
+        1,
+        3
+      ],
+      "successor": 2,
+      "successor_context": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "phase": 2,
+      "context": [
+        0,
+        1,
+        2
+      ],
+      "successor": 3,
+      "successor_context": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "phase": 3,
+      "context": [
+        0,
+        1,
+        3
+      ],
+      "successor": 4,
+      "successor_context": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "phase": 4,
+      "context": [
+        0,
+        1,
+        2
+      ],
+      "successor": 5,
+      "successor_context": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "phase": 5,
+      "context": [
+        0,
+        1,
+        3
+      ],
+      "successor": 6,
+      "successor_context": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "phase": 6,
+      "context": [
+        0,
+        1,
+        2
+      ],
+      "successor": 7,
+      "successor_context": [
+        0,
+        1,
+        3
+      ]
+    }
+  ],
+  "trace_samples": [
+    {
+      "from_phase": -4,
+      "to_phase": -3,
+      "from_context": [
+        0,
+        1,
+        2
+      ],
+      "to_context": [
+        0,
+        1,
+        3
+      ],
+      "shared_contents": [
+        0,
+        1
+      ],
+      "shared_ordered_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "from_phase": -3,
+      "to_phase": -2,
+      "from_context": [
+        0,
+        1,
+        3
+      ],
+      "to_context": [
+        0,
+        1,
+        2
+      ],
+      "shared_contents": [
+        0,
+        1
+      ],
+      "shared_ordered_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "from_phase": -2,
+      "to_phase": -1,
+      "from_context": [
+        0,
+        1,
+        2
+      ],
+      "to_context": [
+        0,
+        1,
+        3
+      ],
+      "shared_contents": [
+        0,
+        1
+      ],
+      "shared_ordered_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "from_phase": -1,
+      "to_phase": 0,
+      "from_context": [
+        0,
+        1,
+        3
+      ],
+      "to_context": [
+        0,
+        1,
+        2
+      ],
+      "shared_contents": [
+        0,
+        1
+      ],
+      "shared_ordered_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "from_phase": 0,
+      "to_phase": 1,
+      "from_context": [
+        0,
+        1,
+        2
+      ],
+      "to_context": [
+        0,
+        1,
+        3
+      ],
+      "shared_contents": [
+        0,
+        1
+      ],
+      "shared_ordered_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "from_phase": 1,
+      "to_phase": 2,
+      "from_context": [
+        0,
+        1,
+        3
+      ],
+      "to_context": [
+        0,
+        1,
+        2
+      ],
+      "shared_contents": [
+        0,
+        1
+      ],
+      "shared_ordered_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "from_phase": 2,
+      "to_phase": 3,
+      "from_context": [
+        0,
+        1,
+        2
+      ],
+      "to_context": [
+        0,
+        1,
+        3
+      ],
+      "shared_contents": [
+        0,
+        1
+      ],
+      "shared_ordered_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "from_phase": 3,
+      "to_phase": 4,
+      "from_context": [
+        0,
+        1,
+        3
+      ],
+      "to_context": [
+        0,
+        1,
+        2
+      ],
+      "shared_contents": [
+        0,
+        1
+      ],
+      "shared_ordered_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "from_phase": 4,
+      "to_phase": 5,
+      "from_context": [
+        0,
+        1,
+        2
+      ],
+      "to_context": [
+        0,
+        1,
+        3
+      ],
+      "shared_contents": [
+        0,
+        1
+      ],
+      "shared_ordered_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "gauge": {
+    "group": "Z generated by phase shift g paired with content swap alpha=(2 3)",
+    "status": "new declared description gauge of phase origin and alternating phase type",
+    "samples": [
+      {
+        "phase": -4,
+        "gauge_image_phase": -3,
+        "context": [
+          0,
+          1,
+          2
+        ],
+        "alpha_context": [
+          0,
+          1,
+          3
+        ],
+        "target_context": [
+          0,
+          1,
+          3
+        ],
+        "context_action_agrees_with_successor_phase_type": true,
+        "shared_trace_preserved": true
+      },
+      {
+        "phase": -3,
+        "gauge_image_phase": -2,
+        "context": [
+          0,
+          1,
+          3
+        ],
+        "alpha_context": [
+          0,
+          1,
+          2
+        ],
+        "target_context": [
+          0,
+          1,
+          2
+        ],
+        "context_action_agrees_with_successor_phase_type": true,
+        "shared_trace_preserved": true
+      },
+      {
+        "phase": -2,
+        "gauge_image_phase": -1,
+        "context": [
+          0,
+          1,
+          2
+        ],
+        "alpha_context": [
+          0,
+          1,
+          3
+        ],
+        "target_context": [
+          0,
+          1,
+          3
+        ],
+        "context_action_agrees_with_successor_phase_type": true,
+        "shared_trace_preserved": true
+      },
+      {
+        "phase": -1,
+        "gauge_image_phase": 0,
+        "context": [
+          0,
+          1,
+          3
+        ],
+        "alpha_context": [
+          0,
+          1,
+          2
+        ],
+        "target_context": [
+          0,
+          1,
+          2
+        ],
+        "context_action_agrees_with_successor_phase_type": true,
+        "shared_trace_preserved": true
+      },
+      {
+        "phase": 0,
+        "gauge_image_phase": 1,
+        "context": [
+          0,
+          1,
+          2
+        ],
+        "alpha_context": [
+          0,
+          1,
+          3
+        ],
+        "target_context": [
+          0,
+          1,
+          3
+        ],
+        "context_action_agrees_with_successor_phase_type": true,
+        "shared_trace_preserved": true
+      },
+      {
+        "phase": 1,
+        "gauge_image_phase": 2,
+        "context": [
+          0,
+          1,
+          3
+        ],
+        "alpha_context": [
+          0,
+          1,
+          2
+        ],
+        "target_context": [
+          0,
+          1,
+          2
+        ],
+        "context_action_agrees_with_successor_phase_type": true,
+        "shared_trace_preserved": true
+      },
+      {
+        "phase": 2,
+        "gauge_image_phase": 3,
+        "context": [
+          0,
+          1,
+          2
+        ],
+        "alpha_context": [
+          0,
+          1,
+          3
+        ],
+        "target_context": [
+          0,
+          1,
+          3
+        ],
+        "context_action_agrees_with_successor_phase_type": true,
+        "shared_trace_preserved": true
+      },
+      {
+        "phase": 3,
+        "gauge_image_phase": 4,
+        "context": [
+          0,
+          1,
+          3
+        ],
+        "alpha_context": [
+          0,
+          1,
+          2
+        ],
+        "target_context": [
+          0,
+          1,
+          2
+        ],
+        "context_action_agrees_with_successor_phase_type": true,
+        "shared_trace_preserved": true
+      },
+      {
+        "phase": 4,
+        "gauge_image_phase": 5,
+        "context": [
+          0,
+          1,
+          2
+        ],
+        "alpha_context": [
+          0,
+          1,
+          3
+        ],
+        "target_context": [
+          0,
+          1,
+          3
+        ],
+        "context_action_agrees_with_successor_phase_type": true,
+        "shared_trace_preserved": true
+      }
+    ]
+  },
+  "boundary_test": {
+    "components": [
+      "Phi_A",
+      "Phi_B"
+    ],
+    "gauge_action_on_component_label": "identity",
+    "gauge_maps_distinct_components": false,
+    "mode_flow_identity": "same connected successor component, not merely same phase type"
+  },
+  "family_support_for_ordered_phase_adjacency": {
+    "star_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "every_context_has_ordered_retentional_phase_neighbor": false
+    },
+    "path_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "every_context_has_ordered_retentional_phase_neighbor": false
+    },
+    "pair_plus_triple": {
+      "contexts": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "every_context_has_ordered_retentional_phase_neighbor": false
+    },
+    "cycle_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "every_context_has_ordered_retentional_phase_neighbor": false
+    },
+    "overlapping_triples_IAR_like": {
+      "contexts": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "every_context_has_ordered_retentional_phase_neighbor": true
+    }
+  },
+  "qualifying_families": [
+    "overlapping_triples_IAR_like"
+  ],
+  "registered_checks": {
+    "every_phase_in_diagnostic_window_has_successor_and_predecessor": true,
+    "candidate_successor_is_acyclic_by_integer_order": true,
+    "each_phase_context_is_finite_and_proper": true,
+    "every_successor_pair_has_shared_ordered_two_content_trace": true,
+    "phase_origin_gauge_is_transitive_on_integer_phase_positions": true,
+    "gauge_preserves_context_phase_type_and_trace": true,
+    "gauge_preserves_distinct_flow_boundaries": true,
+    "only_IAR_like_family_supports_universal_ordered_phase_adjacency": true,
+    "law_not_misreported_as_derived_from_core_or_as_physical_time": true,
+    "law_not_misreported_as_replacing_AP4C1_public_record_requirements": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "A bi-infinite intrinsic successor structure gives a coherent no-background-time, nonterminal, acyclic mode-flow implementation with no privileged phase origin. Conditional on the new ordered-retentional continuation law, only IAR-like minimal contexts support every phase having such a successor partner. The continuation law, bi-infinite order, gauge interpretation, and context-to-phase retyping are added formal assumptions; no public record robustness, physical time, or core derivation follows."
+}

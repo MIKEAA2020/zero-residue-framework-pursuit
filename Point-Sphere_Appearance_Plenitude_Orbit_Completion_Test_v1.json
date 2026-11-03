@@ -1,0 +1,130 @@
+{
+  "scope": "Finite AP1 diagnostic. Physical status of H and aspect space is stipulated; no claim about ground, all-world plenitude, or Born probability.",
+  "description_space": "Z4 x Z3",
+  "gauge_group": "Z3 on second coordinate",
+  "physical_aspect_quotient": "Z4",
+  "physical_symmetry": "Z4 translations on quotient",
+  "gauge_orbits": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ]
+  ],
+  "all_support_count": 16,
+  "H_invariant_supports": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "registered_cases": {
+    "empty": {
+      "support": [],
+      "H_invariant": true,
+      "nonempty": false,
+      "full_orbit": false
+    },
+    "all": {
+      "support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "H_invariant": true,
+      "nonempty": true,
+      "full_orbit": true
+    },
+    "singleton_0": {
+      "support": [
+        0
+      ],
+      "H_invariant": false,
+      "nonempty": true,
+      "full_orbit": false
+    },
+    "alternating_0_2": {
+      "support": [
+        0,
+        2
+      ],
+      "H_invariant": false,
+      "nonempty": true,
+      "full_orbit": false
+    }
+  },
+  "invariant_selector_points": [],
+  "denominator_12_invariant_probability_numerators": [
+    [
+      3,
+      3,
+      3,
+      3
+    ]
+  ],
+  "registered_checks": {
+    "gauge_quotient_has_four_fibres_of_three": true,
+    "only_empty_and_full_supports_are_H_invariant": true,
+    "nonempty_invariant_support_implies_full_orbit": true,
+    "empty_support_shows_symmetry_alone_does_not_establish_existence": true,
+    "no_H_invariant_unique_selector_point": true,
+    "unique_denominator_12_H_invariant_probability_is_uniform": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "For a declared non-gauge transitive physical orbit, nonempty H-invariant realisation entails full-orbit realisation. Symmetry alone does not establish nonemptiness, identify a real physical orbit, or provide a general probability/Born rule."
+}

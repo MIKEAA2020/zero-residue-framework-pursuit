@@ -1,0 +1,1626 @@
+{
+  "scope": "Finite audit inside the AP3L maximal-proper-context implementation, using AP3N/AP4A endogenous order witnesses. A content substitution is deliberately distinguished from an AP4C1 witness-label alteration; no external time, physical dynamics, or persistence law is assumed.",
+  "families": {
+    "star_pairs": {
+      "maximal_proper_contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "substitution_outcome_counts": {
+        "another_maximal_proper_context": 6,
+        "coherent_nonmaximal_content_set": 0,
+        "incoherent_content_set": 6
+      },
+      "maximal_to_maximal_transitions": [
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 3,
+          "target": [
+            0,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 1,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 3,
+          "target": [
+            0,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 3,
+          "add": 1,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 3,
+          "add": 2,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        }
+      ],
+      "maximal_to_maximal_with_two_content_order_coherent_overlap": [],
+      "all_substitutions": [
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 0,
+          "add": 2,
+          "target": [
+            1,
+            2
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            1,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 3,
+          "target": [
+            0,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 0,
+          "add": 1,
+          "target": [
+            1,
+            2
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 1,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 3,
+          "target": [
+            0,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 0,
+          "add": 1,
+          "target": [
+            1,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 0,
+          "add": 2,
+          "target": [
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 3,
+          "add": 1,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 3,
+          "add": 2,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        }
+      ]
+    },
+    "path_pairs": {
+      "maximal_proper_contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "substitution_outcome_counts": {
+        "another_maximal_proper_context": 4,
+        "coherent_nonmaximal_content_set": 0,
+        "incoherent_content_set": 8
+      },
+      "maximal_to_maximal_transitions": [
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            1,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 1,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 3,
+          "add": 0,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        }
+      ],
+      "maximal_to_maximal_with_two_content_order_coherent_overlap": [],
+      "all_substitutions": [
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 0,
+          "add": 2,
+          "target": [
+            1,
+            2
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            1,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 3,
+          "target": [
+            0,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 0,
+          "add": 1,
+          "target": [
+            1,
+            2
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 1,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 3,
+          "target": [
+            0,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 1,
+          "add": 0,
+          "target": [
+            0,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 3,
+          "add": 0,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 3,
+          "add": 2,
+          "target": [
+            1,
+            2
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        }
+      ]
+    },
+    "pair_plus_triple": {
+      "maximal_proper_contexts": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "substitution_outcome_counts": {
+        "another_maximal_proper_context": 0,
+        "coherent_nonmaximal_content_set": 2,
+        "incoherent_content_set": 5
+      },
+      "maximal_to_maximal_transitions": [],
+      "maximal_to_maximal_with_two_content_order_coherent_overlap": [],
+      "all_substitutions": [
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 0,
+          "add": 1,
+          "target": [
+            1,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 0,
+          "add": 2,
+          "target": [
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 3,
+          "add": 1,
+          "target": [
+            0,
+            1
+          ],
+          "status": "coherent_nonmaximal_content_set",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            3
+          ],
+          "remove": 3,
+          "add": 2,
+          "target": [
+            0,
+            2
+          ],
+          "status": "coherent_nonmaximal_content_set",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1,
+            2
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            1,
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            1,
+            2
+          ],
+          "shared_ordered_pairs": [
+            [
+              1,
+              2
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        },
+        {
+          "source": [
+            0,
+            1,
+            2
+          ],
+          "remove": 1,
+          "add": 3,
+          "target": [
+            0,
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            0,
+            2
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              2
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        },
+        {
+          "source": [
+            0,
+            1,
+            2
+          ],
+          "remove": 2,
+          "add": 3,
+          "target": [
+            0,
+            1,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            0,
+            1
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              1
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        }
+      ]
+    },
+    "cycle_pairs": {
+      "maximal_proper_contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "substitution_outcome_counts": {
+        "another_maximal_proper_context": 8,
+        "coherent_nonmaximal_content_set": 0,
+        "incoherent_content_set": 8
+      },
+      "maximal_to_maximal_transitions": [
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            1,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            2,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 1,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            2,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 3,
+          "add": 0,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            2,
+            3
+          ],
+          "remove": 2,
+          "add": 1,
+          "target": [
+            1,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            2,
+            3
+          ],
+          "remove": 3,
+          "add": 0,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        }
+      ],
+      "maximal_to_maximal_with_two_content_order_coherent_overlap": [],
+      "all_substitutions": [
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 0,
+          "add": 2,
+          "target": [
+            1,
+            2
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            1,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            1
+          ],
+          "remove": 1,
+          "add": 3,
+          "target": [
+            0,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 0,
+          "add": 1,
+          "target": [
+            1,
+            2
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            2,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 1,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            0,
+            2
+          ],
+          "remove": 2,
+          "add": 3,
+          "target": [
+            0,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            0
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 1,
+          "add": 0,
+          "target": [
+            0,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            2,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 3,
+          "add": 0,
+          "target": [
+            0,
+            1
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            1,
+            3
+          ],
+          "remove": 3,
+          "add": 2,
+          "target": [
+            1,
+            2
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            1
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            2,
+            3
+          ],
+          "remove": 2,
+          "add": 0,
+          "target": [
+            0,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            2,
+            3
+          ],
+          "remove": 2,
+          "add": 1,
+          "target": [
+            1,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            3
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            2,
+            3
+          ],
+          "remove": 3,
+          "add": 0,
+          "target": [
+            0,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        },
+        {
+          "source": [
+            2,
+            3
+          ],
+          "remove": 3,
+          "add": 1,
+          "target": [
+            1,
+            2
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            2
+          ],
+          "shared_ordered_pairs": [],
+          "has_two_content_order_coherent_overlap": false
+        }
+      ]
+    },
+    "overlapping_triples_IAR_like": {
+      "maximal_proper_contexts": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "substitution_outcome_counts": {
+        "another_maximal_proper_context": 2,
+        "coherent_nonmaximal_content_set": 0,
+        "incoherent_content_set": 4
+      },
+      "maximal_to_maximal_transitions": [
+        {
+          "source": [
+            0,
+            1,
+            2
+          ],
+          "remove": 2,
+          "add": 3,
+          "target": [
+            0,
+            1,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0,
+            1
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              1
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        },
+        {
+          "source": [
+            0,
+            1,
+            3
+          ],
+          "remove": 3,
+          "add": 2,
+          "target": [
+            0,
+            1,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0,
+            1
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              1
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        }
+      ],
+      "maximal_to_maximal_with_two_content_order_coherent_overlap": [
+        {
+          "source": [
+            0,
+            1,
+            2
+          ],
+          "remove": 2,
+          "add": 3,
+          "target": [
+            0,
+            1,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0,
+            1
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              1
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        },
+        {
+          "source": [
+            0,
+            1,
+            3
+          ],
+          "remove": 3,
+          "add": 2,
+          "target": [
+            0,
+            1,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0,
+            1
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              1
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        }
+      ],
+      "all_substitutions": [
+        {
+          "source": [
+            0,
+            1,
+            2
+          ],
+          "remove": 0,
+          "add": 3,
+          "target": [
+            1,
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            1,
+            2
+          ],
+          "shared_ordered_pairs": [
+            [
+              1,
+              2
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        },
+        {
+          "source": [
+            0,
+            1,
+            2
+          ],
+          "remove": 1,
+          "add": 3,
+          "target": [
+            0,
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            0,
+            2
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              2
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        },
+        {
+          "source": [
+            0,
+            1,
+            2
+          ],
+          "remove": 2,
+          "add": 3,
+          "target": [
+            0,
+            1,
+            3
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0,
+            1
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              1
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        },
+        {
+          "source": [
+            0,
+            1,
+            3
+          ],
+          "remove": 0,
+          "add": 2,
+          "target": [
+            1,
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            1,
+            3
+          ],
+          "shared_ordered_pairs": [
+            [
+              1,
+              3
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        },
+        {
+          "source": [
+            0,
+            1,
+            3
+          ],
+          "remove": 1,
+          "add": 2,
+          "target": [
+            0,
+            2,
+            3
+          ],
+          "status": "incoherent_content_set",
+          "overlap": [
+            0,
+            3
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              3
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        },
+        {
+          "source": [
+            0,
+            1,
+            3
+          ],
+          "remove": 3,
+          "add": 2,
+          "target": [
+            0,
+            1,
+            2
+          ],
+          "status": "another_maximal_proper_context",
+          "overlap": [
+            0,
+            1
+          ],
+          "shared_ordered_pairs": [
+            [
+              0,
+              1
+            ]
+          ],
+          "has_two_content_order_coherent_overlap": true
+        }
+      ]
+    }
+  },
+  "non_IAR_families_with_one_substitution_maximal_transitions": [
+    "star_pairs",
+    "path_pairs",
+    "cycle_pairs"
+  ],
+  "AP4C1_witness_label_alteration_case": {
+    "configuration_before": {
+      "context": [
+        0,
+        1,
+        2
+      ],
+      "witness_label": "tau_plus"
+    },
+    "configuration_after": {
+      "context": [
+        0,
+        1,
+        2
+      ],
+      "witness_label": "tau_minus"
+    },
+    "context_is_identical": true,
+    "maximality_of_context_unchanged": true,
+    "decoder_or_recovery_map_provided_by_maximality": false
+  },
+  "registered_checks": {
+    "IAR_like_one_content_substitution_reaches_another_maximal_context": true,
+    "IAR_like_transition_preserves_a_two_content_ordered_overlap": true,
+    "strong_maximality_lemma_M_is_refuted_in_IAR_like_family": true,
+    "non_IAR_families_also_have_one_substitution_maximal_transitions": true,
+    "content_substitution_has_multiple_outcomes_not_a_universal_error_status": true,
+    "AP4C1_label_alteration_leaves_AP3_maximality_unchanged": true,
+    "maximality_does_not_itself_supply_a_recovery_map": true,
+    "result_not_misreported_as_rejection_of_conditional_AP4C1_law": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "The strong claim that a one-content perturbation of a maximal mode must be nonmaximal or incoherent is false in the AP3L implementation: the IAR-like pair {0,1,2}->{0,1,3} is a one-substitution transition between maximal contexts with a coherent ordered shared pair. Conversely, an AP4C1 witness-label change does not change the AP3 context and leaves maximality silent. Neither maximality nor static retentional order provides an error classification, persistence norm, or recovery map."
+}

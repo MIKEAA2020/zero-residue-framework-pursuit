@@ -1,0 +1,237 @@
+{
+  "scope": "Finite AP3N consistency test. The displayed content-role order is a witness, not a physical clock, temporal dynamics, or unique fundamental order.",
+  "families": {
+    "star_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "orders": {
+        "[0, 1]": [
+          [
+            0,
+            1
+          ]
+        ],
+        "[0, 2]": [
+          [
+            0,
+            2
+          ]
+        ],
+        "[0, 3]": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      "R1_nontrivial": true,
+      "R2_acyclic_transitive": true,
+      "R3_overlap_coherent": true,
+      "R4_no_external_time_parameter": true
+    },
+    "path_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "orders": {
+        "[0, 1]": [
+          [
+            0,
+            1
+          ]
+        ],
+        "[0, 2]": [
+          [
+            0,
+            2
+          ]
+        ],
+        "[1, 3]": [
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "R1_nontrivial": true,
+      "R2_acyclic_transitive": true,
+      "R3_overlap_coherent": true,
+      "R4_no_external_time_parameter": true
+    },
+    "pair_plus_triple": {
+      "contexts": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "orders": {
+        "[0, 3]": [
+          [
+            0,
+            3
+          ]
+        ],
+        "[0, 1, 2]": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "R1_nontrivial": true,
+      "R2_acyclic_transitive": true,
+      "R3_overlap_coherent": true,
+      "R4_no_external_time_parameter": true
+    },
+    "cycle_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "orders": {
+        "[0, 1]": [
+          [
+            0,
+            1
+          ]
+        ],
+        "[0, 2]": [
+          [
+            0,
+            2
+          ]
+        ],
+        "[1, 3]": [
+          [
+            1,
+            3
+          ]
+        ],
+        "[2, 3]": [
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "R1_nontrivial": true,
+      "R2_acyclic_transitive": true,
+      "R3_overlap_coherent": true,
+      "R4_no_external_time_parameter": true
+    },
+    "overlapping_triples_IAR_like": {
+      "contexts": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "orders": {
+        "[0, 1, 2]": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "[0, 1, 3]": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "R1_nontrivial": true,
+      "R2_acyclic_transitive": true,
+      "R3_overlap_coherent": true,
+      "R4_no_external_time_parameter": true
+    }
+  },
+  "withheld_two_content_overlap_selector": {
+    "star_pairs": false,
+    "path_pairs": false,
+    "pair_plus_triple": false,
+    "cycle_pairs": false,
+    "overlapping_triples_IAR_like": true
+  },
+  "registered_checks": {
+    "all_five_families_admit_R1_to_R4": true,
+    "retentional_enrichment_does_not_select_a_unique_family": true,
+    "withheld_two_content_overlap_selector_is_true_only_for_IAR_like_family": true,
+    "IAR_biased_selector_not_used_as_AP3_constraint": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "All five grammar families admit coherent internal retentional order without background time. A two-content shared-record condition would select IAR-like contexts but lacks independent AP3-level warrant and is withheld for later AP4 public-record analysis."
+}

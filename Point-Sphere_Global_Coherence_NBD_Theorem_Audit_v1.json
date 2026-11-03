@@ -1,0 +1,69 @@
+{
+  "audit": "GC1 finite NBD / realization semantic audit v1",
+  "conclusions": {
+    "S0_does_not_entail_S2_NBD": true,
+    "S1_does_not_entail_nonempty_realization_or_S3_MEC": true,
+    "marked_selection_makes_selector_debt_visible": true,
+    "no_bare_logic_or_local_rationality_to_NBD_theorem": true,
+    "restricted_domain_MEC_leaves_domain_selection_debt": true
+  },
+  "results": {
+    "appearance_full_domain": {
+      "S0_well_formed": true,
+      "S1_equivariant": true,
+      "S2_nbd": true,
+      "S3_mec": true,
+      "aspect_domain_primitive": false,
+      "selector_debt": false
+    },
+    "classical_unmarked_selection": {
+      "S0_well_formed": true,
+      "S1_equivariant": false,
+      "S2_nbd": false,
+      "S3_mec": false,
+      "aspect_domain_primitive": false,
+      "selector_debt": false
+    },
+    "empty_invariant": {
+      "S0_well_formed": true,
+      "S1_equivariant": true,
+      "S2_nbd": true,
+      "S3_mec": false,
+      "aspect_domain_primitive": false,
+      "selector_debt": false
+    },
+    "full_invariant": {
+      "S0_well_formed": true,
+      "S1_equivariant": true,
+      "S2_nbd": true,
+      "S3_mec": true,
+      "aspect_domain_primitive": false,
+      "selector_debt": false
+    },
+    "marked_exclusive": {
+      "S0_well_formed": true,
+      "S1_equivariant": false,
+      "S2_nbd": true,
+      "S3_mec": false,
+      "aspect_domain_primitive": false,
+      "selector_debt": true
+    },
+    "primitive_exclusive": {
+      "S0_well_formed": true,
+      "S1_equivariant": false,
+      "S2_nbd": false,
+      "S3_mec": false,
+      "aspect_domain_primitive": false,
+      "selector_debt": false
+    },
+    "restricted_aspect_domain": {
+      "S0_well_formed": true,
+      "S1_equivariant": true,
+      "S2_nbd": true,
+      "S3_mec": true,
+      "aspect_domain_primitive": true,
+      "selector_debt": true
+    }
+  },
+  "scope": "Finite semantic non-entailment check; not a metaphysical-ground model or proof of global coherence."
+}

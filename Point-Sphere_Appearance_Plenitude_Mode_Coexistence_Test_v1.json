@@ -1,0 +1,519 @@
+{
+  "scope": "Finite AP3E coexistence audit. It assesses compatibility of candidate profiles under conditional plenitude; it does not show that candidates are genuine modes or subjects.",
+  "global_support_count": 64,
+  "candidate_decomposition_count": 14,
+  "profile_occurrence_count": 28,
+  "distinct_carrier_interface_signature_count": 28,
+  "automorphisms": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "profiles": [
+    {
+      "decomposition": 0,
+      "side": "L",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "interface": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "decomposition": 0,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        3,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "decomposition": 1,
+      "side": "L",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "interface": [
+        0,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "decomposition": 1,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "decomposition": 2,
+      "side": "L",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "interface": [
+        0,
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "decomposition": 2,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "decomposition": 3,
+      "side": "L",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "interface": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "decomposition": 3,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "decomposition": 4,
+      "side": "L",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "interface": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "decomposition": 4,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "decomposition": 5,
+      "side": "L",
+      "carrier": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "interface": [
+        0,
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "decomposition": 5,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "decomposition": 6,
+      "side": "L",
+      "carrier": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "interface": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "decomposition": 6,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "decomposition": 7,
+      "side": "L",
+      "carrier": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "interface": [
+        0,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "decomposition": 7,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "decomposition": 8,
+      "side": "L",
+      "carrier": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "decomposition": 8,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "interface": [
+        0,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "decomposition": 9,
+      "side": "L",
+      "carrier": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "decomposition": 9,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "interface": [
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "decomposition": 10,
+      "side": "L",
+      "carrier": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "decomposition": 10,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "decomposition": 11,
+      "side": "L",
+      "carrier": [
+        0,
+        3,
+        4,
+        5,
+        6
+      ],
+      "interface": [
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "decomposition": 11,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "decomposition": 12,
+      "side": "L",
+      "carrier": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "decomposition": 12,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "interface": [
+        0,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "decomposition": 13,
+      "side": "L",
+      "carrier": [
+        0,
+        3,
+        4,
+        6,
+        7
+      ],
+      "interface": [
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "decomposition": 13,
+      "side": "R",
+      "carrier": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "interface": [
+        0,
+        3,
+        6
+      ]
+    }
+  ],
+  "registered_checks": {
+    "rigid_graph_has_only_identity_automorphism": true,
+    "exactly_14_candidate_decompositions": true,
+    "28_profile_occurrences_have_28_distinct_carrier_interface_signatures": true,
+    "all_candidate_profiles_lift_to_same_global_support": true,
+    "all_profile_pairs_jointly_glue_on_coordinate_intersections": true,
+    "candidate_status_is_not_promoted_to_genuine_mode": true,
+    "phenomenality_is_not_inferred": true
+  },
+  "all_registered_checks_pass": true,
+  "conditional_plenitude_statement": "If a further criterion establishes that a member of this candidate family is a GenuineMode, then the aware-ground plus P-internal plenitude package may realize it without selecting one rival candidate over others. Current tests do not establish Candidate => GenuineMode or Phenomenality.",
+  "restricted_conclusion": "Nonunique candidate boundaries are mutually co-instantiable restrictions of one global support and are not gauge duplicates in this rigid model. The unresolved task is membership in GenuineMode, not a unique selector among all candidates."
+}

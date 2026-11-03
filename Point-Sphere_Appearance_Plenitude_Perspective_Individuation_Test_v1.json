@@ -1,0 +1,108 @@
+{
+  "scope": "Finite AP3A restriction/sheaf diagnostic; X is not the ground and local profiles are not shown to be conscious subjects.",
+  "vertices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "edges": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "carriers": {
+    "P": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "Q": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "public_overlap": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "global_state_count": 64,
+  "global_automorphisms": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  "P_Q_induced_graph_isomorphism_count": 0,
+  "P_local_state_count": 32,
+  "Q_local_state_count": 32,
+  "P_fibre_sizes": [
+    2
+  ],
+  "Q_fibre_sizes": [
+    2
+  ],
+  "all_local_pair_count": 1024,
+  "compatible_local_pair_count": 64,
+  "compatible_amalgamation_counts": [
+    1
+  ],
+  "incompatible_amalgamation_counts": [
+    0
+  ],
+  "registered_checks": {
+    "global_graph_has_trivial_automorphism_group": true,
+    "induced_P_and_Q_carriers_are_nonisomorphic": true,
+    "P_has_32_local_states_each_with_fibre_size_2": true,
+    "Q_has_32_local_states_each_with_fibre_size_2": true,
+    "P_and_Q_each_have_bounded_access": true,
+    "all_global_states_give_exact_public_overlap_agreement": true,
+    "exactly_64_compatible_pairs": true,
+    "every_compatible_pair_has_unique_global_amalgamation": true,
+    "every_incompatible_pair_has_no_global_amalgamation": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "Distinct, bounded and publicly compatible local profiles can be modeled as non-independent restrictions of one relational global formal state. This is not a derivation of subjects, nondual metaphysics, or physics."
+}

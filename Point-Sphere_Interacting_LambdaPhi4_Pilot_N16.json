@@ -1,0 +1,127 @@
+{
+  "scope": "Pre-production N=16 HMC pilot only. It does not satisfy the frozen target's production ESS/length requirements or assert a continuum result.",
+  "implementation": {
+    "N": 16,
+    "L_physical": 1.0,
+    "lambda_physical_L2": 10.0,
+    "lambda_hat": 0.0390625,
+    "step_size": 0.16,
+    "n_leapfrog": 10,
+    "seed": 20261025
+  },
+  "mass_tuning": {
+    "target_z": 4.0,
+    "pilot_tolerance": 0.12,
+    "bracket": [
+      -0.02,
+      0.14
+    ],
+    "iterations": [
+      {
+        "iteration": 0,
+        "m2": 0.060000000000000005,
+        "z": 4.589381509359595,
+        "acceptance": 0.8654166666666667
+      },
+      {
+        "iteration": 1,
+        "m2": 0.020000000000000004,
+        "z": 2.7854205773899277,
+        "acceptance": 0.8754166666666667
+      },
+      {
+        "iteration": 2,
+        "m2": 0.04000000000000001,
+        "z": 3.727667335205472,
+        "acceptance": 0.8816666666666666
+      },
+      {
+        "iteration": 3,
+        "m2": 0.05,
+        "z": 4.095370398124729,
+        "acceptance": 0.87
+      },
+      {
+        "iteration": 4,
+        "m2": 0.045000000000000005,
+        "z": 4.071121391336629,
+        "acceptance": 0.8608333333333333
+      },
+      {
+        "iteration": 5,
+        "m2": 0.04250000000000001,
+        "z": 3.5921274105227523,
+        "acceptance": 0.88625
+      }
+    ],
+    "selected_m2": 0.04375000000000001
+  },
+  "pilot_results": {
+    "z": 3.6297044962761835,
+    "chi": 18.992963396970758,
+    "chi4": -3111.0912851276807,
+    "g_R": 113.62393630872452,
+    "acceptance_by_chain": [
+      0.8754,
+      0.8592,
+      0.874,
+      0.87
+    ],
+    "mean_abs_delta_h_by_chain": [
+      0.25816588362165355,
+      0.2656774839012425,
+      0.2575767624201315,
+      0.26960638847779567
+    ],
+    "max_abs_delta_h_by_chain": [
+      1.1976363888422838,
+      1.355581442551113,
+      1.175046726636765,
+      1.2474731514512314
+    ],
+    "diagnostics": {
+      "M": {
+        "mean": -2.2629117175324085,
+        "tau_int_by_chain": [
+          14.105232459782306,
+          25.917447620977395,
+          12.812700427613581,
+          17.323894699324942
+        ],
+        "minimum_ess": 96.46011584784753,
+        "combined_approx_ess": 385.84046339139013,
+        "basic_split_rhat": 1.006495698898418
+      },
+      "G0": {
+        "mean": 18.992963396970758,
+        "tau_int_by_chain": [
+          8.1870329106455,
+          7.387302064533564,
+          7.624146939181913,
+          9.161672222791427
+        ],
+        "minimum_ess": 272.8759487575606,
+        "combined_approx_ess": 1091.5037950302424,
+        "basic_split_rhat": 1.0025961485445416
+      },
+      "Gp": {
+        "mean": 4.798372928148031,
+        "tau_int_by_chain": [
+          1.9048768359593575,
+          2.1917284812567708,
+          1.974537338433356,
+          2.342629935023587
+        ],
+        "minimum_ess": 1067.1766644076579,
+        "combined_approx_ess": 4268.7066576306315,
+        "basic_split_rhat": 1.0000918268291112
+      }
+    }
+  },
+  "production_gate": {
+    "mass_within_pilot_tolerance": false,
+    "acceptance_in_target_band": true,
+    "all_basic_rhat_le_1_01": true,
+    "note": "Even if preliminary gates pass, a new production run with the frozen target's ESS and 500-tau length requirements remains required."
+  }
+}

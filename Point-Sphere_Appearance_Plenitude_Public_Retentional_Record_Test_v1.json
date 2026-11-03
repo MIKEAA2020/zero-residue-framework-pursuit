@@ -1,0 +1,358 @@
+{
+  "scope": "Finite AP4A family-level public-record discriminator. Ordered pairs use the AP3N internal order witness; no physical dynamics, external time, or record redundancy law is modeled.",
+  "families": {
+    "star_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "pair_records": [
+        {
+          "C": [
+            0,
+            1
+          ],
+          "D": [
+            0,
+            2
+          ],
+          "overlap": [
+            0
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        },
+        {
+          "C": [
+            0,
+            1
+          ],
+          "D": [
+            0,
+            3
+          ],
+          "overlap": [
+            0
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        },
+        {
+          "C": [
+            0,
+            2
+          ],
+          "D": [
+            0,
+            3
+          ],
+          "overlap": [
+            0
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        }
+      ],
+      "D1_elementary_publicity": true,
+      "D2_all_contexts_have_retentional_public_partner": false,
+      "D3_order_coherence": true,
+      "D4_no_background_time_parameter": true,
+      "qualifies_public_retentional_interface": false
+    },
+    "path_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "pair_records": [
+        {
+          "C": [
+            0,
+            1
+          ],
+          "D": [
+            0,
+            2
+          ],
+          "overlap": [
+            0
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        },
+        {
+          "C": [
+            0,
+            1
+          ],
+          "D": [
+            1,
+            3
+          ],
+          "overlap": [
+            1
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        },
+        {
+          "C": [
+            0,
+            2
+          ],
+          "D": [
+            1,
+            3
+          ],
+          "overlap": [],
+          "elementary": false,
+          "retentional": false,
+          "ordered_pairs": []
+        }
+      ],
+      "D1_elementary_publicity": true,
+      "D2_all_contexts_have_retentional_public_partner": false,
+      "D3_order_coherence": true,
+      "D4_no_background_time_parameter": true,
+      "qualifies_public_retentional_interface": false
+    },
+    "pair_plus_triple": {
+      "contexts": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "pair_records": [
+        {
+          "C": [
+            0,
+            3
+          ],
+          "D": [
+            0,
+            1,
+            2
+          ],
+          "overlap": [
+            0
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        }
+      ],
+      "D1_elementary_publicity": true,
+      "D2_all_contexts_have_retentional_public_partner": false,
+      "D3_order_coherence": true,
+      "D4_no_background_time_parameter": true,
+      "qualifies_public_retentional_interface": false
+    },
+    "cycle_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "pair_records": [
+        {
+          "C": [
+            0,
+            1
+          ],
+          "D": [
+            0,
+            2
+          ],
+          "overlap": [
+            0
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        },
+        {
+          "C": [
+            0,
+            1
+          ],
+          "D": [
+            1,
+            3
+          ],
+          "overlap": [
+            1
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        },
+        {
+          "C": [
+            0,
+            1
+          ],
+          "D": [
+            2,
+            3
+          ],
+          "overlap": [],
+          "elementary": false,
+          "retentional": false,
+          "ordered_pairs": []
+        },
+        {
+          "C": [
+            0,
+            2
+          ],
+          "D": [
+            1,
+            3
+          ],
+          "overlap": [],
+          "elementary": false,
+          "retentional": false,
+          "ordered_pairs": []
+        },
+        {
+          "C": [
+            0,
+            2
+          ],
+          "D": [
+            2,
+            3
+          ],
+          "overlap": [
+            2
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        },
+        {
+          "C": [
+            1,
+            3
+          ],
+          "D": [
+            2,
+            3
+          ],
+          "overlap": [
+            3
+          ],
+          "elementary": true,
+          "retentional": false,
+          "ordered_pairs": []
+        }
+      ],
+      "D1_elementary_publicity": true,
+      "D2_all_contexts_have_retentional_public_partner": false,
+      "D3_order_coherence": true,
+      "D4_no_background_time_parameter": true,
+      "qualifies_public_retentional_interface": false
+    },
+    "overlapping_triples_IAR_like": {
+      "contexts": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "pair_records": [
+        {
+          "C": [
+            0,
+            1,
+            2
+          ],
+          "D": [
+            0,
+            1,
+            3
+          ],
+          "overlap": [
+            0,
+            1
+          ],
+          "elementary": true,
+          "retentional": true,
+          "ordered_pairs": [
+            [
+              0,
+              1
+            ]
+          ]
+        }
+      ],
+      "D1_elementary_publicity": true,
+      "D2_all_contexts_have_retentional_public_partner": true,
+      "D3_order_coherence": true,
+      "D4_no_background_time_parameter": true,
+      "qualifies_public_retentional_interface": true
+    }
+  },
+  "qualifying_families": [
+    "overlapping_triples_IAR_like"
+  ],
+  "registered_checks": {
+    "all_five_have_some_elementary_public_datum": true,
+    "only_IAR_like_family_has_universal_retentional_public_interface": true,
+    "IAR_like_has_order_coherent_pair": true,
+    "uses_internal_not_external_order": true,
+    "result_not_misreported_as_global_IAR_theorem": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "All families support elementary shared data, but only the overlapping-triples/IAR-like family gives every context a two-content order-coherent public record partner in this minimal model. This conditionally favors IAR for public-record implementation, not as a theorem of the AP3 mode grammar."
+}

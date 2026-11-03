@@ -1,0 +1,45 @@
+{
+  "scope": "Finite logical audit of a proposed mode-level derivation. It models no consciousness theorem: self-presentation constraints are stipulated only at their already-earned restricted status.",
+  "independently_granted_self_presentation_constraints": {
+    "immanent_reflexivity_for_each_candidate_lift": true,
+    "no_second_observer_relation": true,
+    "non_objectification": true,
+    "finite_unity_internal_to_each_lift_history": true,
+    "bounded_horizon_not_total_reflective_transparency": true
+  },
+  "content_models_compatible_with_them": {
+    "trace_exhaustive": {
+      "definition": "C_SP(lift)=ordered trace",
+      "class_count": 1,
+      "GAQ_trace_result": "yes, if mode/content identity is then applied"
+    },
+    "lift_sensitive": {
+      "definition": "C_SP(lift)=(ordered trace, full Q lift data)",
+      "class_count": 16,
+      "GAQ_trace_result": "no"
+    },
+    "relative_signature_sensitive": {
+      "definition": "C_SP(lift)=(ordered trace, three relative Q-bit values)",
+      "class_count": 8,
+      "GAQ_trace_result": "no; eight classes modulo uniform complement"
+    }
+  },
+  "necessary_added_bridge": {
+    "name": "TE_SP",
+    "statement": "the ordered trace exhausts finite self-presentation content",
+    "logical_role": "with mode=content identity, this supplies GAQ_trace; without it, reflexivity is only an internal relation for each candidate mode",
+    "status": "new explicit reductive self-presentation bridge, not independently derived by this audit"
+  },
+  "registered_checks": {
+    "trace_exhaustive_content_map_has_one_class": true,
+    "lift_sensitive_content_map_has_sixteen_classes": true,
+    "relative_sensitive_content_map_has_eight_classes": true,
+    "all_three_content_maps_share_the_same_reflexive_self_presentation_constraints": true,
+    "reflexive_mode_unity_does_not_entail_cross_lift_identity": true,
+    "trace_exhaustiveness_is_required_for_GAQ_trace": true,
+    "bounded_horizon_blocks_inference_to_total_trace_exhaustiveness": true,
+    "no_external_time_public_objectivity_or_second_subject_imported": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "Mode self-presentation unity is a distinct and worthwhile test, but its independently available features do not identify alternate lift histories. Full gauge follows only if trace exhaustiveness is explicitly added. Bounded-horizon self-presentation supports the possibility of nontrace content rather than proving it absent."
+}

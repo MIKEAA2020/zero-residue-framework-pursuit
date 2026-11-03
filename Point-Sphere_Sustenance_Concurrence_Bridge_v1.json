@@ -1,0 +1,60 @@
+{
+  "scope": "C1c declared typed-law implementation; not a proof of metaphysical sustenance.",
+  "parent_sets": {
+    "w_next": [
+      "w",
+      "a1",
+      "a2"
+    ],
+    "o1": [
+      "w_next",
+      "n1"
+    ],
+    "o2": [
+      "w_next",
+      "n2"
+    ],
+    "k1": [
+      "o1"
+    ],
+    "k2": [
+      "o2"
+    ],
+    "v1": [
+      "w_next"
+    ],
+    "v2": [
+      "w_next"
+    ]
+  },
+  "history_do_a1_0": {
+    "w_next": 0,
+    "o1": 0,
+    "o2": 1,
+    "k1": 0,
+    "k2": 1,
+    "v1": 0,
+    "v2": 0
+  },
+  "history_do_a1_1": {
+    "w_next": 1,
+    "o1": 1,
+    "o2": 0,
+    "k1": 1,
+    "k2": 0,
+    "v1": -1,
+    "v2": -1
+  },
+  "actual_event_counts": {
+    "do_a1_0": 7,
+    "do_a1_1": 7,
+    "same_run_without_sustenance": 0
+  },
+  "B1_actual_event_law_check": true,
+  "B2_parent_set_exclusion_check": true,
+  "B3_counterfactual_difference_preserved": true,
+  "both_distinct_histories_have_sustained_tokens": true,
+  "finite_access_remains_partial": true,
+  "negative_valence_in_sustained_history": true,
+  "all_registered_C1c_checks_pass": true
+}

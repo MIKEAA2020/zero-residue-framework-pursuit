@@ -1,0 +1,364 @@
+# Point–Sphere Limit–Physics PS-LP-2
+## Parallel weak- and strong-simplicity core preregistration
+
+**Status:** Preregistered only; no physics result is claimed in this document.
+
+**Fresh candidates:**
+
+- **PS-LP-2W:** weak simplicity with a positive, nonpartitive immanent self-limitation core.
+- **PS-LP-2S:** strong simplicity with a privative-limit core and no real internal formal differentiation.
+
+These are separate fresh candidates. Neither is an amendment to PS-LP-1, WSP-1 through WSP-11, strict Point–Sphere/Appearance, PSR-5, PPA, EMC, or PED-1.
+
+**User-directed target:** Test which, if either, can begin to generate a prephysical structure that could later support an actual derivation of space, time, and physics. Space, time, physical observers, known physical laws, and physical fields may not appear as inputs.
+
+---
+
+## 1. Why the relational/perspectival option is excluded from this test
+
+The ordinary relational/perspectival formulation uses a finite frame, standpoint, observer, or view. If those are already physical, spatial, temporal, or embodied, it presupposes what the proposal aims to derive:
+
+\[
+\mathsf{AlreadyPhysicalFrame}
+\longrightarrow
+\mathsf{SpaceTime}
+\longrightarrow
+\mathsf{Sphere}
+\]
+
+is circular for the present purpose.
+
+A wholly prephysical frame theory is not proved impossible. But no such theory has been specified, and it would be a distinct future candidate. PS-LP-2 therefore tests only the immanent and privative routes.
+
+---
+
+## 2. Shared target and scope controls
+
+Point and Sphere remain nonliteral:
+
+\[
+\mathsf{Point}\neq\text{geometrical point},
+\qquad
+\mathsf{Sphere}\neq\text{geometrical sphere}.
+\]
+
+The Point is stipulated in both candidates to have no proper parts, no independent constituents, no spatial location, and no temporal index:
+
+\[
+\mathsf{BasePoint}(P)
+:iff
+\mathsf{NoProperParts}(P)
+\land
+\mathsf{NoIndependentConstituents}(P)
+\land
+\mathsf{NoSpatialLocation}(P)
+\land
+\mathsf{NoTemporalIndex}(P).
+\]
+
+The shared physics target is staged:
+
+\[
+\begin{array}{c|l}
+\mathsf{B0} & \text{a noncircular, typed prephysical limit grammar}\\
+\mathsf{B1} & \text{a determinate, nonphysical structural output }\mathcal X\\
+\mathsf{B2} & \text{a derived arena or equivalent }\mathcal M\\
+\mathsf{B3} & \text{a derived geometry/causal structure }\mathcal G\\
+\mathsf{B4} & \text{a derived temporal/change account }\mathcal T\\
+\mathsf{B5} & \text{states, dynamics, observables, and a recovery target}
+\end{array}
+\]
+
+The sole authorized audit for PS-LP-2 is B0–B1. It cannot claim B2–B5.
+
+\[
+\mathsf{B0Pass}
+\land
+\mathsf{B1Pass}
+\not\Rightarrow
+\mathsf{B2Pass}
+\lor
+\mathsf{B3Pass}
+\lor
+\mathsf{B4Pass}
+\lor
+\mathsf{B5Pass}.
+\]
+
+---
+
+## 3. Noncircularity and expiry
+
+For either candidate, an acceptable limit grammar must satisfy:
+
+\[
+\mathsf{AdmissibleLimitGrammar}(L)
+:iff
+\mathsf{Typed}(L)
+\land
+\mathsf{PositiveOrDeterminateContent}(L)
+\land
+\mathsf{PrePhysical}(L)
+\land
+\mathsf{NoIndependentDomain}(L)
+\land
+\mathsf{NoBruteSelector}(L).
+\]
+
+“PrePhysical” excludes using as an input: extension, distance, dimension, duration, succession, causal process, physical fields, particles, energy, measurement, already embodied observers, a metric, coordinates, or a known physical theory.
+
+A grammar must also yield a determinate output:
+
+\[
+\mathsf{B1Pass}(C)
+\Longrightarrow
+\mathsf{Derives}(C,\mathcal X)
+\land
+\mathsf{Nontrivial}(\mathcal X)
+\land
+\mathsf{NoExternalSelection}(\mathcal X).
+\]
+
+PS-LP-2W and PS-LP-2S each expire after the one B0–B1 audit specified in Sections 6–7. Any added operation, source of determinations, positive range, exclusion token, selection principle, or bridge to geometry thereafter requires a later fresh candidate.
+
+\[
+\mathsf{Expiry}(C)
+:=
+\mathsf{Complete}(\mathsf{B0Audit}(C)\land\mathsf{B1Audit}(C)).
+\]
+
+---
+
+## 4. PS-LP-2W: weak-simplicity, immanent self-limitation
+
+### 4.1 Core definition
+
+Weak simplicity is fixed as:
+
+\[
+\mathsf{WeakSimple}(P)
+:iff
+\mathsf{NoProperParts}(P)
+\land
+\mathsf{NoIndependentConstituents}(P).
+\]
+
+PS-LP-2W introduces one positive primitive: an **immanent formal determination token** \(d\). It is not a spatial direction, temporal event, separate being, physical field, or part of \(P\).
+
+\[
+\mathsf{WCore}
+:=
+\mathsf{BasePoint}(P)
+\land
+\mathsf{WeakSimple}(P)
+\land
+\mathsf{ImmanentFormalToken}(d,P).
+\]
+
+The registered prephysical grammar is the idempotent self-limitation syntax:
+
+\[
+\mathsf{WTerm}
+::=
+\mathbf 1
+\mid
+d
+\mid
+(\mathsf{WTerm}\sqcap\mathsf{WTerm}),
+\]
+
+with the registered equations:
+
+\[
+d\sqcap d=d,
+\qquad
+\mathbf 1\sqcap d=d,
+\qquad
+d\sqcap\mathbf 1=d.
+\]
+
+A term identifies a formal profile of the same Point rather than a component of it:
+
+\[
+\Sigma_w
+:=
+\mathsf{Profile}(P,w),
+\qquad
+\neg\mathsf{PartOf}(\Sigma_w,P),
+\qquad
+\neg\mathsf{IndependentBeing}(\Sigma_w).
+\]
+
+The candidate’s noncircular definition of its limit relation is therefore:
+
+\[
+\Lambda^{W}_{w}(P)
+:=
+\mathsf{Profile}(P,w)
+\quad
+\text{for a term }w\text{ generated by }\mathsf{WTerm}.
+\]
+
+This definition is deliberately minimal. It does not state that the token is nonbrute, that more than one token exists, that a profile is actual, or that any profile is physical. Those are audit burdens, not imported conclusions.
+
+### 4.2 Fairness conditions for W
+
+W passes B0 only if its positive token is shown to be nonpartitive, nonindependent, nonspatial, nontemporal, and nonbrute. It passes B1 only if the grammar itself yields a determinate nontrivial \(\mathcal X\) without importing an index set, profile range, selector, or external possibility-domain.
+
+\[
+\mathsf{PositiveFormalToken}(d)
+\not\Rightarrow
+\mathsf{NonBrute}(d)
+\lor
+\mathsf{PhysicsGenerating}(d).
+\]
+
+---
+
+## 5. PS-LP-2S: strong-simplicity, privative limitation
+
+### 5.1 Core definition
+
+Strong simplicity is fixed for this candidate as:
+
+\[
+\mathsf{StrongSimple}(P)
+:iff
+\mathsf{NoProperParts}(P)
+\land
+\mathsf{NoComposition}(P)
+\land
+\mathsf{NoRealInternalFormalDifferentiation}(P).
+\]
+
+PS-LP-2S does not introduce a positive immanent determination token. It instead starts with a bare privative operator \(\ominus\), read only as “absence of determination,” and the neutral term \(\varnothing\):
+
+\[
+\mathsf{SCore}
+:=
+\mathsf{BasePoint}(P)
+\land
+\mathsf{StrongSimple}(P)
+\land
+\mathsf{PrivativeOperator}(\ominus).
+\]
+
+The registered privative grammar is:
+
+\[
+\mathsf{STerm}
+::=
+\varnothing
+\mid
+\ominus\mathsf{STerm}
+\mid
+(\mathsf{STerm}\sqcap\mathsf{STerm}).
+\]
+
+The intended Sphere-role is:
+
+\[
+\Lambda^{S}_{s}(P)
+:=
+\mathsf{PrivativeProfile}(P,s)
+\quad
+\text{for a term }s\text{ generated by }\mathsf{STerm}.
+\]
+
+No positive attribute, independent possibility domain, selected alternative, or physical structure is included in the initial grammar. This lets the audit test whether a strictly privative grammar can yield a determinate nontrivial output on its own terms.
+
+### 5.2 Fairness conditions for S
+
+S is not rejected merely for being privative. It passes B0 only if the grammar has determinate content without concealed positive range. It passes B1 only if it derives a nontrivial \(\mathcal X\) without adding a positive contrast class, independent possibility-domain, selector, or brute fact.
+
+\[
+\mathsf{PrivativeVocabulary}
+\not\Rightarrow
+\mathsf{EmptyOrIncoherent}.
+\]
+
+Conversely:
+
+\[
+\mathsf{PrivativeVocabulary}
+\not\Rightarrow
+\mathsf{DeterminatePhysicsGrammar}.
+\]
+
+---
+
+## 6. B0 audit protocol
+
+For W, test:
+
+\[
+\begin{array}{c|l}
+\mathsf{W0.1} & \text{is }d\text{ positively and prephysically typed?}\\
+\mathsf{W0.2} & \text{is }d\text{ nonpartitive and nonindependent rather than merely named so?}\\
+\mathsf{W0.3} & \text{is }d\text{ nonbrute and is no range or selector imported?}\\
+\mathsf{W0.4} & \text{does }\mathsf{WTerm}\text{ generate more than a trivial profile distinction?}
+\end{array}
+\]
+
+For S, test:
+
+\[
+\begin{array}{c|l}
+\mathsf{S0.1} & \text{does }\ominus\text{ have determinate grammar without a positive range?}\\
+\mathsf{S0.2} & \text{does }\mathsf{STerm}\text{generate nontrivial distinctions from its stated basis?}\\
+\mathsf{S0.3} & \text{does it avoid an independent possibility domain and hidden selector?}\\
+\mathsf{S0.4} & \text{does it avoid silently restoring real positive internal differentiation?}
+\end{array}
+\]
+
+---
+
+## 7. B1 audit protocol
+
+The B1 question is identical for W and S:
+
+\[
+\mathsf{B1Question}(C):
+\quad
+\text{Does the registered grammar yield one determinate, nontrivial, prephysical structure }\mathcal X?
+\]
+
+An acceptable \(\mathcal X\) must be explicitly specified and must not be a name for physical space, time, a field, a causal order, a metric, or an observer. It must be generated by the grammar rather than stipulated as a result.
+
+\[
+\mathsf{Derives}(C,\mathcal X)
+\not\equiv
+\mathsf{Labels}(C,\mathcal X).
+\]
+
+---
+
+## 8. Prohibited interpretations and result discipline
+
+The audit may not:
+
+- infer actual finite modes merely from the formal grammars;
+- infer a physical field, public truth/error, phenomenal content, normativity, a metric, time, physics, or a selector solution;
+- treat a repeated token or a negation sign as physical multiplicity or as a physical process;
+- call a supplied mathematical domain intrinsic to the Point without an independent noncomposition bridge;
+- use failure of this one grammar to refute all weak-simplicity or all strong-simplicity theories;
+- treat a B0/B1 result as a comparative truth verdict.
+
+The only permitted outcomes are B0/B1 Pass, Incomplete, Blocked, Underdetermined, or NoConclusion, each strictly scoped to W or S.
+
+---
+
+## 9. Pre-audit scope statement
+
+The two candidates make different risks visible:
+
+\[
+\begin{array}{c|c|c}
+\text{candidate} & \text{resource} & \text{main burden}\\
+\hline
+\mathsf{PS\text{-}LP\text{-}2W} & \text{positive immanent token }d & \text{nonbrute and noncomposite determination}\\
+\mathsf{PS\text{-}LP\text{-}2S} & \text{purely privative operator }\ominus & \text{determinate grammar without hidden positive structure}
+\end{array}
+\]
+
+The next audit will determine only whether either minimal core reaches a nontrivial prephysical output. It will not determine which worldview is true.

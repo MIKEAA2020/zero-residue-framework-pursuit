@@ -1,0 +1,236 @@
+{
+  "scope": "Finite model-theoretic entailment audit. The protected identity and one-ground condition are represented without an additional cross-context identity, overlap, or shared-order axiom. No physical records, factorisation, external time, or robust-record law is assumed.",
+  "target": "PRI(P): every participating context has a distinct partner sharing an ordered pair of contents.",
+  "models": {
+    "path_pairs_core_unity_countermodel": {
+      "contexts": {
+        "C01": [
+          0,
+          1
+        ],
+        "C02": [
+          0,
+          2
+        ],
+        "C13": [
+          1,
+          3
+        ]
+      },
+      "orders": {
+        "C01": [
+          [
+            0,
+            1
+          ]
+        ],
+        "C02": [
+          [
+            0,
+            2
+          ]
+        ],
+        "C13": [
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "core_identity_and_one_ground_hold": true,
+      "AP3N_style_internal_order_and_overlap_coherence_hold": true,
+      "public_retentional_interface_PRI_holds": false,
+      "retentional_partners": {
+        "C01": [],
+        "C02": [],
+        "C13": []
+      }
+    },
+    "star_pairs_single_shared_content_countermodel": {
+      "contexts": {
+        "C01": [
+          0,
+          1
+        ],
+        "C02": [
+          0,
+          2
+        ],
+        "C03": [
+          0,
+          3
+        ]
+      },
+      "orders": {
+        "C01": [
+          [
+            0,
+            1
+          ]
+        ],
+        "C02": [
+          [
+            0,
+            2
+          ]
+        ],
+        "C03": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      "core_identity_and_one_ground_hold": true,
+      "AP3N_style_internal_order_and_overlap_coherence_hold": true,
+      "public_retentional_interface_PRI_holds": false,
+      "retentional_partners": {
+        "C01": [],
+        "C02": [],
+        "C03": []
+      }
+    },
+    "two_common_contents_without_shared_order_countermodel": {
+      "contexts": {
+        "C1": [
+          "a1",
+          "g1",
+          "g2"
+        ],
+        "C2": [
+          "a2",
+          "g1",
+          "g2"
+        ],
+        "C3": [
+          "a3",
+          "g1",
+          "g2"
+        ]
+      },
+      "orders": {
+        "C1": [
+          [
+            "g1",
+            "a1"
+          ]
+        ],
+        "C2": [
+          [
+            "g1",
+            "a2"
+          ]
+        ],
+        "C3": [
+          [
+            "g1",
+            "a3"
+          ]
+        ]
+      },
+      "core_identity_and_one_ground_hold": true,
+      "AP3N_style_internal_order_and_overlap_coherence_hold": true,
+      "public_retentional_interface_PRI_holds": false,
+      "retentional_partners": {
+        "C1": [],
+        "C2": [],
+        "C3": []
+      }
+    },
+    "IAR_like_positive_control": {
+      "contexts": {
+        "C012": [
+          0,
+          1,
+          2
+        ],
+        "C013": [
+          0,
+          1,
+          3
+        ]
+      },
+      "orders": {
+        "C012": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "C013": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "core_identity_and_one_ground_hold": true,
+      "AP3N_style_internal_order_and_overlap_coherence_hold": true,
+      "public_retentional_interface_PRI_holds": true,
+      "retentional_partners": {
+        "C012": [
+          {
+            "partner": "C013",
+            "overlap": [
+              0,
+              1
+            ],
+            "ordered_pairs": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        ],
+        "C013": [
+          {
+            "partner": "C012",
+            "overlap": [
+              0,
+              1
+            ],
+            "ordered_pairs": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "bridge_ladder": {
+    "U0": "Every mode is of the one G. This is compatible with disjoint contexts.",
+    "U1": "Relevant modes share at least one token-identical content. Star countermodel shows this is insufficient.",
+    "U2": "Relevant modes share at least two token-identical contents. Unordered-trace countermodel shows this is insufficient.",
+    "U3": "Relevant modes share two contents carrying the same inherited nontrivial order. This is PRI itself, not a derivation from U0."
+  },
+  "registered_checks": {
+    "path_survivor_satisfies_core_unity_but_fails_PRI": true,
+    "star_survivor_has_common_content_but_fails_two_content_interface": true,
+    "two_common_contents_plus_coherent_internal_order_do_not_entail_shared_ordered_trace": true,
+    "IAR_like_positive_control_satisfies_PRI": true,
+    "bridge_stating_shared_ordered_trace_is_not_counted_as_core_derivation": true,
+    "result_not_misreported_as_rejection_of_conditional_AP4A_result": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "K plus the bare one-ground/unity supplement does not entail PRI. Neither one shared content nor two shared contents plus AP3N-style coherent local order entails a shared ordered record trace. AP4A therefore remains a valid conditional IAR-like discriminator; any unity-to-interface route needs a separately stated and independently defended bridge."
+}

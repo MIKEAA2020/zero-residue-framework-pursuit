@@ -1,0 +1,88 @@
+{
+  "repository": "MIKEAA2020/arena-max--physics",
+  "branch": "main",
+  "commit": "b85fb82",
+  "snapshot_date": "2026-10-19",
+  "files": [
+    {
+      "path": "sources/Lighthouse-and-Plan-v2.2.md",
+      "bytes": 386529,
+      "sha256": "73d17115ced0f12fd50283645c095b29cf55afb4316babd13117cbfd789819c3"
+    },
+    {
+      "path": "sources/clues/clue-01-master-synthesis.md",
+      "bytes": 14602,
+      "sha256": "37df986ac210eafdfe8161a54ee278d65f48f58fb40e2dab1ff813cedde64202"
+    },
+    {
+      "path": "sources/clues/clue-02-specification-and-GPP.md",
+      "bytes": 22273,
+      "sha256": "9f701a42b7e28fbe78e71d77c195cd557c3b6042edcc2ecd32011f906d0ac141"
+    },
+    {
+      "path": "sources/clues/clue-03-lighthouse-v1.0.md",
+      "bytes": 61960,
+      "sha256": "c615df3c01c6a43abeb742d6c3dd3399557a72a2ccaf8cf0d59de1e1637adf7b"
+    },
+    {
+      "path": "sources/clues/clue-04-time-without-external-clock-v2.0.md",
+      "bytes": 132068,
+      "sha256": "33249ab9c06514f1d338b67ac0d9babc54bce95a6743562e74e27fe2d75f5571"
+    },
+    {
+      "path": "sources/clues/clue-05-opfibration-ontology-rev2.8.md",
+      "bytes": 173716,
+      "sha256": "c8382bf71bf8cbb0884ae1bf6a5e8e19247058320ce1406e21e086973ea70dff"
+    },
+    {
+      "path": "sources/clues/clue-09-deepseek-time-as-output.md",
+      "bytes": 10539,
+      "sha256": "6ae4a581e340ddcd0a6ea2b007f302724c23efb73aa7895ce90b0cf6d65ad7e4"
+    },
+    {
+      "path": "sources/clues/clue-10-web-trail.md",
+      "bytes": 2374,
+      "sha256": "54367a6106c811091815fdba3bee190b2695bd22274c44e0a3e9b20d95d27cdd"
+    },
+    {
+      "path": "sources/clues/clue-11-four-articles.md",
+      "bytes": 1987,
+      "sha256": "857979e6c53458e8d7c8939b84fe471ea54399fdde73cbcc30e841938c16b660"
+    },
+    {
+      "path": "sources/clues/clue-13-quantum-circuits-and-problem-of-time.md",
+      "bytes": 12976,
+      "sha256": "903495cc64917b1d2ed3d9fbccf9e2a291f49677d91d83da6ce76ee789dac17a"
+    },
+    {
+      "path": "sources/assessments/clue-11-zero-bohm-tes-review.md",
+      "bytes": 11861,
+      "sha256": "910090aef9f12af7a06ded50b0661e3ef2a4cdfceb85df6af36214cb3b02c0ee"
+    },
+    {
+      "path": "sources/assessments/clue-12-arrow-illusion-bayesian-brain-review.md",
+      "bytes": 7698,
+      "sha256": "92ff2b29ee2a6ea08f325aa18a288727fe53673b37f2dfd08d51fb765988f395"
+    },
+    {
+      "path": "sources/assessments/time-as-output-review.md",
+      "bytes": 12166,
+      "sha256": "4c1ca231365f6da2fc86abe19e95ca8ade06621e7480a3d0217083d7d15ded94"
+    },
+    {
+      "path": "sources/assessments/web-search-dossier.md",
+      "bytes": 17565,
+      "sha256": "045fbb276c489ac5493febe8d8845af3791d04321af0c46cdc27bd4d33ef1b94"
+    },
+    {
+      "path": "sources/verification/clock_checks.py",
+      "bytes": 4826,
+      "sha256": "8ce558b473b82985343a3d61fa666ad73bbbbf455a15b54c35ac9e337aab5ae7"
+    },
+    {
+      "path": "sources/verification/clock_checks.log",
+      "bytes": 1069,
+      "sha256": "bb3f2514d325f8a51f8d3551e254342772b116c1a8e9af55917c19824cf1e8b6"
+    }
+  ]
+}

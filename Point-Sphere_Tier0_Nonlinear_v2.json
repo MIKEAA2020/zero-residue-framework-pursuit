@@ -1,0 +1,231 @@
+{
+  "scope": "Version-2 nonlinear intended-location generator check with a preregistered delayed-interface tracking target. No blind enumeration or count-recovery claim.",
+  "seed": 20261019,
+  "n_samples_after_burn_in": 50000,
+  "results": [
+    {
+      "system": "M1_v2_controller",
+      "nodes": [
+        "y1",
+        "y2",
+        "m",
+        "b",
+        "r"
+      ],
+      "n_samples": 50000,
+      "intended_candidate_count": 1,
+      "intended_candidates": [
+        {
+          "candidate": {
+            "A": [
+              0,
+              1,
+              2
+            ],
+            "B": [
+              3
+            ],
+            "R": [
+              4
+            ],
+            "M": 2
+          },
+          "D_exact_intervention_defect": 0.0,
+          "I_heldout_joint_loss_gain": 0.09240150835868688,
+          "S_heldout_M_prediction_gain": 0.1262461480972008,
+          "L_tracking_loss_intact": 0.3522670445074179,
+          "L_tracking_loss_lesioned": 0.5963493915652609,
+          "L_tracking_loss_increase": 0.24408234705784299,
+          "P_one_step_predictive_persistence_gain": 0.1664309725173827
+        }
+      ]
+    },
+    {
+      "system": "M2_v2_two_controllers",
+      "nodes": [
+        "y1_a",
+        "y2_a",
+        "m_a",
+        "b_a",
+        "r_a",
+        "y1_b",
+        "y2_b",
+        "m_b",
+        "b_b",
+        "r_b"
+      ],
+      "n_samples": 50000,
+      "intended_candidate_count": 2,
+      "intended_candidates": [
+        {
+          "candidate": {
+            "A": [
+              0,
+              1,
+              2
+            ],
+            "B": [
+              3
+            ],
+            "R": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "M": 2
+          },
+          "D_exact_intervention_defect": 0.0,
+          "I_heldout_joint_loss_gain": 0.09075880541397552,
+          "S_heldout_M_prediction_gain": 0.12425462981895752,
+          "L_tracking_loss_intact": 0.34518253042173697,
+          "L_tracking_loss_lesioned": 0.6012668778129688,
+          "L_tracking_loss_increase": 0.25608434739123187,
+          "P_one_step_predictive_persistence_gain": 0.16125876030003194
+        },
+        {
+          "candidate": {
+            "A": [
+              5,
+              6,
+              7
+            ],
+            "B": [
+              8
+            ],
+            "R": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              9
+            ],
+            "M": 7
+          },
+          "D_exact_intervention_defect": 0.0,
+          "I_heldout_joint_loss_gain": 0.09174780405056471,
+          "S_heldout_M_prediction_gain": 0.12510338907661844,
+          "L_tracking_loss_intact": 0.34864144024004,
+          "L_tracking_loss_lesioned": 0.5958493082180364,
+          "L_tracking_loss_increase": 0.24720786797799638,
+          "P_one_step_predictive_persistence_gain": 0.16495210252832615
+        }
+      ]
+    },
+    {
+      "system": "M3_v2_exterior_bypass",
+      "nodes": [
+        "y1_a",
+        "y2_a",
+        "m_a",
+        "b_a",
+        "r_a",
+        "y1_b",
+        "y2_b",
+        "m_b",
+        "b_b",
+        "r_b"
+      ],
+      "n_samples": 50000,
+      "intended_candidate_count": 0,
+      "intended_candidates": [
+        {
+          "candidate": {
+            "A": [
+              0,
+              1,
+              2
+            ],
+            "B": [
+              3
+            ],
+            "R": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "M": 2
+          },
+          "D_exact_intervention_defect": 0.23036427305396429,
+          "I_heldout_joint_loss_gain": 0.08117836783213628,
+          "S_heldout_M_prediction_gain": 0.10796922948801624,
+          "L_tracking_loss_intact": 0.3558926487747958,
+          "L_tracking_loss_lesioned": 0.6066011001833639,
+          "L_tracking_loss_increase": 0.25070845140856807,
+          "P_one_step_predictive_persistence_gain": 0.1453019852278239
+        },
+        {
+          "candidate": {
+            "A": [
+              5,
+              6,
+              7
+            ],
+            "B": [
+              8
+            ],
+            "R": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              9
+            ],
+            "M": 7
+          },
+          "D_exact_intervention_defect": 0.23036427305396417,
+          "I_heldout_joint_loss_gain": 0.0831467185237258,
+          "S_heldout_M_prediction_gain": 0.11149692822616053,
+          "L_tracking_loss_intact": 0.35355892648774795,
+          "L_tracking_loss_lesioned": 0.5988914819136523,
+          "L_tracking_loss_increase": 0.24533255542590432,
+          "P_one_step_predictive_persistence_gain": 0.15025074613439549
+        }
+      ]
+    },
+    {
+      "system": "M4_v2_memory_without_use",
+      "nodes": [
+        "y1",
+        "y2",
+        "m",
+        "b",
+        "r"
+      ],
+      "n_samples": 50000,
+      "intended_candidate_count": 0,
+      "intended_candidates": [
+        {
+          "candidate": {
+            "A": [
+              0,
+              1,
+              2
+            ],
+            "B": [
+              3
+            ],
+            "R": [
+              4
+            ],
+            "M": 2
+          },
+          "D_exact_intervention_defect": 0.0,
+          "I_heldout_joint_loss_gain": 0.0010425136564734538,
+          "S_heldout_M_prediction_gain": -1.9373274762757298e-06,
+          "L_tracking_loss_intact": 0.5959326554425738,
+          "L_tracking_loss_lesioned": 0.5959326554425738,
+          "L_tracking_loss_increase": 0.0,
+          "P_one_step_predictive_persistence_gain": 0.06588824230318108
+        }
+      ]
+    }
+  ]
+}

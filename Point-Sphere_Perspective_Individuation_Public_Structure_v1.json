@@ -1,0 +1,38 @@
+{
+  "scope": "C2 finite structural diagnostic; no claim that graph carriers are conscious subjects.",
+  "carrier_criterion_results": {
+    "p1_core": true,
+    "p1_extended": true,
+    "p2_core": true,
+    "p2_extended": true,
+    "mixed_s1_m2_a1": false,
+    "world_absorbing": false
+  },
+  "nested_scope_checks": {
+    "p1_core_proper_subset_extended": true,
+    "p2_core_proper_subset_extended": true
+  },
+  "carrier_intersection": [],
+  "coverage_intersection": [
+    "w"
+  ],
+  "shared_interface_only": true,
+  "action_effect_fraction_on_public_future": {
+    "a1": 1.0,
+    "a2": 1.0
+  },
+  "sensor_public_state_preimages": {
+    "0": [
+      0,
+      1
+    ],
+    "1": [
+      0,
+      1
+    ]
+  },
+  "finite_access_non_omniscient": true,
+  "index_swap_equivariance": true,
+  "sustenance_preserves_created_checks": true,
+  "all_registered_C2_checks_pass": true
+}

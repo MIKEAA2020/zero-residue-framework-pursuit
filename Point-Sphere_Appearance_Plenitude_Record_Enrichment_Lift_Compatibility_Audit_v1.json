@@ -1,0 +1,39 @@
+{
+  "scope": "Conditional comparison of explicit record enrichments after IFG_P1 adoption. It is not a physical record theory or a derivation of public objectivity.",
+  "common_base": {
+    "lifts": 16,
+    "P1_grammar_level_components": 8,
+    "phase_count_per_component": "aleph_0"
+  },
+  "enrichment_results": {
+    "R_trace_AP4C1_style": {
+      "recorded_content": "shared ordered trace only",
+      "preserving_group": "H_full=(Z2)^4",
+      "lift_description_classes": 1
+    },
+    "R_J_within_component_comparator": {
+      "recorded_content": "J_s=c xor d=f(s)",
+      "preserving_group": "identity only",
+      "lift_description_classes": 16
+    },
+    "R_I_cross_sector_relative_record": {
+      "recorded_content": "three-bit rho(f) relative signature",
+      "preserving_group": "H_uniform=Z2",
+      "lift_description_classes": 8
+    }
+  },
+  "registered_checks": {
+    "trace_only_record_is_invariant_under_full_Q_fibre_redefinitions": true,
+    "trace_record_enrichment_has_one_lift_class": true,
+    "intrinsic_J_record_is_not_full_gauge_invariant": true,
+    "J_record_enrichment_has_sixteen_lift_classes": true,
+    "relative_I_record_is_invariant_under_uniform_complement": true,
+    "relative_I_record_is_not_invariant_under_full_group": true,
+    "I_record_enrichment_has_eight_lift_classes": true,
+    "all_enrichments_leave_eight_P1_grammar_components_as_graph_count": true,
+    "no_enrichment_is_selected_without_independent_content_warrant": true,
+    "non_gauge_aspects_are_not_treated_as_competitors_for_single_actuality": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "IFG_P1 is compatible with multiple explicit record enrichments. The existing trace-only AP4C1-style law preserves the one minimal lift description class; a within-component comparator record yields 16 classes; a cross-sector relative record yields 8. The postulate therefore enables a transparent conditional record comparison but does not select an enrichment or generate public physical objectivity."
+}

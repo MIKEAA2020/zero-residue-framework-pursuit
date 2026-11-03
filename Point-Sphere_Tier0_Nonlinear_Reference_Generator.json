@@ -1,0 +1,224 @@
+{
+  "scope": "Phase-1 nonlinear reference generator. Metrics are evaluated at intended candidate locations; blind enumeration, estimator calibration, and registered count recovery remain open.",
+  "seed": 20261018,
+  "generator": "binary logistic controlled Markov systems with fixed pairwise nonlinear terms",
+  "n_samples_after_burn_in": 50000,
+  "results": [
+    {
+      "system": "M1_one_integrated_controller",
+      "nodes": [
+        "y1",
+        "y2",
+        "m",
+        "b",
+        "r"
+      ],
+      "n_nodes": 5,
+      "n_samples": 50000,
+      "intended_candidate_count": 1,
+      "intended_candidates": [
+        {
+          "candidate": {
+            "A": [
+              0,
+              1,
+              2
+            ],
+            "B": [
+              3
+            ],
+            "R": [
+              4
+            ],
+            "M": 2
+          },
+          "D_exact_intervention_defect": 0.0,
+          "I_heldout_joint_loss_gain": 0.02429436424747955,
+          "S_heldout_M_prediction_gain": 0.010606057393806934,
+          "L_lesion_disparity_cost_increase": -0.01050000000000001,
+          "P_one_step_predictive_persistence_gain": 0.04202639047198142
+        }
+      ]
+    },
+    {
+      "system": "M2_two_independent_controllers",
+      "nodes": [
+        "y1_a",
+        "y2_a",
+        "m_a",
+        "b_a",
+        "r_a",
+        "y1_b",
+        "y2_b",
+        "m_b",
+        "b_b",
+        "r_b"
+      ],
+      "n_nodes": 10,
+      "n_samples": 50000,
+      "intended_candidate_count": 2,
+      "intended_candidates": [
+        {
+          "candidate": {
+            "A": [
+              0,
+              1,
+              2
+            ],
+            "B": [
+              3
+            ],
+            "R": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "M": 2
+          },
+          "D_exact_intervention_defect": 0.0,
+          "I_heldout_joint_loss_gain": 0.02433078146240153,
+          "S_heldout_M_prediction_gain": 0.01044093986364425,
+          "L_lesion_disparity_cost_increase": -0.005750000000000033,
+          "P_one_step_predictive_persistence_gain": 0.044402094491446054
+        },
+        {
+          "candidate": {
+            "A": [
+              5,
+              6,
+              7
+            ],
+            "B": [
+              8
+            ],
+            "R": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              9
+            ],
+            "M": 7
+          },
+          "D_exact_intervention_defect": 0.0,
+          "I_heldout_joint_loss_gain": 0.023663568011805136,
+          "S_heldout_M_prediction_gain": 0.010245036294381782,
+          "L_lesion_disparity_cost_increase": -0.012833333333333308,
+          "P_one_step_predictive_persistence_gain": 0.0434813017165242
+        }
+      ]
+    },
+    {
+      "system": "M3_exterior_bypass_false_positive",
+      "nodes": [
+        "y1_a",
+        "y2_a",
+        "m_a",
+        "b_a",
+        "r_a",
+        "y1_b",
+        "y2_b",
+        "m_b",
+        "b_b",
+        "r_b"
+      ],
+      "n_nodes": 10,
+      "n_samples": 50000,
+      "intended_candidate_count": 0,
+      "intended_candidates": [
+        {
+          "candidate": {
+            "A": [
+              0,
+              1,
+              2
+            ],
+            "B": [
+              3
+            ],
+            "R": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "M": 2
+          },
+          "D_exact_intervention_defect": 0.23309856515107646,
+          "I_heldout_joint_loss_gain": 0.022054660216734412,
+          "S_heldout_M_prediction_gain": 0.00982226176572143,
+          "L_lesion_disparity_cost_increase": -0.00883333333333336,
+          "P_one_step_predictive_persistence_gain": 0.04022320416881031
+        },
+        {
+          "candidate": {
+            "A": [
+              5,
+              6,
+              7
+            ],
+            "B": [
+              8
+            ],
+            "R": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              9
+            ],
+            "M": 7
+          },
+          "D_exact_intervention_defect": 0.23309856515107646,
+          "I_heldout_joint_loss_gain": 0.021472283755956445,
+          "S_heldout_M_prediction_gain": 0.009303906357650216,
+          "L_lesion_disparity_cost_increase": -0.012916666666666687,
+          "P_one_step_predictive_persistence_gain": 0.039280264149988975
+        }
+      ]
+    },
+    {
+      "system": "M4_memory_without_causal_use",
+      "nodes": [
+        "y1",
+        "y2",
+        "m",
+        "b",
+        "r"
+      ],
+      "n_nodes": 5,
+      "n_samples": 50000,
+      "intended_candidate_count": 0,
+      "intended_candidates": [
+        {
+          "candidate": {
+            "A": [
+              0,
+              1,
+              2
+            ],
+            "B": [
+              3
+            ],
+            "R": [
+              4
+            ],
+            "M": 2
+          },
+          "D_exact_intervention_defect": 0.0,
+          "I_heldout_joint_loss_gain": 0.01413428205355538,
+          "S_heldout_M_prediction_gain": -6.521464625541817e-06,
+          "L_lesion_disparity_cost_increase": 0.0,
+          "P_one_step_predictive_persistence_gain": 0.034884864173381436
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "scope": "Finite theory-level redefinition audit. The transformations act on descriptions of Q-side free valuation bits and map lift laws to lift laws. They are not silently added to AP3G as in-model gauge.",
+  "sector_order": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "canonical_lift_pattern": {
+    "00": 0,
+    "01": 0,
+    "10": 0,
+    "11": 0
+  },
+  "groups": {
+    "actual_AP3G_gauge_effect_on_lifts": {
+      "group_size": 1,
+      "orbit_count": 16,
+      "role": "no action on lift bits"
+    },
+    "uniform_global_Q_free_bit_complement": {
+      "group_size": 2,
+      "orbit_count": 8,
+      "orbit_size": 2
+    },
+    "full_trace_sector_dependent_Q_redefinitions": {
+      "group_size": 16,
+      "orbit_count": 1,
+      "orbit_size": 16
+    }
+  },
+  "interpretive_boundary": {
+    "full_group_status": "candidate theory-level field-redefinition group, not existing gauge",
+    "why_gauge_status_is_unsettled": "It changes valuation contents q_v in trace-dependent sectors; AP3G currently treats context and valuation as part of mode identity.",
+    "component_effect": "The redefinition maps one lift law to another while P-side theta labels can remain fixed. It does not by itself derive a unique physical/component interpretation."
+  },
+  "registered_checks": {
+    "there_are_sixteen_lifts": true,
+    "full_sector_dependent_redefinition_group_has_sixteen_elements": true,
+    "redefinitions_preserve_Q_valuation_legality_and_shared_trace": true,
+    "eta_h_composed_with_beta_f_equals_beta_f_plus_h": true,
+    "full_redefinition_group_is_transitive_on_lifts": true,
+    "uniform_global_complement_leaves_eight_lift_orbits": true,
+    "existing_AP3G_label_gauge_leaves_sixteen_lifts_distinct": true,
+    "full_redefinition_not_misreported_as_existing_AP3G_gauge": true,
+    "field_redefinition_not_misreported_as_core_derivation_or_public_record_law": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "The 16 trace-preserving lifts form one orbit under full sector-dependent Q-coordinate redefinitions, and eight orbits under a uniform global complement. Thus lift multiplicity can be treated as a field- redefinition torsor only if an additional gauge/redundancy principle is justified. Existing AP3G gauge does not do this, so no privileged lift is derived and no valuation-changing redefinition may yet be reported as physical redundancy."
+}

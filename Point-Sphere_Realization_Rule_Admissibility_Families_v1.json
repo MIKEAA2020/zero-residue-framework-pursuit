@@ -1,0 +1,111 @@
+{
+  "scope": "Frozen R1c toy diagnostic of genuine primitive structure. No metaphysical ranking or physics claim.",
+  "specification": "Point-Sphere_Realization_Rule_Admissibility_Families_v1_Specification.md",
+  "common_domain": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "full_symmetry_group_size": 24,
+  "D0_bare_determinate": {
+    "realized_set": [
+      0
+    ],
+    "S4_invariant": false,
+    "diagnostic": "A bare singleton is not invariant under the declared full symmetry."
+  },
+  "D1_marker_determinate": {
+    "variants": {
+      "0": {
+        "realized_set": [
+          0
+        ],
+        "S4_invariant": false
+      },
+      "1": {
+        "realized_set": [
+          1
+        ],
+        "S4_invariant": false
+      },
+      "2": {
+        "realized_set": [
+          2
+        ],
+        "S4_invariant": false
+      },
+      "3": {
+        "realized_set": [
+          3
+        ],
+        "S4_invariant": false
+      }
+    },
+    "marker_value_count": 4,
+    "marker_choice_bits": 2.0,
+    "diagnostic": "Changing m changes the output while common-domain structure stays fixed."
+  },
+  "O0_full_transitive_orbit": {
+    "realized_set": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "orbit_size": 4,
+    "S4_invariant": true,
+    "finite_uniform_measure": {
+      "0": 0.25,
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25
+    },
+    "measure_normalized": true,
+    "diagnostic": "The full orbit is symmetry-natural in the toy; the chosen C4 action remains a declared belt bridge."
+  },
+  "O1_restricted_orbit": {
+    "subgroup": "{e,(01)(23)}",
+    "seed": 0,
+    "realized_set": [
+      0,
+      1
+    ],
+    "orbit_size": 2,
+    "S4_invariant": false,
+    "subgroup_partition": "{0,1}|{2,3}",
+    "diagnostic": "The restricted orbit requires both subgroup/partition structure and a seed; it is not invariant under the full common symmetry."
+  },
+  "C_selector": {
+    "variants": {
+      "0": {
+        "realized_set": [
+          0
+        ],
+        "S4_invariant": false
+      },
+      "1": {
+        "realized_set": [
+          1
+        ],
+        "S4_invariant": false
+      },
+      "2": {
+        "realized_set": [
+          2
+        ],
+        "S4_invariant": false
+      },
+      "3": {
+        "realized_set": [
+          3
+        ],
+        "S4_invariant": false
+      }
+    },
+    "selector_value_count": 4,
+    "selector_choice_bits": 2.0,
+    "diagnostic": "Changing q changes the output while E/common-domain structure stays fixed."
+  },
+  "all_required_diagnostics_complete": true
+}

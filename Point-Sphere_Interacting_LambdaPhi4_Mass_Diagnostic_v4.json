@@ -1,0 +1,60 @@
+{
+  "scope": "Independent N=16 diagnostic at the v2/v3 interpolation candidate. Still pre-production.",
+  "m2": 0.05612,
+  "target_z": 4.0,
+  "burn": 1000,
+  "trajectories_per_chain": 10000,
+  "n_chains": 4,
+  "z_by_chain": [
+    4.1005196722474455,
+    4.36768082763007,
+    4.206296371677722,
+    3.9683284700452433
+  ],
+  "z_mean": 4.16070633540012,
+  "z_se_across_chains": 0.08443368667263453,
+  "z_95_approx": [
+    3.8920383444077973,
+    4.429374326392443
+  ],
+  "acceptance_by_chain": [
+    0.8677,
+    0.8624,
+    0.8688,
+    0.8687
+  ],
+  "diagnostics": {
+    "M": {
+      "tau_int_by_chain": [
+        16.674842197947196,
+        18.491049651472405,
+        12.9914572112328,
+        18.407041250265237
+      ],
+      "combined_approx_ess": 1081.604364109608,
+      "basic_split_rhat": 1.001406107023693
+    },
+    "G0": {
+      "tau_int_by_chain": [
+        7.27194869016692,
+        6.306395244440966,
+        6.201135501167181,
+        6.672319427305034
+      ],
+      "combined_approx_ess": 2750.2944330511937,
+      "basic_split_rhat": 1.0008975658467598
+    },
+    "Gp": {
+      "tau_int_by_chain": [
+        1.8247941727025077,
+        2.010410456096019,
+        2.2194962156036855,
+        2.07207786811798
+      ],
+      "combined_approx_ess": 9011.053886640739,
+      "basic_split_rhat": 1.000278367219744
+    }
+  },
+  "within_production_mass_band": false,
+  "note": "Production still requires the fixed ESS and 500-tau run-length conditions even if mass tuning succeeds."
+}

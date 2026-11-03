@@ -1,0 +1,9 @@
+# Credentials and local secrets
+.github_pat
+*.pat
+*.pat.txt
+
+# Python / OS by-products
+__pycache__/
+*.py[cod]
+.DS_Store

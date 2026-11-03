@@ -1,0 +1,317 @@
+{
+  "scope": "Conditional valuation-level completion of AP3P1. The canonical lift, phase-origin gauge, and component convention are newly declared grammar data. No external time, physical dynamics, or public-record law is modeled.",
+  "canonical_lift": {
+    "formula": "beta_0(a,b,c)=(a,b,c)",
+    "phase_gauge": "g: P phase -> Q phase -> P phase, preserving theta",
+    "combined_gauge": "Z phase-origin shifts x Z2 redundant description-label toggles"
+  },
+  "valuation_samples": [
+    {
+      "theta": [
+        0,
+        0,
+        0
+      ],
+      "P_valuation": {
+        "r0": 0,
+        "r1": 0,
+        "p_s": 0,
+        "p_v": 0
+      },
+      "Q_valuation_under_canonical_lift": {
+        "r0": 0,
+        "r1": 0,
+        "q_s": 0,
+        "q_v": 0
+      },
+      "P_constraint_satisfied": true,
+      "Q_constraint_satisfied": true,
+      "shared_trace_values_preserved": true,
+      "two_phase_step_returns_to_P_type_and_theta": true,
+      "g_k_commutes": true
+    },
+    {
+      "theta": [
+        0,
+        0,
+        1
+      ],
+      "P_valuation": {
+        "r0": 0,
+        "r1": 0,
+        "p_s": 0,
+        "p_v": 1
+      },
+      "Q_valuation_under_canonical_lift": {
+        "r0": 0,
+        "r1": 0,
+        "q_s": 0,
+        "q_v": 1
+      },
+      "P_constraint_satisfied": true,
+      "Q_constraint_satisfied": true,
+      "shared_trace_values_preserved": true,
+      "two_phase_step_returns_to_P_type_and_theta": true,
+      "g_k_commutes": true
+    },
+    {
+      "theta": [
+        0,
+        1,
+        0
+      ],
+      "P_valuation": {
+        "r0": 0,
+        "r1": 1,
+        "p_s": 0,
+        "p_v": 0
+      },
+      "Q_valuation_under_canonical_lift": {
+        "r0": 0,
+        "r1": 1,
+        "q_s": 1,
+        "q_v": 0
+      },
+      "P_constraint_satisfied": true,
+      "Q_constraint_satisfied": true,
+      "shared_trace_values_preserved": true,
+      "two_phase_step_returns_to_P_type_and_theta": true,
+      "g_k_commutes": true
+    },
+    {
+      "theta": [
+        0,
+        1,
+        1
+      ],
+      "P_valuation": {
+        "r0": 0,
+        "r1": 1,
+        "p_s": 0,
+        "p_v": 1
+      },
+      "Q_valuation_under_canonical_lift": {
+        "r0": 0,
+        "r1": 1,
+        "q_s": 1,
+        "q_v": 1
+      },
+      "P_constraint_satisfied": true,
+      "Q_constraint_satisfied": true,
+      "shared_trace_values_preserved": true,
+      "two_phase_step_returns_to_P_type_and_theta": true,
+      "g_k_commutes": true
+    },
+    {
+      "theta": [
+        1,
+        0,
+        0
+      ],
+      "P_valuation": {
+        "r0": 1,
+        "r1": 0,
+        "p_s": 1,
+        "p_v": 0
+      },
+      "Q_valuation_under_canonical_lift": {
+        "r0": 1,
+        "r1": 0,
+        "q_s": 0,
+        "q_v": 0
+      },
+      "P_constraint_satisfied": true,
+      "Q_constraint_satisfied": true,
+      "shared_trace_values_preserved": true,
+      "two_phase_step_returns_to_P_type_and_theta": true,
+      "g_k_commutes": true
+    },
+    {
+      "theta": [
+        1,
+        0,
+        1
+      ],
+      "P_valuation": {
+        "r0": 1,
+        "r1": 0,
+        "p_s": 1,
+        "p_v": 1
+      },
+      "Q_valuation_under_canonical_lift": {
+        "r0": 1,
+        "r1": 0,
+        "q_s": 0,
+        "q_v": 1
+      },
+      "P_constraint_satisfied": true,
+      "Q_constraint_satisfied": true,
+      "shared_trace_values_preserved": true,
+      "two_phase_step_returns_to_P_type_and_theta": true,
+      "g_k_commutes": true
+    },
+    {
+      "theta": [
+        1,
+        1,
+        0
+      ],
+      "P_valuation": {
+        "r0": 1,
+        "r1": 1,
+        "p_s": 1,
+        "p_v": 0
+      },
+      "Q_valuation_under_canonical_lift": {
+        "r0": 1,
+        "r1": 1,
+        "q_s": 1,
+        "q_v": 0
+      },
+      "P_constraint_satisfied": true,
+      "Q_constraint_satisfied": true,
+      "shared_trace_values_preserved": true,
+      "two_phase_step_returns_to_P_type_and_theta": true,
+      "g_k_commutes": true
+    },
+    {
+      "theta": [
+        1,
+        1,
+        1
+      ],
+      "P_valuation": {
+        "r0": 1,
+        "r1": 1,
+        "p_s": 1,
+        "p_v": 1
+      },
+      "Q_valuation_under_canonical_lift": {
+        "r0": 1,
+        "r1": 1,
+        "q_s": 1,
+        "q_v": 1
+      },
+      "P_constraint_satisfied": true,
+      "Q_constraint_satisfied": true,
+      "shared_trace_values_preserved": true,
+      "two_phase_step_returns_to_P_type_and_theta": true,
+      "g_k_commutes": true
+    }
+  ],
+  "declared_canonical_flow_components": {
+    "000": {
+      "component_invariant_theta": [
+        0,
+        0,
+        0
+      ],
+      "phase_types": "... P(theta) -> Q(beta_0(theta)) -> P(theta) -> ...",
+      "gauge_label_u_ignored_by_component_identity": true
+    },
+    "001": {
+      "component_invariant_theta": [
+        0,
+        0,
+        1
+      ],
+      "phase_types": "... P(theta) -> Q(beta_0(theta)) -> P(theta) -> ...",
+      "gauge_label_u_ignored_by_component_identity": true
+    },
+    "010": {
+      "component_invariant_theta": [
+        0,
+        1,
+        0
+      ],
+      "phase_types": "... P(theta) -> Q(beta_0(theta)) -> P(theta) -> ...",
+      "gauge_label_u_ignored_by_component_identity": true
+    },
+    "011": {
+      "component_invariant_theta": [
+        0,
+        1,
+        1
+      ],
+      "phase_types": "... P(theta) -> Q(beta_0(theta)) -> P(theta) -> ...",
+      "gauge_label_u_ignored_by_component_identity": true
+    },
+    "100": {
+      "component_invariant_theta": [
+        1,
+        0,
+        0
+      ],
+      "phase_types": "... P(theta) -> Q(beta_0(theta)) -> P(theta) -> ...",
+      "gauge_label_u_ignored_by_component_identity": true
+    },
+    "101": {
+      "component_invariant_theta": [
+        1,
+        0,
+        1
+      ],
+      "phase_types": "... P(theta) -> Q(beta_0(theta)) -> P(theta) -> ...",
+      "gauge_label_u_ignored_by_component_identity": true
+    },
+    "110": {
+      "component_invariant_theta": [
+        1,
+        1,
+        0
+      ],
+      "phase_types": "... P(theta) -> Q(beta_0(theta)) -> P(theta) -> ...",
+      "gauge_label_u_ignored_by_component_identity": true
+    },
+    "111": {
+      "component_invariant_theta": [
+        1,
+        1,
+        1
+      ],
+      "phase_types": "... P(theta) -> Q(beta_0(theta)) -> P(theta) -> ...",
+      "gauge_label_u_ignored_by_component_identity": true
+    }
+  },
+  "underdetermination": {
+    "trace_sectors": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "trace_preserving_lift_count": 16,
+    "canonical_flip_pattern": {
+      "00": 0,
+      "01": 0,
+      "10": 0,
+      "11": 0
+    },
+    "explanation": "Each of four (r0,r1) sectors may independently preserve or complement the free bit in a P-to-Q lift."
+  },
+  "registered_checks": {
+    "there_are_eight_AP3G_solutions_per_context": true,
+    "canonical_lift_maps_all_legal_P_valuations_to_legal_Q_valuations": true,
+    "canonical_lift_preserves_shared_trace_values": true,
+    "canonical_phase_action_returns_to_same_theta_after_two_steps": true,
+    "new_phase_shift_commutes_with_existing_AP3G_Z2_label_gauge": true,
+    "eight_theta_invariants_separate_declared_flow_components": true,
+    "exactly_sixteen_trace_preserving_lifts_exist": true,
+    "canonical_lift_not_misreported_as_uniquely_derived": true,
+    "valuation_lift_not_misreported_as_public_record_or_physical_time_law": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "AP3G valuations admit a gauge-covariant technical lift into the AP3P1 alternating phase grammar. The canonical lift preserves the shared trace and commutes with the existing redundant-label gauge, yielding eight declared valuation-labelled flow components. But sixteen equally trace-preserving lifts exist, so neither the canonical lift nor component individuation is selected by current constraints."
+}

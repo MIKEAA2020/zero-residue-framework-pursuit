@@ -1,0 +1,331 @@
+{
+  "scope": "Exact finite instances plus the elementary length-two Hamming-distance argument. Witnesses are two independently alterable symbols; an error may alter either whole symbol arbitrarily. No diagonal/repetition restriction is imposed.",
+  "instances": {
+    "2": {
+      "alphabet_size": 2,
+      "word_count": 4,
+      "distinct_codeword_pair_count": 6,
+      "maximum_distance": 2,
+      "every_distinct_pair_has_intersecting_radius_one_balls": true,
+      "sample_pairs": [
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            1,
+            0
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            1,
+            1
+          ],
+          "distance": 2,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            1
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            1
+          ],
+          "codeword_b": [
+            1,
+            0
+          ],
+          "distance": 2,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            1
+          ],
+          "codeword_b": [
+            1,
+            1
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            1
+          ]
+        },
+        {
+          "codeword_a": [
+            1,
+            0
+          ],
+          "codeword_b": [
+            1,
+            1
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    "3": {
+      "alphabet_size": 3,
+      "word_count": 9,
+      "distinct_codeword_pair_count": 36,
+      "maximum_distance": 2,
+      "every_distinct_pair_has_intersecting_radius_one_balls": true,
+      "sample_pairs": [
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            1,
+            0
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            1,
+            1
+          ],
+          "distance": 2,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            1
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            2
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            2,
+            0
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "4": {
+      "alphabet_size": 4,
+      "word_count": 16,
+      "distinct_codeword_pair_count": 120,
+      "maximum_distance": 2,
+      "every_distinct_pair_has_intersecting_radius_one_balls": true,
+      "sample_pairs": [
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            1,
+            0
+          ],
+          "distance": 1,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            0
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            1,
+            1
+          ],
+          "distance": 2,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            1
+          ]
+        },
+        {
+          "codeword_a": [
+            0,
+            0
+          ],
+          "codeword_b": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "radius_one_balls_intersect": true,
+          "one_intersection_word": [
+            0,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  "analytic_theorem": "For every C subset Sigma_1 x Sigma_2 with at least two codewords, the minimum Hamming distance is at most two. Unique correction of one arbitrary substitution requires minimum distance at least three. Therefore no such two-witness code exists.",
+  "registered_checks": {
+    "binary_all_length_two_codeword_pairs_have_intersecting_one_error_balls": true,
+    "ternary_all_length_two_codeword_pairs_have_intersecting_one_error_balls": true,
+    "quaternary_all_length_two_codeword_pairs_have_intersecting_one_error_balls": true,
+    "no_pair_distance_exceeds_two": true,
+    "analytic_distance_bound_covers_arbitrary_alphabets": true,
+    "no_go_not_misreported_as_core_derivation_of_adversarial_error_model": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "No non-repetition two-witness code with more than one trace value uniquely corrects one arbitrary whole-witness substitution. Any apparent two-witness escape changes the error model or adds further trusted/internal witness resources. This conditional coding result does not derive the error model from core identity."
+}

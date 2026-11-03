@@ -1,0 +1,259 @@
+{
+  "scope": "Finite no-background-time audit. Existing maximal contexts are provisionally treated as candidate phases only to test adjacency possibilities; no claim is made that they already are phases of one mode-flow or that any displayed adjacency is a real transition.",
+  "families": {
+    "star_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "one_content_substitution_phase_adjacencies": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      ],
+      "ordered_retentional_overlap_phase_adjacencies": [],
+      "every_context_has_substitution_neighbor": true,
+      "every_context_has_ordered_retentional_neighbor": false,
+      "substitution_adjacency_contains_undirected_cycle": true,
+      "retentional_adjacency_contains_undirected_cycle": false
+    },
+    "path_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "one_content_substitution_phase_adjacencies": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "ordered_retentional_overlap_phase_adjacencies": [],
+      "every_context_has_substitution_neighbor": true,
+      "every_context_has_ordered_retentional_neighbor": false,
+      "substitution_adjacency_contains_undirected_cycle": false,
+      "retentional_adjacency_contains_undirected_cycle": false
+    },
+    "pair_plus_triple": {
+      "contexts": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "one_content_substitution_phase_adjacencies": [],
+      "ordered_retentional_overlap_phase_adjacencies": [],
+      "every_context_has_substitution_neighbor": false,
+      "every_context_has_ordered_retentional_neighbor": false,
+      "substitution_adjacency_contains_undirected_cycle": false,
+      "retentional_adjacency_contains_undirected_cycle": false
+    },
+    "cycle_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "one_content_substitution_phase_adjacencies": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "ordered_retentional_overlap_phase_adjacencies": [],
+      "every_context_has_substitution_neighbor": true,
+      "every_context_has_ordered_retentional_neighbor": false,
+      "substitution_adjacency_contains_undirected_cycle": true,
+      "retentional_adjacency_contains_undirected_cycle": false
+    },
+    "overlapping_triples_IAR_like": {
+      "contexts": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "one_content_substitution_phase_adjacencies": [
+        [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ]
+      ],
+      "ordered_retentional_overlap_phase_adjacencies": [
+        [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ]
+      ],
+      "every_context_has_substitution_neighbor": true,
+      "every_context_has_ordered_retentional_neighbor": true,
+      "substitution_adjacency_contains_undirected_cycle": false,
+      "retentional_adjacency_contains_undirected_cycle": false
+    }
+  },
+  "finite_phase_flow_trilemma": {
+    "statement": "For nonempty finite P, (forall p exists q p->q) implies the directed graph has a directed cycle.",
+    "nonterminal_F1_and_global_acyclic_F2_compatible_on_finite_nonempty_phase_set": false,
+    "ways_to_model_non_ceasing_flow_without_external_time": [
+      "an infinite intrinsic phase domain with acyclic successor structure",
+      "a finite or infinite recurrent/cyclic continuation structure",
+      "weaken the no-terminal condition"
+    ]
+  },
+  "retyping_debts": [
+    "Specify intrinsic continuation relation and why it is selected.",
+    "Specify whether related phases are one mode-flow or distinct coexisting modes.",
+    "Preserve real finite boundaries and nonexclusive plenitude.",
+    "State gauge status for phases and flows.",
+    "Revise or bridge AP3G context-plus-valuation mode identity explicitly."
+  ],
+  "registered_checks": {
+    "current_AP3G_mode_identity_is_context_plus_valuation_not_flow": true,
+    "AP3N_static_internal_order_does_not_supply_transition_relation": true,
+    "finite_nonterminal_acyclic_directed_flow_is_impossible": true,
+    "ordered_retentional_phase_adjacency_selects_only_IAR_like_family_in_minimal_model": true,
+    "selection_not_misreported_as_AP3_derivation_because_continuation_premise_is_new": true,
+    "result_not_misreported_as_physical_time_or_problem_of_time_solution": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "The proposed mode-flow reading is a substantive retyping beyond AP3G/AP3N. Static retentional order does not yield an intrinsic continuation relation, and a finite nonterminal nonrecurrent flow is mathematically impossible. In the minimal families, an ordered-retentional-overlap phase rule would make only the IAR-like family locally nonterminal, but that is conditional on a new continuation premise, not a derivation from self-presentation alone."
+}

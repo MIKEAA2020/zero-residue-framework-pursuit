@@ -1,0 +1,99 @@
+{
+  "scope": "T1c finite classical Hamiltonian-constraint diagnostic; no full GR/QG, measurement, arrow, or phenomenology claim.",
+  "parameters": {
+    "omega": 1.0,
+    "record_frequencies": [
+      4.0,
+      5.0,
+      6.0
+    ],
+    "g": 0.5,
+    "dt": 0.002,
+    "end": 40.0,
+    "steps": 20000
+  },
+  "initial_data": {
+    "state": [
+      0.0,
+      1.000784424206616,
+      0.0,
+      1.0,
+      0.0,
+      -0.03125,
+      0.0,
+      -0.02,
+      0.0,
+      -0.013888888888888888
+    ],
+    "initial_constraint": -1.1102230246251565e-16
+  },
+  "constraint_residuals": {
+    "coupled_max_abs": 1.587618925213974e-14,
+    "baseline_max_abs": 1.176836406102666e-14
+  },
+  "global_usability": {
+    "phi_dot_min": 1.000784424206616,
+    "phi_dot_max": 1.000784424206616,
+    "alpha_turning_sign_changes": 13,
+    "beta_turning_sign_changes": 13
+  },
+  "backreaction": {
+    "normalized_alpha_rms_difference_from_g0_baseline": 0.3890821671297395
+  },
+  "record_association_after_lambda_5": {
+    "mutual_information_pointer_alpha_nats": [
+      1.833750835884545,
+      1.8979042215746333,
+      1.9271509357762202
+    ],
+    "mutual_information_pointer_phi_nats": [
+      0.12439577245128072,
+      0.1255421507171615,
+      0.12594391008121597
+    ],
+    "mutual_information_pointer_beta_nats": [
+      1.833750835884545,
+      1.8979042215746333,
+      1.9271509357762202
+    ],
+    "pointer_alpha_correlations": [
+      -0.9998894296352682,
+      -0.9999708780573012,
+      -0.9999902596803039
+    ],
+    "inter_pointer_correlations": [
+      [
+        0.9999999999999999,
+        0.9998655686050555,
+        0.9998792126141535
+      ],
+      [
+        0.9998655686050555,
+        1.0,
+        0.9999626329414829
+      ],
+      [
+        0.9998792126141535,
+        0.9999626329414829,
+        0.9999999999999998
+      ]
+    ]
+  },
+  "PITR_interpretation": {
+    "P2": "phi is globally monotonic in the stipulated solution; alpha and beta turn repeatedly.",
+    "P4": "fixed record coupling produces nonzero quantified alpha backreaction.",
+    "P5": "the fixed pointers physically record alpha/beta more directly than phi, but do not convert a turning alpha into a global clock.",
+    "P6": "alpha-to-beta canonical relabelling preserves turnings and record mutual information up to numerical binning.",
+    "combined_selection_result": "PITR adds no independent clock selection in this model beyond monotonicity/domain plus the stipulated interaction choice."
+  },
+  "registered_checks": {
+    "constraint_preserved": true,
+    "phi_monotonic": true,
+    "alpha_turns": true,
+    "backreaction_nonzero": true,
+    "beta_turning_invariant": true,
+    "record_MI_relabelling_invariant": true
+  },
+  "conclusion": "The record bank is interaction-relative: it can robustly correlate with a turning geometric variable. Public records alone therefore do not make that variable a global physical clock. In this model PITR does not yet improve on ordinary monotonicity/domain analysis.",
+  "all_registered_checks_pass": true
+}

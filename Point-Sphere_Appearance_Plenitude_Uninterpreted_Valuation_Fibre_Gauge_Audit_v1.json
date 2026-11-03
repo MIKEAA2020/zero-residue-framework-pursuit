@@ -1,0 +1,41 @@
+{
+  "scope": "A minimal-semantic grammar theorem. It applies the existing no-hidden-content discipline to AP3G binary valuation codes. It does not identify a mathematical coordinate quotient with physical gauge.",
+  "NCC": "No hidden coordinate content: a shared auxiliary Z2 code creates no intrinsic cross-fibre relation without an explicit grammar-level representation.",
+  "minimal_signature": {
+    "contains": [
+      "P/Q phase type",
+      "trace sector",
+      "local two-element fibre",
+      "local AP3G constraints",
+      "successor graph"
+    ],
+    "does_not_contain": [
+      "P/Q free-value XOR comparator J_s",
+      "cross-sector Q comparator I_s,t",
+      "truth semantics",
+      "public decoder"
+    ]
+  },
+  "formal_results": {
+    "isomorphism_for_every_f_h": true,
+    "full_group_transitive": true,
+    "lift_class_count_under_NCC_and_declared_structural_identity": 1
+  },
+  "richer_extensions": {
+    "CPC": "adding J_s as intrinsic breaks full gauge",
+    "relational_extension": "adding I_s,t as intrinsic breaks sector-dependent full gauge",
+    "status": "permitted only as explicit new grammar content, not derivable from code reuse alone"
+  },
+  "registered_checks": {
+    "Q_fibre_translations_are_exact_inter_lift_graph_isomorphisms": true,
+    "full_translation_group_is_transitive_on_lifts": true,
+    "intra_component_J_is_not_invariant_under_the_minimal_signature_isomorphisms": true,
+    "cross_sector_I_is_not_invariant_under_the_minimal_signature_isomorphisms": true,
+    "NCC_does_not_deny_local_two_alternative_Q_fibres": true,
+    "adding_J_or_I_is_a_richer_explicit_signature_not_a_hidden_AP3G_fact": true,
+    "result_does_not_claim_physical_gauge_or_rule_out_future_relational_extensions": true,
+    "result_does_not_select_a_canonical_lift_as_ontically_privileged": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "Under NCC and structural identity of the declared minimal self-presentation signature, the 16 lifts are one description class under H_full. This is a derived minimal-grammar result from no hidden coordinate content plus exact fibre-graph isomorphism, not a claim that no richer relational grammar may be introduced."
+}

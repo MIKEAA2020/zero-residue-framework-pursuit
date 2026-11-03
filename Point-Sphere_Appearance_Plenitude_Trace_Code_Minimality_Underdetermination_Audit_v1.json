@@ -1,0 +1,491 @@
+{
+  "scope": "Exact finite audit for binary diagonal repetition codes with full witness-relabeling gauge and one-label-error correction. It does not range over non-repetition or physically realised record algebras.",
+  "results_by_witness_count": {
+    "1": {
+      "witness_count": 1,
+      "configuration_count": 2,
+      "gauge_group": "S_1",
+      "gauge_order": 1,
+      "codewords": [
+        [
+          "tau_plus"
+        ],
+        [
+          "tau_minus"
+        ]
+      ],
+      "witnesses_independent_before_constraint": true,
+      "code_gauge_invariant": true,
+      "hamming_metric_gauge_invariant": true,
+      "decoder_gauge_invariant": true,
+      "one_arbitrary_witness_error_is_recovered": false,
+      "qualifies_for_declared_AP4C1_desiderata": false,
+      "independence_certificates": {
+        "1": [
+          [
+            "tau_plus"
+          ],
+          [
+            "tau_minus"
+          ]
+        ]
+      }
+    },
+    "2": {
+      "witness_count": 2,
+      "configuration_count": 4,
+      "gauge_group": "S_2",
+      "gauge_order": 2,
+      "codewords": [
+        [
+          "tau_plus",
+          "tau_plus"
+        ],
+        [
+          "tau_minus",
+          "tau_minus"
+        ]
+      ],
+      "witnesses_independent_before_constraint": true,
+      "code_gauge_invariant": true,
+      "hamming_metric_gauge_invariant": true,
+      "decoder_gauge_invariant": true,
+      "one_arbitrary_witness_error_is_recovered": false,
+      "qualifies_for_declared_AP4C1_desiderata": false,
+      "independence_certificates": {
+        "1": [
+          [
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_minus",
+            "tau_plus"
+          ]
+        ],
+        "2": [
+          [
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_minus"
+          ]
+        ]
+      }
+    },
+    "3": {
+      "witness_count": 3,
+      "configuration_count": 8,
+      "gauge_group": "S_3",
+      "gauge_order": 6,
+      "codewords": [
+        [
+          "tau_plus",
+          "tau_plus",
+          "tau_plus"
+        ],
+        [
+          "tau_minus",
+          "tau_minus",
+          "tau_minus"
+        ]
+      ],
+      "witnesses_independent_before_constraint": true,
+      "code_gauge_invariant": true,
+      "hamming_metric_gauge_invariant": true,
+      "decoder_gauge_invariant": true,
+      "one_arbitrary_witness_error_is_recovered": true,
+      "qualifies_for_declared_AP4C1_desiderata": true,
+      "independence_certificates": {
+        "1": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_minus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "2": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_minus",
+            "tau_plus"
+          ]
+        ],
+        "3": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_minus"
+          ]
+        ]
+      }
+    },
+    "4": {
+      "witness_count": 4,
+      "configuration_count": 16,
+      "gauge_group": "S_4",
+      "gauge_order": 24,
+      "codewords": [
+        [
+          "tau_plus",
+          "tau_plus",
+          "tau_plus",
+          "tau_plus"
+        ],
+        [
+          "tau_minus",
+          "tau_minus",
+          "tau_minus",
+          "tau_minus"
+        ]
+      ],
+      "witnesses_independent_before_constraint": true,
+      "code_gauge_invariant": true,
+      "hamming_metric_gauge_invariant": true,
+      "decoder_gauge_invariant": true,
+      "one_arbitrary_witness_error_is_recovered": true,
+      "qualifies_for_declared_AP4C1_desiderata": true,
+      "independence_certificates": {
+        "1": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_minus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "2": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_minus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "3": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_minus",
+            "tau_plus"
+          ]
+        ],
+        "4": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_minus"
+          ]
+        ]
+      }
+    },
+    "5": {
+      "witness_count": 5,
+      "configuration_count": 32,
+      "gauge_group": "S_5",
+      "gauge_order": 120,
+      "codewords": [
+        [
+          "tau_plus",
+          "tau_plus",
+          "tau_plus",
+          "tau_plus",
+          "tau_plus"
+        ],
+        [
+          "tau_minus",
+          "tau_minus",
+          "tau_minus",
+          "tau_minus",
+          "tau_minus"
+        ]
+      ],
+      "witnesses_independent_before_constraint": true,
+      "code_gauge_invariant": true,
+      "hamming_metric_gauge_invariant": true,
+      "decoder_gauge_invariant": true,
+      "one_arbitrary_witness_error_is_recovered": true,
+      "qualifies_for_declared_AP4C1_desiderata": true,
+      "independence_certificates": {
+        "1": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_minus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "2": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_minus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "3": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_minus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "4": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_minus",
+            "tau_plus"
+          ]
+        ],
+        "5": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_minus"
+          ]
+        ]
+      }
+    },
+    "6": {
+      "witness_count": 6,
+      "configuration_count": 64,
+      "gauge_group": "S_6",
+      "gauge_order": 720,
+      "codewords": [
+        [
+          "tau_plus",
+          "tau_plus",
+          "tau_plus",
+          "tau_plus",
+          "tau_plus",
+          "tau_plus"
+        ],
+        [
+          "tau_minus",
+          "tau_minus",
+          "tau_minus",
+          "tau_minus",
+          "tau_minus",
+          "tau_minus"
+        ]
+      ],
+      "witnesses_independent_before_constraint": true,
+      "code_gauge_invariant": true,
+      "hamming_metric_gauge_invariant": true,
+      "decoder_gauge_invariant": true,
+      "one_arbitrary_witness_error_is_recovered": true,
+      "qualifies_for_declared_AP4C1_desiderata": true,
+      "independence_certificates": {
+        "1": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_minus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "2": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_minus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "3": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_minus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "4": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_minus",
+            "tau_plus",
+            "tau_plus"
+          ]
+        ],
+        "5": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_minus",
+            "tau_plus"
+          ]
+        ],
+        "6": [
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus"
+          ],
+          [
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_plus",
+            "tau_minus"
+          ]
+        ]
+      }
+    }
+  },
+  "qualifying_witness_counts": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "registered_checks": {
+    "n1_lacks_redundancy": true,
+    "n2_cannot_correct_one_arbitrary_witness_error": true,
+    "n3_recovers_one_arbitrary_witness_error": true,
+    "n3_is_first_qualifying_witness_count": true,
+    "larger_repetition_codes_remain_viable_not_uniquely_excluded": true,
+    "minimality_not_misreported_as_independent_warrant_or_global_uniqueness": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "Three witnesses are the smallest symmetric diagonal repetition-code implementation with independent witnesses and exact recovery from one arbitrary changed witness label. Counts 4\u20136 also qualify; hence the result supplies restricted minimality, not a unique record law or independent warrant for AP4C1."
+}

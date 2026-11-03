@@ -1,0 +1,85 @@
+{
+  "audit": "GC4 CI-to-truth and rival-closure semantic audit v1",
+  "conclusions": {
+    "EC_does_not_entail_aware_ground_or_plenitude": true,
+    "RN_does_not_entail_OCI": true,
+    "internal_unique_coherence_does_not_replace_phenomenal_and_physical_adequacy": true,
+    "named_rival_list_needs_equivalence_and_extension_controls": true,
+    "no_nontrivial_CI_to_truth_theorem_established": true
+  },
+  "results": {
+    "coherent_but_incomplete": {
+      "EC": true,
+      "OCI": true,
+      "RN": true,
+      "aware_plenitude": true,
+      "equivalence_checked": true,
+      "phenomenal_adequacy": false,
+      "physical_adequacy": false,
+      "taxonomy_exhaustive": true,
+      "truth": false,
+      "unique_candidate": true
+    },
+    "equivalent_formulations": {
+      "EC": true,
+      "OCI": true,
+      "RN": true,
+      "aware_plenitude": true,
+      "equivalence_checked": false,
+      "phenomenal_adequacy": true,
+      "physical_adequacy": true,
+      "taxonomy_exhaustive": true,
+      "truth": false,
+      "unique_candidate": false
+    },
+    "essence_closed_neutral": {
+      "EC": true,
+      "OCI": true,
+      "RN": true,
+      "aware_plenitude": false,
+      "equivalence_checked": true,
+      "phenomenal_adequacy": false,
+      "physical_adequacy": true,
+      "taxonomy_exhaustive": true,
+      "truth": false,
+      "unique_candidate": false
+    },
+    "locally_rational_primitive": {
+      "EC": false,
+      "OCI": false,
+      "RN": true,
+      "aware_plenitude": false,
+      "equivalence_checked": false,
+      "phenomenal_adequacy": false,
+      "physical_adequacy": false,
+      "taxonomy_exhaustive": false,
+      "truth": false,
+      "unique_candidate": false
+    },
+    "oracle_complete_theory": {
+      "EC": true,
+      "OCI": true,
+      "RN": true,
+      "aware_plenitude": true,
+      "equivalence_checked": true,
+      "phenomenal_adequacy": true,
+      "physical_adequacy": true,
+      "taxonomy_exhaustive": true,
+      "truth": true,
+      "unique_candidate": true
+    },
+    "taxonomy_extension": {
+      "EC": true,
+      "OCI": true,
+      "RN": true,
+      "aware_plenitude": false,
+      "equivalence_checked": true,
+      "phenomenal_adequacy": true,
+      "physical_adequacy": true,
+      "taxonomy_exhaustive": false,
+      "truth": false,
+      "unique_candidate": false
+    }
+  },
+  "scope": "Finite non-entailment audit; not a proof of metaphysical truth or a complete rival taxonomy."
+}

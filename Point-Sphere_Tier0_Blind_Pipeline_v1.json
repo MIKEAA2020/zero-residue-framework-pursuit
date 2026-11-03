@@ -1,0 +1,479 @@
+{
+  "scope": "Blind-pipeline v1 on idealised supplied interaction graphs. Scores, budgets, and thresholds follow the frozen specification.",
+  "thresholds": {
+    "D_max": 0.02,
+    "I_min": 0.02,
+    "S_min": 0.02,
+    "L_min": 0.05,
+    "P_min": 0.05
+  },
+  "n_data": 12000,
+  "records": [
+    {
+      "family_revealed_after_scoring": "M1",
+      "expected_count": 1,
+      "blind_output": 1,
+      "exact_recovery": true,
+      "result": {
+        "n_nodes": 5,
+        "candidate_count_enumerated": 3,
+        "passing_count_pre_overlap": 1,
+        "selected_disjoint_count": 1,
+        "overlap_indeterminate_count": 0,
+        "selected": [
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4
+              ],
+              "M": 2
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.09560786367318341,
+              "S": 0.13240674405182395,
+              "L": 0.23824412206103052,
+              "P": 0.16278832056022208
+            },
+            "passes": true
+          }
+        ],
+        "all_scored": [
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4
+              ],
+              "M": 0
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.09560786367318341,
+              "S": 0.005768130085869183,
+              "L": 0.16570785392696352,
+              "P": 0.16278832056022208
+            },
+            "passes": false
+          },
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4
+              ],
+              "M": 1
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.09560786367318341,
+              "S": 0.004198569367767413,
+              "L": 0.1667083541770885,
+              "P": 0.16278832056022208
+            },
+            "passes": false
+          },
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4
+              ],
+              "M": 2
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.09560786367318341,
+              "S": 0.13240674405182395,
+              "L": 0.23824412206103052,
+              "P": 0.16278832056022208
+            },
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "family_revealed_after_scoring": "M2",
+      "expected_count": 2,
+      "blind_output": 2,
+      "exact_recovery": true,
+      "result": {
+        "n_nodes": 10,
+        "candidate_count_enumerated": 6,
+        "passing_count_pre_overlap": 2,
+        "selected_disjoint_count": 2,
+        "overlap_indeterminate_count": 0,
+        "selected": [
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "M": 2
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.08835898157427846,
+              "S": 0.1209779378193997,
+              "L": 0.26650825412706347,
+              "P": 0.16367302491517455
+            },
+            "passes": true
+          },
+          {
+            "candidate": {
+              "A": [
+                5,
+                6,
+                7
+              ],
+              "B": [
+                8
+              ],
+              "R": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                9
+              ],
+              "M": 7
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.09160074291195908,
+              "S": 0.12566782719755065,
+              "L": 0.2459979989994997,
+              "P": 0.16895495805252003
+            },
+            "passes": true
+          }
+        ],
+        "all_scored": [
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "M": 0
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.08835898157427846,
+              "S": 0.00328111109774748,
+              "L": 0.17646323161580796,
+              "P": 0.16367302491517455
+            },
+            "passes": false
+          },
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "M": 1
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.08835898157427846,
+              "S": 0.006222524620288661,
+              "L": 0.15732866433216613,
+              "P": 0.16367302491517455
+            },
+            "passes": false
+          },
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "M": 2
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.08835898157427846,
+              "S": 0.1209779378193997,
+              "L": 0.26650825412706347,
+              "P": 0.16367302491517455
+            },
+            "passes": true
+          },
+          {
+            "candidate": {
+              "A": [
+                5,
+                6,
+                7
+              ],
+              "B": [
+                8
+              ],
+              "R": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                9
+              ],
+              "M": 5
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.09160074291195908,
+              "S": 0.004387764136240591,
+              "L": 0.15795397698849428,
+              "P": 0.16895495805252003
+            },
+            "passes": false
+          },
+          {
+            "candidate": {
+              "A": [
+                5,
+                6,
+                7
+              ],
+              "B": [
+                8
+              ],
+              "R": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                9
+              ],
+              "M": 6
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.09160074291195908,
+              "S": 0.004656693828962055,
+              "L": 0.1718359179589795,
+              "P": 0.16895495805252003
+            },
+            "passes": false
+          },
+          {
+            "candidate": {
+              "A": [
+                5,
+                6,
+                7
+              ],
+              "B": [
+                8
+              ],
+              "R": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                9
+              ],
+              "M": 7
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.09160074291195908,
+              "S": 0.12566782719755065,
+              "L": 0.2459979989994997,
+              "P": 0.16895495805252003
+            },
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "family_revealed_after_scoring": "M3",
+      "expected_count": 0,
+      "blind_output": 0,
+      "exact_recovery": true,
+      "result": {
+        "n_nodes": 10,
+        "candidate_count_enumerated": 0,
+        "passing_count_pre_overlap": 0,
+        "selected_disjoint_count": 0,
+        "overlap_indeterminate_count": 0,
+        "selected": [],
+        "all_scored": []
+      }
+    },
+    {
+      "family_revealed_after_scoring": "M4",
+      "expected_count": 0,
+      "blind_output": 0,
+      "exact_recovery": true,
+      "result": {
+        "n_nodes": 5,
+        "candidate_count_enumerated": 3,
+        "passing_count_pre_overlap": 0,
+        "selected_disjoint_count": 0,
+        "overlap_indeterminate_count": 0,
+        "selected": [],
+        "all_scored": [
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4
+              ],
+              "M": 0
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.0007350732601280607,
+              "S": 0.0007281981955534755,
+              "L": 0.02051025512756377,
+              "P": 0.06190182994255572
+            },
+            "passes": false
+          },
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4
+              ],
+              "M": 1
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.0007350732601280607,
+              "S": 0.0006071880744046299,
+              "L": 0.020135067533766926,
+              "P": 0.06190182994255572
+            },
+            "passes": false
+          },
+          {
+            "candidate": {
+              "A": [
+                0,
+                1,
+                2
+              ],
+              "B": [
+                3
+              ],
+              "R": [
+                4
+              ],
+              "M": 2
+            },
+            "metrics": {
+              "D": 0.0,
+              "I": 0.0007350732601280607,
+              "S": -0.0002704996774229862,
+              "L": 0.0,
+              "P": 0.06190182994255572
+            },
+            "passes": false
+          }
+        ]
+      }
+    }
+  ],
+  "all_exact_recoveries": true
+}

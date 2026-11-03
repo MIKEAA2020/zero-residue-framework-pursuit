@@ -1,0 +1,83 @@
+{
+  "assertions": {
+    "a_bottom_unsatisfiable": true,
+    "a_d_determinate_only_in_M_plus": true,
+    "a_d_genuine_only_in_M_plus": true,
+    "a_d_passes_all_structural_filters": true,
+    "all_nonbottom_witnesses_satisfiable": true,
+    "coherence_NG_Ctx_do_not_entail_Det_G": true,
+    "coherence_NG_Ctx_do_not_entail_GA": true,
+    "coherence_does_not_imply_Ctx": true,
+    "coherence_does_not_imply_NG": true,
+    "ncd_excludes_a_bottom_in_every_expansion": true,
+    "ncd_holds_M_minus": true,
+    "ncd_holds_M_plus": true,
+    "same_structural_reduct_in_both_expansions": true
+  },
+  "audit": "GA1 coherence/non-contradiction boundary audit v1",
+  "candidates": {
+    "a_bottom": {
+      "Coh": false,
+      "Ctx": false,
+      "NG": true,
+      "content": [
+        "not p",
+        "p"
+      ]
+    },
+    "a_d": {
+      "Coh": true,
+      "Ctx": true,
+      "NG": true,
+      "content": [
+        "p"
+      ]
+    },
+    "a_f": {
+      "Coh": true,
+      "Ctx": true,
+      "NG": true,
+      "content": [
+        "q"
+      ]
+    },
+    "a_g": {
+      "Coh": true,
+      "Ctx": true,
+      "NG": false,
+      "content": [
+        "r"
+      ]
+    },
+    "a_x": {
+      "Coh": true,
+      "Ctx": false,
+      "NG": true,
+      "content": [
+        "s"
+      ]
+    }
+  },
+  "expansions": {
+    "M_minus": {
+      "Det_G": [],
+      "GA": []
+    },
+    "M_plus": {
+      "Det_G": [
+        "a_d"
+      ],
+      "GA": [
+        "a_d"
+      ]
+    }
+  },
+  "limits": [
+    "The finite semantics witnesses a non-entailment only.",
+    "The audit does not select a metaphysically true Det_G extension.",
+    "NCD is an explicit framework-level necessity bridge, not bare logic.",
+    "Non-classical rivals require their own declared satisfaction semantics."
+  ],
+  "passed": true,
+  "semantics": "finite classical bivalent satisfiability witness class"
+}

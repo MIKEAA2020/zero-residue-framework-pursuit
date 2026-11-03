@@ -1,0 +1,69 @@
+{
+  "audit": "GC3 maximal-expression hinge audit v1",
+  "conclusions": {
+    "C_and_W_alone_do_not_entail_E_I_or_nonempty_finite_aspects": true,
+    "MEC_does_not_settle_compossibility": true,
+    "MEC_relative_to_restricted_domain_does_not_settle_aspect_typing": true,
+    "conditional_identity_theorem_valid_when_E_and_I_are_explicit": true,
+    "positive_plenitude_proof_requires_independent_GC3a_to_GC3d_bridges": true,
+    "representational_exhaustivity_does_not_entail_MEC": true
+  },
+  "results": {
+    "bare_self_presence": {
+      "MEC": true,
+      "aspect_domain_independent": false,
+      "complete": true,
+      "compossibility_declared": false,
+      "conditional_theorem_holds": true,
+      "exhaustive": false,
+      "noncomposition_typed": true,
+      "nonrepresentational_identity": false,
+      "self_knowing": true
+    },
+    "full_nonrepresentational_aspects": {
+      "MEC": true,
+      "aspect_domain_independent": true,
+      "complete": true,
+      "compossibility_declared": true,
+      "conditional_theorem_holds": true,
+      "exhaustive": true,
+      "noncomposition_typed": true,
+      "nonrepresentational_identity": true,
+      "self_knowing": true
+    },
+    "representational_knowledge": {
+      "MEC": false,
+      "aspect_domain_independent": true,
+      "complete": true,
+      "compossibility_declared": true,
+      "conditional_theorem_holds": true,
+      "exhaustive": true,
+      "noncomposition_typed": true,
+      "nonrepresentational_identity": false,
+      "self_knowing": true
+    },
+    "restricted_nonrepresentational_domain": {
+      "MEC": true,
+      "aspect_domain_independent": false,
+      "complete": true,
+      "compossibility_declared": true,
+      "conditional_theorem_holds": true,
+      "exhaustive": true,
+      "noncomposition_typed": true,
+      "nonrepresentational_identity": true,
+      "self_knowing": true
+    },
+    "unresolved_compossibility": {
+      "MEC": true,
+      "aspect_domain_independent": true,
+      "complete": true,
+      "compossibility_declared": false,
+      "conditional_theorem_holds": true,
+      "exhaustive": true,
+      "noncomposition_typed": true,
+      "nonrepresentational_identity": true,
+      "self_knowing": true
+    }
+  },
+  "scope": "Finite bridge-status audit; not a model of the non-structural ground or proof of plenitude."
+}

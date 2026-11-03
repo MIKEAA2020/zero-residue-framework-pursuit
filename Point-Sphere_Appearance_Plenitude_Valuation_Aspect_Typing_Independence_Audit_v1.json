@@ -1,0 +1,56 @@
+{
+  "scope": "Finite formal independence audit. L, R, and M are rival typing extensions of the same AP3P1 base, not empirical or physical models. The ground is never represented as a phase/state node.",
+  "common_typed_base": {
+    "non_structural_ground_not_phase_node": true,
+    "finite_proper_phase_contexts": true,
+    "intrinsic_bi_infinite_successor_not_external_time": true,
+    "internal_retentional_trace": true,
+    "no_subject_object_monitor_or_external_carrier": true,
+    "nonexclusive_distinct_component_coexistence": true
+  },
+  "models": {
+    "L_fibre_local_description_model": {
+      "cross_sector_observables_declared": false,
+      "gauge_group": "H_full=(Z2)^4",
+      "lift_orbit_count": 1,
+      "non_gauge_lift_classes_typed_as_aspects": false,
+      "conditional_plenitude_output": "not applicable: no residual non-gauge lift aspect candidates",
+      "common_base_satisfied": true
+    },
+    "R_relational_aspect_model": {
+      "cross_sector_observables_declared": true,
+      "intrinsic_signature_count": 8,
+      "gauge_group": "H_uniform=Z2",
+      "lift_orbit_count": 8,
+      "non_gauge_lift_classes_typed_as_aspects": true,
+      "conditional_plenitude_output": "all eight signature-labelled candidates co-realized, conditional on aspect-domain admission",
+      "common_base_satisfied": true
+    },
+    "M_meta_law_model": {
+      "cross_sector_observables_declared": "optional/formal only",
+      "gauge_group": "not fixed at object level",
+      "lift_orbit_count": "not an ontological count",
+      "non_gauge_lift_classes_typed_as_aspects": false,
+      "conditional_plenitude_output": "not applicable: alternative formal laws are not automatically aspects",
+      "common_base_satisfied": true
+    }
+  },
+  "formal_counts": {
+    "sections": 16,
+    "full_gauge_orbits": 1,
+    "uniform_gauge_orbits": 8,
+    "relative_signatures": 8
+  },
+  "registered_checks": {
+    "common_base_allows_fibre_local_model": true,
+    "common_base_allows_relational_aspect_model": true,
+    "common_base_allows_meta_law_model": true,
+    "fibre_local_model_has_one_full_gauge_orbit": true,
+    "relational_model_has_eight_uniform_gauge_orbits": true,
+    "conditional_plenitude_applies_only_after_explicit_aspect_typing": true,
+    "protected_core_has_no_global_Q_section_cross_sector_observable_or_aspect_typing_map": true,
+    "result_not_misreported_as_ontic_selection_or_unconditional_plenitude": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "The protected core plus existing AP3 typing does not select fibre-local versus cross-sector relational valuation content and does not type residual lift orbit classes as genuine aspects. Under the relational extension, conditional plenitude co-realizes all eight classes only because aspect-domain membership is explicitly added. The remaining debt is an independent valuation-content and aspect-typing law, not an ontic selector among already-real aspects."
+}

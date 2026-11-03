@@ -1,0 +1,102 @@
+{
+  "scope": "T1b finite parametrized constraint diagnostic only; no full GR, WdW, phenomenology, or physical clock claim.",
+  "constraint": "C=p_phi^2-p_alpha^2-h_R=0",
+  "candidate_clocks": [
+    "phi",
+    "alpha"
+  ],
+  "mode_test": [
+    {
+      "p_phi": 2.0,
+      "h_R": 0.0,
+      "phi_time_generator_real": true,
+      "alpha_time_radicand": 4.0,
+      "alpha_time_generator_real": true,
+      "p_alpha_if_real": 2.0
+    },
+    {
+      "p_phi": 2.0,
+      "h_R": 4.0,
+      "phi_time_generator_real": true,
+      "alpha_time_radicand": 0.0,
+      "alpha_time_generator_real": true,
+      "p_alpha_if_real": 0.0
+    },
+    {
+      "p_phi": 2.0,
+      "h_R": 16.0,
+      "phi_time_generator_real": true,
+      "alpha_time_radicand": -12.0,
+      "alpha_time_generator_real": false,
+      "p_alpha_if_real": null
+    },
+    {
+      "p_phi": 5.0,
+      "h_R": 0.0,
+      "phi_time_generator_real": true,
+      "alpha_time_radicand": 25.0,
+      "alpha_time_generator_real": true,
+      "p_alpha_if_real": 5.0
+    },
+    {
+      "p_phi": 5.0,
+      "h_R": 4.0,
+      "phi_time_generator_real": true,
+      "alpha_time_radicand": 21.0,
+      "alpha_time_generator_real": true,
+      "p_alpha_if_real": 4.58257569495584
+    },
+    {
+      "p_phi": 5.0,
+      "h_R": 16.0,
+      "phi_time_generator_real": true,
+      "alpha_time_radicand": 9.0,
+      "alpha_time_generator_real": true,
+      "p_alpha_if_real": 3.0
+    }
+  ],
+  "common_sector": {
+    "p_phi": 5.0,
+    "p_alpha": 3.0,
+    "h_R": 16.0,
+    "constraint_residual": 0.0,
+    "branch_relation": "alpha=(3/5) phi + constant",
+    "affine_slope_alpha_over_phi": 0.6
+  },
+  "record_channel": {
+    "labels": 10,
+    "registers": 3,
+    "correct_probability": 0.8,
+    "error_probability_each": 0.022222222222222223,
+    "mutual_information_nats_T": 1.3627377539886139,
+    "mutual_information_nats_bijective_Tprime": 1.3627377539886139,
+    "absolute_difference": 0.0
+  },
+  "PITR_status": {
+    "P1_constraint_internal": {
+      "phi": "established_in_model",
+      "alpha": "established_in_model"
+    },
+    "P2_branchwise_monotonicity": {
+      "phi": "conditional_on_sign_branch",
+      "alpha": "conditional_on_sign_branch"
+    },
+    "P3_conditional_dynamics": {
+      "phi": "real_generator_all_registered_modes",
+      "alpha": "real_generator_only_in_5_of_6_registered_modes"
+    },
+    "P4_low_backreaction": "untested: ideal conserved-record construction has no measurement interaction",
+    "P5_public_record_robustness": "redundant records exist but are invariant under bijective clock relabelling",
+    "P6_clock_change_coherence": "established only on chosen common branch; global coherence remains open",
+    "P7_GR_proper_time_recovery": "untested: no local gravity in this model"
+  },
+  "registered_checks": {
+    "phi_generator_real_all_modes": true,
+    "alpha_generator_has_restricted_domain": true,
+    "common_branch_satisfies_constraint": true,
+    "record_mutual_information_relabelling_invariant": true,
+    "PITR_does_not_select_parameterisation_within_equivalence_class": true
+  },
+  "conclusion": "In this toy, record redundancy cannot select between bijectively related clock parameters. The constraint itself favors phi as having a wider real-generator domain, but this is a model-specific dynamical fact, not a metaphysical clock selection.",
+  "all_registered_checks_pass": true
+}

@@ -1,0 +1,275 @@
+# WPI-4 U1 — Actuality and Withholding Execution v1
+## Execution of the sole authorized post-U0 actuality control
+
+**Frozen candidate:** `Weak_Simplicity_Positive_Immanent_Explicit_Infinite_Constructive_Entry_Packet_v4.md`  
+**Required predecessor:** `Point-Sphere_WPI-4_U0_Explicit_Infinite_Model_and_Locality_Execution_v1.md`  
+**Scope:** U1.a only. U2–U4 are not executed.  
+**Result:** The rooted control is actualized by the declared productive rule; the rootless and unmet-predecessor controls remain admissible but withheld.
+
+---
+
+## 0. Fixed U1 fixture
+
+The frozen controls are:
+
+\[
+\begin{array}{ll}
+p_{\rm root}=p_0 &: \text{a canonical rooted record with }\mathsf{Pred}(p_{\rm root})=\varnothing,\\
+p_{\rm free} &: \text{the otherwise identical canonical record with its }Gd\text{-node retagged }Ev,\\
+p_{\rm blocked} &: \text{a canonical rooted extension of }p_{\rm root}\text{ with }\mathsf{Pred}(p_{\rm blocked})=\{p_{\rm free}\}.
+\end{array}
+\tag{U1-Fixtures}
+\]
+
+The fixed entry conditions are:
+
+\[
+A_H=
+\{a_p:
+\mathsf{Cand}(p)
+\land p=\operatorname{can}(p)
+\land\mathsf{RootedAtG}(p)
+\land\mathsf{FormPred}(p)\subseteq\mathcal F_G
+\land\{a_q:q\in\mathsf{Pred}(p)\}\subseteq H
+\}.
+\tag{A-Rule}
+\]
+
+The declared withholding predicate is:
+
+\[
+\mathsf{Withhold}(p)
+\iff
+\neg\mathsf{Cand}(p)
+\lor
+\neg(p=\operatorname{can}(p))
+\lor
+\neg\mathsf{RootedAtG}(p)
+\lor
+\exists q\in\mathsf{Pred}(p)[a_q\notin H_\omega].
+\tag{Withhold}
+\]
+
+---
+
+## 1. Candidatehood checks
+
+### 1.1 Rooted control
+
+The fixed \(p_{\rm root}=p_0\) has the typed finite chain:
+
+\[
+Gd\to Fm(f_{\rm id})\to Ar\to En\to Pr\to Cl,
+\tag{Root-Graph}
+\]
+
+with a unique reachable \(Gd\)-node, no predecessor code, and:
+
+\[
+\mathsf{Cand}(p_{\rm root}),
+\qquad
+p_{\rm root}=\operatorname{can}(p_{\rm root}),
+\qquad
+\mathsf{RootedAtG}(p_{\rm root}),
+\qquad
+\mathsf{FormPred}(p_{\rm root})=\{f_{\rm id}\}.
+\tag{Root-Checks}
+\]
+
+### 1.2 Rootless control
+
+The \(p_{\rm free}\) fixture preserves all nonroot node fields and the C1–C15 conditions. C2 permits no \(Gd\)-node:
+
+\[
+\mathsf{Cand}(p_{\rm free}),
+\qquad
+p_{\rm free}=\operatorname{can}(p_{\rm free}),
+\qquad
+\mathsf{FormPred}(p_{\rm free})=\{f_{\rm id}\}.
+\tag{Free-Candidate}
+\]
+
+But it has no \(Gd\)-node, so:
+
+\[
+\neg\mathsf{RootedAtG}(p_{\rm free}).
+\tag{Free-Rootless}
+\]
+
+### 1.3 Predecessor-blocked control
+
+The frozen \(p_{\rm blocked}\) appends a reachable \(Ev\)-node to \(p_{\rm root}\) and contains the finite predecessor field:
+
+\[
+\delta(p_{\rm blocked})=\{p_{\rm free}\}.
+\tag{Blocked-Pred}
+\]
+
+The predecessor code is candidate and occurs as a length-delimited finite field of the larger record. Therefore it is strictly shorter, as C14 requires. The new \(Ev\)-node is reachable by a permitted acyclic outgoing edge, so all nodes remain reachable from the unique \(Gd\)-node. Thus:
+
+\[
+\mathsf{Cand}(p_{\rm blocked}),
+\qquad
+p_{\rm blocked}=\operatorname{can}(p_{\rm blocked}),
+\qquad
+\mathsf{RootedAtG}(p_{\rm blocked}),
+\qquad
+\mathsf{FormPred}(p_{\rm blocked})=\{f_{\rm id}\}.
+\tag{Blocked-Candidate}
+\]
+
+Candidatehood is therefore deliberately separated from actualization in both negative controls.
+
+---
+
+## 2. Closure calculation
+
+### 2.1 Actual rooted articulation
+
+All entry conditions for \(p_{\rm root}\) hold at the base:
+
+\[
+\{a_q:q\in\mathsf{Pred}(p_{\rm root})\}
+=
+\varnothing
+\subseteq H_0.
+\tag{Root-Base}
+\]
+
+Hence:
+
+\[
+a_{p_{\rm root}}\in A_{H_0}
+\subseteq H_1
+\subseteq H_\omega.
+\tag{Root-Actual}
+\]
+
+### 2.2 Withheld rootless articulation
+
+For every closure stage \(H\):
+
+\[
+\neg\mathsf{RootedAtG}(p_{\rm free})
+\Longrightarrow
+a_{p_{\rm free}}\notin A_H.
+\tag{Free-NoEntry}
+\]
+
+Since an articulation can enter the frozen closure only through \(A_H\):
+
+\[
+a_{p_{\rm free}}\notin H_\omega.
+\tag{Free-Withheld}
+\]
+
+### 2.3 Withheld predecessor-blocked articulation
+
+For every stage \(H\subseteq H_\omega\), \((\mathrm{Free\text{-}Withheld})\) gives:
+
+\[
+a_{p_{\rm free}}\notin H.
+\tag{Blocked-Missing-Pred}
+\]
+
+But the \(A_H\) rule for the blocked record requires:
+
+\[
+\{a_{p_{\rm free}}\}
+\subseteq H.
+\tag{Blocked-Requirement}
+\]
+
+Its sole structural predecessor is therefore never met, and:
+
+\[
+a_{p_{\rm blocked}}\notin A_H
+\quad\text{for every }H\subseteq H_\omega.
+\tag{Blocked-NoEntry}
+\]
+
+So:
+
+\[
+a_{p_{\rm blocked}}\notin H_\omega.
+\tag{Blocked-Withheld}
+\]
+
+The complete fixed control result is:
+
+\[
+\boxed{
+\begin{aligned}
+&a_{p_{\rm root}}\in H_\omega,\\
+&a_{p_{\rm free}}\notin H_\omega,\\
+&a_{p_{\rm blocked}}\notin H_\omega.
+\end{aligned}
+}
+\tag{Actuality-Contrast}
+\]
+
+---
+
+## 3. What the control establishes and what it does not
+
+The result falsifies two shortcuts within the frozen candidate:
+
+\[
+\mathsf{Cand}(p)
+\not\Rightarrow
+\mathsf{ActArt}(a_p),
+\tag{No-Candidate-Actuality}
+\]
+
+and:
+
+\[
+\mathsf{RootedAtG}(p)
+\not\Rightarrow
+\mathsf{ActArt}(a_p)
+\quad\text{when its declared predecessor condition fails.}
+\tag{No-Root-Shortcut}
+\]
+
+The actual/nonactual distinction is generated by an explicit public rule, not by adding a favoured finite inventory after the controls are specified.
+
+This does not prove the productive interface metaphysically adequate. In particular, it does not establish:
+
+\[
+\mathsf{NonBrute}(H_0),
+\qquad
+\mathsf{NonBrute}(\mathcal R_{\rm WPI4}),
+\qquad
+\mathsf{NoUltimateSelector},
+\qquad
+\text{or}
+\qquad
+\mathsf{ZeroResidue}(F_{\rm WPI\text{-}4}).
+\tag{U1-Nonclaims}
+\]
+
+It establishes only that the stated actuality rule is operationally nonvacuous and discriminates the fixed root and predecessor controls without a supplementary roster.
+
+---
+
+## 4. U1 result and next authorization
+
+\[
+\boxed{
+\mathsf{U1.aResult}(F_{\rm WPI\text{-}4})
+=
+\mathsf{Pass}_{\rm fixed\ actuality/withholding\ controls}.
+}
+\tag{U1-Pass}
+\]
+
+No U2 realization, U3 truth/error, or U4 phenomenal/normative/physical result is entered here.
+
+The sole next authorized operation is:
+
+\[
+U2:
+\quad
+\text{test the rooted and rootless entity slots under }(\mathrm{REAL2}).
+\tag{Next-U2}
+\]

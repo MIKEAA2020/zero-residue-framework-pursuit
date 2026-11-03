@@ -1,0 +1,227 @@
+{
+  "scope": "Conditional finite formal record law. The three-edge witness cycle is a declared record-code structure, not an environmental partition, a tensor factorisation of an ambient physical state, or a consequence of the protected core.",
+  "record_algebra": {
+    "trace_alphabet": [
+      "tau_plus",
+      "tau_minus"
+    ],
+    "witness_cycle_vertices": [
+      "a",
+      "b",
+      "c"
+    ],
+    "witness_edges": [
+      "ab",
+      "ac",
+      "bc"
+    ],
+    "configuration_count": 8,
+    "boolean_algebra_proposition_count": 256
+  },
+  "gauge": {
+    "group": "S3 witness relabellings",
+    "order": 6
+  },
+  "constraint": {
+    "codewords": [
+      [
+        "tau_plus",
+        "tau_plus",
+        "tau_plus"
+      ],
+      [
+        "tau_minus",
+        "tau_minus",
+        "tau_minus"
+      ]
+    ],
+    "definition": "all three law-internal witnesses carry the same trace"
+  },
+  "stability": {
+    "perturbation": "Hamming distance at most one from a codeword",
+    "err1_configuration_count": 8,
+    "decoder": "unique majority trace",
+    "radius_one_stability": true
+  },
+  "witness_independence_certificates": {
+    "ab": {
+      "configuration_a": [
+        "tau_plus",
+        "tau_plus",
+        "tau_plus"
+      ],
+      "configuration_b": [
+        "tau_minus",
+        "tau_plus",
+        "tau_plus"
+      ]
+    },
+    "ac": {
+      "configuration_a": [
+        "tau_plus",
+        "tau_plus",
+        "tau_plus"
+      ],
+      "configuration_b": [
+        "tau_plus",
+        "tau_minus",
+        "tau_plus"
+      ]
+    },
+    "bc": {
+      "configuration_a": [
+        "tau_plus",
+        "tau_plus",
+        "tau_plus"
+      ],
+      "configuration_b": [
+        "tau_plus",
+        "tau_plus",
+        "tau_minus"
+      ]
+    }
+  },
+  "family_implementations": {
+    "star_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "ordered_overlap_traces": [],
+      "every_context_has_trace_code_partner": false,
+      "implemented_codewords": []
+    },
+    "path_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "ordered_overlap_traces": [],
+      "every_context_has_trace_code_partner": false,
+      "implemented_codewords": []
+    },
+    "pair_plus_triple": {
+      "contexts": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "ordered_overlap_traces": [],
+      "every_context_has_trace_code_partner": false,
+      "implemented_codewords": []
+    },
+    "cycle_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "ordered_overlap_traces": [],
+      "every_context_has_trace_code_partner": false,
+      "implemented_codewords": []
+    },
+    "overlapping_triples_IAR_like": {
+      "contexts": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "ordered_overlap_traces": [
+        {
+          "C": [
+            0,
+            1,
+            2
+          ],
+          "D": [
+            0,
+            1,
+            3
+          ],
+          "overlap": [
+            0,
+            1
+          ],
+          "trace_pair": [
+            0,
+            1
+          ],
+          "encoded_trace": "tau_plus"
+        }
+      ],
+      "every_context_has_trace_code_partner": true,
+      "implemented_codewords": [
+        [
+          "tau_plus",
+          "tau_plus",
+          "tau_plus"
+        ]
+      ]
+    }
+  },
+  "qualifying_families": [
+    "overlapping_triples_IAR_like"
+  ],
+  "registered_checks": {
+    "explicit_boolean_record_algebra_has_256_propositions": true,
+    "six_element_witness_relabelling_gauge_is_explicit": true,
+    "code_constraint_is_gauge_invariant": true,
+    "counterfactual_hamming_metric_is_gauge_invariant": true,
+    "decoder_is_gauge_invariant": true,
+    "three_edge_witnesses_are_independent_before_constraint": true,
+    "every_radius_one_perturbation_decodes_to_original_trace": true,
+    "law_has_no_external_time_coordinate": true,
+    "witness_complex_is_defined_before_and_independently_of_mode_contexts": true,
+    "no_system_environment_factorisation_is_an_input_to_the_law": true,
+    "only_IAR_like_family_has_universal_trace_code_implementation": true,
+    "law_not_misreported_as_core_derivation_or_physical_objectivity_theorem": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "Conditional on the stipulated gauge-covariant three-witness trace-code law, the IAR-like minimal family alone implements a universal redundancy- and radius-one-stable trace-code interface. This is a formal implementation result; the law is not derived from the core, is not a physical dynamics, and does not establish public objectivity or solve the Problem of Time."
+}

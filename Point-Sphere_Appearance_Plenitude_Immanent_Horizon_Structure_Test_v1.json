@@ -1,0 +1,308 @@
+{
+  "scope": "Finite AP3M language-enrichment test. I1 is a type discipline and does not model consciousness; I3 is a mild horizon/contact requirement, not a claimed unique theorem of the core.",
+  "families": {
+    "star_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "horizons": {
+        "[0, 1]": [
+          2,
+          3
+        ],
+        "[0, 2]": [
+          1,
+          3
+        ],
+        "[0, 3]": [
+          1,
+          2
+        ]
+      },
+      "neighbors": {
+        "[0, 1]": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "[0, 2]": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "[0, 3]": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "automorphism_count": 6,
+      "I1_immanent_self_presentation_is_type_not_second_context": true,
+      "I2_all_contexts_have_nonempty_horizons": true,
+      "I3_each_context_has_proper_overlap_neighbor": true,
+      "I4_boundaries_are_evaluated_modulo_automorphism": true
+    },
+    "path_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "horizons": {
+        "[0, 1]": [
+          2,
+          3
+        ],
+        "[0, 2]": [
+          1,
+          3
+        ],
+        "[1, 3]": [
+          0,
+          2
+        ]
+      },
+      "neighbors": {
+        "[0, 1]": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "[0, 2]": [
+          [
+            0,
+            1
+          ]
+        ],
+        "[1, 3]": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "automorphism_count": 2,
+      "I1_immanent_self_presentation_is_type_not_second_context": true,
+      "I2_all_contexts_have_nonempty_horizons": true,
+      "I3_each_context_has_proper_overlap_neighbor": true,
+      "I4_boundaries_are_evaluated_modulo_automorphism": true
+    },
+    "pair_plus_triple": {
+      "contexts": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "horizons": {
+        "[0, 3]": [
+          1,
+          2
+        ],
+        "[0, 1, 2]": [
+          3
+        ]
+      },
+      "neighbors": {
+        "[0, 3]": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "[0, 1, 2]": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      "automorphism_count": 2,
+      "I1_immanent_self_presentation_is_type_not_second_context": true,
+      "I2_all_contexts_have_nonempty_horizons": true,
+      "I3_each_context_has_proper_overlap_neighbor": true,
+      "I4_boundaries_are_evaluated_modulo_automorphism": true
+    },
+    "cycle_pairs": {
+      "contexts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "horizons": {
+        "[0, 1]": [
+          2,
+          3
+        ],
+        "[0, 2]": [
+          1,
+          3
+        ],
+        "[1, 3]": [
+          0,
+          2
+        ],
+        "[2, 3]": [
+          0,
+          1
+        ]
+      },
+      "neighbors": {
+        "[0, 1]": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "[0, 2]": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "[1, 3]": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "[2, 3]": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "automorphism_count": 8,
+      "I1_immanent_self_presentation_is_type_not_second_context": true,
+      "I2_all_contexts_have_nonempty_horizons": true,
+      "I3_each_context_has_proper_overlap_neighbor": true,
+      "I4_boundaries_are_evaluated_modulo_automorphism": true
+    },
+    "overlapping_triples_IAR_like": {
+      "contexts": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "horizons": {
+        "[0, 1, 2]": [
+          3
+        ],
+        "[0, 1, 3]": [
+          2
+        ]
+      },
+      "neighbors": {
+        "[0, 1, 2]": [
+          [
+            0,
+            1,
+            3
+          ]
+        ],
+        "[0, 1, 3]": [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      },
+      "automorphism_count": 4,
+      "I1_immanent_self_presentation_is_type_not_second_context": true,
+      "I2_all_contexts_have_nonempty_horizons": true,
+      "I3_each_context_has_proper_overlap_neighbor": true,
+      "I4_boundaries_are_evaluated_modulo_automorphism": true
+    }
+  },
+  "registered_checks": {
+    "all_five_AP3L_families_present": true,
+    "all_five_satisfy_I1_to_I4": true,
+    "immanent_horizon_typing_does_not_select_IAR_like_family": true
+  },
+  "all_registered_checks_pass": true,
+  "restricted_conclusion": "All five AP3L structural families admit the same immanent, non-objectifying, bounded-horizon typing. The enriched language correctly represents core constraints but provides no topology discriminator. Further narrowing requires an independently motivated richer relation, not a hidden IAR preference."
+}
